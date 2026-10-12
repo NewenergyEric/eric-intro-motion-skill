@@ -1,5 +1,18 @@
 # Motion Story Skills
 
+**v0.2 adds reusable motion.** Nine scenes from the author's profile, three independent motion studies, cached component recipes, existing-media cuts, and full-frame social adaptations. [Reuse guide](skills/motion-story/references/reuse.md) · [Reference credits](skills/motion-story/references/motion-studies.md).
+
+```sh
+node skills/motion-story/scripts/compose.mjs --list
+node skills/motion-story/scripts/compose.mjs --input skills/motion-story/assets/examples/profile-remix.json --out output/remix --preset xiaohongshu --cache output/cache
+```
+
+Change a short JSON recipe instead of rebuilding every asset. Unchanged clips reuse verified caches; exact output hits skip encoding too. Rendering calls no model API. Planning and editing still consume tokens, so no unmeasured savings percentage is claimed. Use `--formats png` to review layouts first.
+
+New 12-second samples: [profile remix, square](examples/remix/profile-square/profile-remix.mp4), [profile remix, 3:4](examples/remix/profile-portrait/profile-remix.mp4), [three motion studies](examples/remix/reference-portrait/reference-remix.mp4). GIFs and editable recipes sit beside each MP4. Rebuild them with `npm run examples:remix -- --force`.
+
+Social presets now include Xiaohongshu 1080×1440 (3:4), alongside Moments 1080×1080 and optional vertical 1080×1920. These are design recommendations; check the actual platform preview. `social-motion/scripts/frame.mjs` keeps finished footage intact inside a filled, branded composition. Private project media is not included in this repository.
+
 [中文](README.zh-CN.md) · [Examples](examples/) · [Download](https://github.com/NewenergyEric/motion-story-skills/releases/latest) · [MIT license](LICENSE)
 
 Small animations for explaining an idea. Make a GIF or MP4, then give it a layout that fits where you want to share it.

@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-10-12",
+  "sameRecipe": {
+    "outputHit": true,
+    "clipsReused": 3,
+    "clipsRendered": 0
+  },
+  "reorderedRecipe": {
+    "outputHit": false,
+    "clipsReused": 3,
+    "clipsRendered": 0
+  },
+  "renderApiCalls": 0,
+  "recipeBytes": 479,
+  "claim": "Cache/render evidence; not an account-token measurement."
+}

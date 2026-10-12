@@ -76,7 +76,7 @@ export async function renderStory(story, options = {}) {
   if (![20, 24, 25, 30, 60].includes(fps)) throw new Error('fps must be 20, 24, 25, 30, or 60.');
   if (!Number.isInteger(gifWidth) || gifWidth < 240 || gifWidth > width || gifWidth % 2) throw new Error('gifWidth must be even, at least 240, and no wider than the source.');
   if (!formats.length || formats.some(item => !['mp4', 'gif', 'png'].includes(item))) throw new Error('formats must contain mp4, gif, and/or png.');
-  const composition = makeComposition(story, { width, height, safe });
+  const composition = options.composition || makeComposition(story, { width, height, safe });
   const directory = path.resolve(out), base = path.join(directory, story.id);
   const files = ['.svg', '.png', '-safe.png', '.story.json', '.report.json', ...formats.filter(x => x !== 'png').map(x => `.${x}`)];
   if (!force) for (const suffix of files) {

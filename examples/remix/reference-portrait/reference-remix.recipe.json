@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "reference-remix",
+  "language": "en",
+  "clips": [
+    {
+      "module": "reference.stagger",
+      "seconds": 4,
+      "title": "A small shift.\nA different rhythm.",
+      "subtitle": "One shape. Many ways to move."
+    },
+    {
+      "module": "reference.trace",
+      "seconds": 4,
+      "title": "Follow a line.\nSee where it goes.",
+      "subtitle": "Keep the motion. Change the story."
+    },
+    {
+      "module": "reference.ticker",
+      "seconds": 4,
+      "title": "Make something.\nThen make it yours.",
+      "subtitle": "Rearrange. Reuse. Repeat."
+    }
+  ]
+}

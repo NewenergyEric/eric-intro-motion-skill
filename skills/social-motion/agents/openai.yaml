@@ -1,4 +1,4 @@
 interface:
   display_name: "Social Motion"
-  short_description: "Re-layout motion for LinkedIn, X, and Moments"
-  default_prompt: "Use $social-motion to adapt my motion story for LinkedIn, X, and WeChat Moments, keeping the text readable in each ratio."
+  short_description: "Fit motion to Moments, Xiaohongshu, LinkedIn, and X"
+  default_prompt: "Use $social-motion to adapt my existing video or motion recipe for Moments, Xiaohongshu, LinkedIn, and X, preserving content and reusing existing assets."

@@ -1,7 +1,7 @@
 """Build portable skill and example archives without npm dependencies or local paths."""
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
-import hashlib
+import hashlib, json
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -12,14 +12,15 @@ def add_tree(archive, folder, prefix):
         if file.is_file() and not any(part in {"node_modules", "__pycache__", "output"} for part in file.relative_to(folder).parts):
             archive.write(file, str(Path(prefix) / file.relative_to(folder)).replace("\\", "/"))
 
-skills = DIST / "motion-story-skills-v0.1.0.zip"
+VERSION = json.loads((ROOT / 'package.json').read_text(encoding='utf-8'))['version']
+skills = DIST / f"motion-story-skills-v{VERSION}.zip"
 with ZipFile(skills, "w", ZIP_DEFLATED) as archive:
     for name in ("motion-story", "social-motion"):
         add_tree(archive, ROOT / "skills" / name, name)
         archive.write(ROOT / "LICENSE", f"{name}/LICENSE")
         archive.write(ROOT / "THIRD_PARTY_NOTICES.md", f"{name}/THIRD_PARTY_NOTICES.md")
 
-examples = DIST / "motion-story-examples-v0.1.0.zip"
+examples = DIST / f"motion-story-examples-v{VERSION}.zip"
 with ZipFile(examples, "w", ZIP_DEFLATED) as archive:
     add_tree(archive, ROOT / "examples", "examples")
     for name in ("LICENSE", "THIRD_PARTY_NOTICES.md", "README.md", "README.zh-CN.md"):

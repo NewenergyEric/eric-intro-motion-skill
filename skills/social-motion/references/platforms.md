@@ -7,6 +7,7 @@ Last checked: **2026-10-12**. Scope: ordinary organic posts, not paid advertisem
 | LinkedIn feed | 1080×1350, 4:5 | Readable portrait layout for text and diagrams | Mobile feed, expanded player, selected cover |
 | X | 1920×1080, 16:9 | A wide, readable video composition | Feed preview, full player, account upload limits |
 | Personal WeChat Moments | 1080×1080, 1:1 | Conservative square composition | Actual phone composer and feed thumbnail; recommendation is a heuristic |
+| Xiaohongshu organic video | 1080×1440, 3:4; optional 1080×1920, 9:16 | A taller composition for phone viewing | Current upload composer, cover and feed crop; 3:4 is our recommendation, not a verified universal platform specification |
 | Generic vertical | 1080×1920, 9:16 | A separate tall composition with larger top/bottom insets | Destination-specific controls and previews |
 
 These choices are not claims that a platform requires or universally favors one ratio. The presets leave roughly 6–9% on the sides and additional room at the top/bottom; the generic vertical preset uses 11% top and 16% bottom. These are **our design margins**, not published platform safe-zone coordinates.

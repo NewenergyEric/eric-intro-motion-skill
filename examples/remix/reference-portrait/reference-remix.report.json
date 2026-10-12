@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 2,
+  "key": "cc56cbc44731bbec54ea68b4afe7095ba6e02cf8140b788e08dead591af7aba6",
+  "id": "reference-remix",
+  "preset": "xiaohongshu",
+  "width": 1080,
+  "height": 1440,
+  "duration": 12,
+  "sourceMode": "reusable-vector-components",
+  "platformPreviewVerified": false,
+  "cache": {
+    "outputHit": false,
+    "clipsReused": 0,
+    "clipsRendered": 3
+  },
+  "renderApiCalls": 0,
+  "recipeBytes": 462,
+  "clips": [
+    {
+      "module": "reference.stagger",
+      "key": "0d9ce0b822511ef2b0e7e9212b7124bdf4d9d200ceb8ad2551b6c3aaf2fae3c3",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "A small shift.",
+              "A different rhythm."
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 86.238,
+                "y": 164.20600000000002,
+                "w": 334.40009628295905,
+                "h": 44.55
+              },
+              {
+                "x": 86.238,
+                "y": 234.406,
+                "w": 498.4473930358887,
+                "h": 55.998
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "One shape. Many ways to move."
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 87.882,
+                "y": 1232.7040000000002,
+                "w": 386.08991992187504,
+                "h": 26.727999999999998
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "Staggered grid"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 87.26,
+                "y": 111.88,
+                "w": 139.8134246826172,
+                "h": 21
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "reference.stagger",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://animejs.com/documentation/utilities/stagger/"
+      }
+    },
+    {
+      "module": "reference.trace",
+      "key": "8c981db6362aa00d2925086bc5f5923976ab843e965ef560c5b5b6bb990b82ae",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "Follow a line.",
+              "See where it goes."
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 91.42200000000001,
+                "y": 164.476,
+                "w": 339.26678283691405,
+                "h": 44.28
+              },
+              {
+                "x": 88.72200000000001,
+                "y": 234.676,
+                "w": 469.13715197753913,
+                "h": 56.7
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "Keep the motion. Change the story."
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 88.974,
+                "y": 1232.7040000000002,
+                "w": 424.76429547119136,
+                "h": 27.144
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "Path tracing"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 88.26,
+                "y": 111.88,
+                "w": 115.90935974121093,
+                "h": 21
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "reference.trace",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://animejs.com/documentation/svg/createdrawable"
+      }
+    },
+    {
+      "module": "reference.ticker",
+      "key": "08ef30f14300b24315255537852ee1fdb643e47697ff416c492cc0628789666f",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "Make something.",
+              "Then make it yours."
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 91.42200000000001,
+                "y": 164.476,
+                "w": 441.0448854675293,
+                "h": 56.7
+              },
+              {
+                "x": 88.02000000000001,
+                "y": 234.676,
+                "w": 512.1874184875488,
+                "h": 55.728
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "Rearrange. Reuse. Repeat."
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 88.974,
+                "y": 1234.2900000000002,
+                "w": 313.9873424682618,
+                "h": 25.558
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "Kinetic ticker"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 88.26,
+                "y": 111.88,
+                "w": 127.2239114379883,
+                "h": 16.4
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "reference.ticker",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://motion.dev/docs/react-ticker"
+      }
+    }
+  ],
+  "outputs": {
+    "mp4": {
+      "width": 1080,
+      "height": 1440,
+      "seconds": 12,
+      "frames": 360,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "videoBitrate": 1009756,
+      "bytes": 1532653,
+      "sha256": "209b70dc900812cc9cca94c4ce8469ca855ee1a8ba0c69ce1ba683aec248fb75"
+    },
+    "gif": {
+      "width": 600,
+      "height": 800,
+      "seconds": 12,
+      "frames": 240,
+      "codec": "gif",
+      "pixelFormat": "bgra",
+      "videoBitrate": null,
+      "bytes": 5002674,
+      "sha256": "1a28019e5f32e20a0999b81569de4daf30ef7f7a9302d8c532a1f722dc589048"
+    }
+  },
+  "fileHashes": {
+    "reference-remix.mp4": "209b70dc900812cc9cca94c4ce8469ca855ee1a8ba0c69ce1ba683aec248fb75",
+    "reference-remix.gif": "1a28019e5f32e20a0999b81569de4daf30ef7f7a9302d8c532a1f722dc589048",
+    "reference-remix.png": "78488ebee9f195e9a682adecb473f32a19656b16e1dbd0987aa68b0d642bda49",
+    "reference-remix-safe.png": "15dae0442b98e0b391758083cf26055c8cf6537dc40f76fd3c5ea9f6793f5ac9",
+    "reference-remix.recipe.json": "9d666f3079511f21aaa768b4426e2b918e49a381a1bfed4fb2c4a018ab328298"
+  },
+  "elapsedMs": 25895
+}

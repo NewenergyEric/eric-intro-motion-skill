@@ -1,0 +1,236 @@
+[
+  {
+    "id": "profile.marketing",
+    "name": {
+      "zh": "营销与内容",
+      "en": "Marketing and content"
+    },
+    "labels": {
+      "zh": [
+        "人群与竞品",
+        "内容方案",
+        "营销文案",
+        "视频分镜",
+        "研究资料",
+        "制作中"
+      ],
+      "en": [
+        "Audience research",
+        "Content plan",
+        "Campaign copy",
+        "Storyboards",
+        "Source material",
+        "In production"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.sales",
+    "name": {
+      "zh": "销售与商务拓展",
+      "en": "Sales and partnerships"
+    },
+    "labels": {
+      "zh": [
+        "线索资料",
+        "研究中",
+        "准备沟通",
+        "跟进安排",
+        "合作提案",
+        "沟通重点"
+      ],
+      "en": [
+        "Prospects",
+        "Researching",
+        "Ready to contact",
+        "Follow-up plan",
+        "Proposal",
+        "Talking points"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.brand",
+    "name": {
+      "zh": "品牌与定位",
+      "en": "Brand and positioning"
+    },
+    "labels": {
+      "zh": [
+        "使用人群",
+        "产品事实",
+        "使用场景",
+        "产品定位",
+        "表达与视觉",
+        "品牌说明"
+      ],
+      "en": [
+        "Audience",
+        "Product facts",
+        "Use cases",
+        "Positioning",
+        "Copy and visuals",
+        "Brand notes"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.support",
+    "name": {
+      "zh": "客户服务与知识",
+      "en": "Customer support and knowledge"
+    },
+    "labels": {
+      "zh": [
+        "客户问题",
+        "查找资料",
+        "资料来源",
+        "答复草稿",
+        "人工审核",
+        "已核对"
+      ],
+      "en": [
+        "Question",
+        "Find material",
+        "Sources",
+        "Reply draft",
+        "Human review",
+        "Checked"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.operations",
+    "name": {
+      "zh": "运营与团队协作",
+      "en": "Operations and collaboration"
+    },
+    "labels": {
+      "zh": [
+        "资料准备",
+        "待审核",
+        "交接完成",
+        "缺一份资料",
+        "补充资料",
+        "继续处理"
+      ],
+      "en": [
+        "Preparation",
+        "Review",
+        "Handed over",
+        "Missing material",
+        "Add material",
+        "Continue"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.data",
+    "name": {
+      "zh": "数据分析与决策",
+      "en": "Data and decisions"
+    },
+    "labels": {
+      "zh": [
+        "原始数据",
+        "口径核对",
+        "趋势与异常",
+        "分析记录",
+        "待核对",
+        "已统一"
+      ],
+      "en": [
+        "Source data",
+        "Metric checks",
+        "Trends and outliers",
+        "Analysis notes",
+        "To check",
+        "Consistent"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.product",
+    "name": {
+      "zh": "产品与交互体验",
+      "en": "Product and interaction"
+    },
+    "labels": {
+      "zh": [
+        "浏览器原型",
+        "语音交互",
+        "使用记录",
+        "开始试用",
+        "这个步骤再改改",
+        "已记录"
+      ],
+      "en": [
+        "Browser prototype",
+        "Voice interaction",
+        "Usage notes",
+        "Try it",
+        "Rework this step",
+        "Noted"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.agents",
+    "name": {
+      "zh": "Agent 与人的协作",
+      "en": "Agent workflows"
+    },
+    "labels": {
+      "zh": [
+        "任务",
+        "知识",
+        "工具",
+        "Skill",
+        "评测",
+        "人工确认"
+      ],
+      "en": [
+        "Task",
+        "Knowledge",
+        "Tools",
+        "Skills",
+        "Evaluation",
+        "Human check"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  },
+  {
+    "id": "profile.methods",
+    "name": {
+      "zh": "方法沉淀与培训",
+      "en": "Methods and training"
+    },
+    "labels": {
+      "zh": [
+        "实践记录",
+        "操作指南",
+        "课程练习",
+        "Skill",
+        "下次任务",
+        "经验与修改"
+      ],
+      "en": [
+        "Practice notes",
+        "Guides",
+        "Exercises",
+        "Skills",
+        "Next task",
+        "What changed"
+      ]
+    },
+    "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+  }
+]

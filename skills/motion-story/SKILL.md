@@ -1,11 +1,28 @@
 ---
 name: motion-story
-description: Create short, looping vector explainers as GIF, MP4, and static posters from an idea or structured content. Use for animated README graphics, product stories, workflows, and social motion graphics with editable source.
+description: Reuse, remix, and create GIF/MP4 motion graphics locally. Use for animated profiles, README demos, product stories, reusable animation components, and low-token video assembly from existing footage or short JSON recipes.
 ---
 
 # Motion Story
 
 Turn an idea into a small visual story: objects should gather, travel, connect, or change in a way that explains the idea. Deliver the editable content alongside the animation.
+
+## Reuse first; keep context small
+
+Inspect existing media and manifests before creating anything. Do not regenerate reusable assets or load whole repositories, every scene's source, or long frame dumps into context. One short recipe and a few posters usually suffice.
+
+Choose the cheapest suitable path:
+
+1. Same finished animation: copy its GIF or transcode to MP4. No new artwork.
+2. Reorder/cut footage: `scripts/assemble-media.mjs` keeps existing pixels and audio. Read [reuse recipes](references/reuse.md).
+3. Change copy, modules, or ratio: `scripts/compose.mjs`. Run `--list` once for the 12-module catalog; inspect only selected labels in `assets/modules.json` if changing them. Nine profile scenes and three motion studies can be sequenced freely.
+4. A new visual idea: extend just the missing component, then reuse it through the same recipe.
+
+```sh
+node scripts/compose.mjs --input assets/examples/profile-remix.json --out output/remix --cache output/cache --preset moments
+```
+
+Start with `--formats png` for layout review. Clip hashes reuse unchanged renders across recipes; exact output hits skip encoding too. Keep the cache between runs. Rendering calls no model or image API; planning and editing still consume tokens. Do not invent a savings percentage.
 
 ## Choose the story
 

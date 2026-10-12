@@ -49,6 +49,13 @@ export function measure(value, size, weight = 450) {
   return Math.max(s.advance, s.bbox?.maxX ?? 0) * size / s.units;
 }
 
+// Baseline-based labels for imported vector components; still use bundled glyphs.
+export function inlineText(x, y, value, size = 16, color = '#132e40', weight = 450, anchor = 'start') {
+  const s = shape(String(value), weight), scale = size / s.units;
+  const offset = anchor === 'middle' ? s.advance * scale / 2 : anchor === 'end' ? s.advance * scale : 0;
+  return `<g fill="${color}" transform="translate(${x - offset} ${y}) scale(${scale} ${-scale})">${s.paths}</g>`;
+}
+
 function wrap(value, width, size, weight) {
   const result = [];
   for (const paragraph of value.split('\n')) {

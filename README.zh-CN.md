@@ -21,6 +21,25 @@
 
 已有三种起步样式：信息沿着流程传递、围绕中心协作、整理视觉参考。它们是样例，可以继续扩展。自带英文、简体中文内容和字体，不依赖付费 API 或账号连接。
 
+## v0.2：先复用，再创作
+
+个人介绍里的九段动效现在可以拆开、换顺序、换文字，再按新画幅排版。另有错峰网格、路径追踪、滚动字带三种[参考研究](skills/motion-story/references/motion-studies.md)。只想重剪已有 GIF/MP4，也可以直接截取片段拼接，新增素材为零。
+
+```sh
+node skills/motion-story/scripts/compose.mjs --list
+node skills/motion-story/scripts/compose.mjs --input skills/motion-story/assets/examples/profile-remix.json --out output/remix --preset xiaohongshu --cache output/cache
+```
+
+后续只改一份小 JSON：没改的片段复用缓存，整份配置没改就跳过渲染和编码。先用 `--formats png` 看排版。渲染本身不调用模型；构思和修改仍会消耗 token，不承诺未经测量的节省比例。[组合、剪辑和成片加框的用法](skills/motion-story/references/reuse.md)。
+
+| 12 秒新样例 | 下载 |
+| --- | --- |
+| 个人介绍组件重新组合 · 1:1 | [MP4](examples/remix/profile-square/profile-remix.mp4) · [GIF](examples/remix/profile-square/profile-remix.gif) |
+| 同一份组合 · 3:4 | [MP4](examples/remix/profile-portrait/profile-remix.mp4) · [GIF](examples/remix/profile-portrait/profile-remix.gif) |
+| 三种动效研究 · 3:4 | [MP4](examples/remix/reference-portrait/reference-remix.mp4) · [GIF](examples/remix/reference-portrait/reference-remix.gif) |
+
+朋友圈提供 1080×1080，小红书提供 1080×1440，也可选择 1080×1920。小红书 3:4 和朋友圈 1:1 是制作建议，发布时仍需检查手机预览。已有成片可以用 `social-motion/scripts/frame.mjs` 保留完整画面，在外面加标题、说明和同色背景。
+
 ## 先跑一份
 
 准备 **Node.js 22+** 和 **FFmpeg**，确认命令行能找到 `ffmpeg`、`ffprobe`。
@@ -55,7 +74,7 @@ node scripts/install.mjs
 
 ## 已做好的样例
 
-每份都是 8 秒循环，包含 MP4、GIF、PNG、源文件、设计安全区预览和检查报告。
+下面六份起步样例都是 8 秒循环，包含 MP4、GIF、PNG、源文件、设计安全区预览和检查报告。
 
 | 样例 | 画幅 | 下载 |
 | --- | --- | --- |

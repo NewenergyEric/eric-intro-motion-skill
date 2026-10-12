@@ -1,0 +1,35 @@
+[
+  {
+    "id": "profile-remix",
+    "preset": "moments",
+    "folder": "profile-square",
+    "cache": {
+      "outputHit": false,
+      "clipsReused": 0,
+      "clipsRendered": 3
+    },
+    "renderApiCalls": 0
+  },
+  {
+    "id": "profile-remix",
+    "preset": "xiaohongshu",
+    "folder": "profile-portrait",
+    "cache": {
+      "outputHit": false,
+      "clipsReused": 0,
+      "clipsRendered": 3
+    },
+    "renderApiCalls": 0
+  },
+  {
+    "id": "reference-remix",
+    "preset": "xiaohongshu",
+    "folder": "reference-portrait",
+    "cache": {
+      "outputHit": false,
+      "clipsReused": 0,
+      "clipsRendered": 3
+    },
+    "renderApiCalls": 0
+  }
+]

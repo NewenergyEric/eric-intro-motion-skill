@@ -1,6 +1,6 @@
 ---
 name: social-motion
-description: Adapt motion graphics and existing GIF or MP4 files to LinkedIn, X, WeChat Moments, and other aspect ratios. Re-layout editable stories, check text safe areas, or fit finished footage over a filled background.
+description: Adapt GIF/MP4 and editable motion recipes to LinkedIn, X, WeChat Moments, Xiaohongshu, and other ratios. Re-layout vectors or preserve finished footage in a branded frame, reusing media and cached results.
 ---
 
 # Social Motion
@@ -17,7 +17,17 @@ From this skill directory:
 node scripts/pack.mjs --input /path/to/story.json --out /path/to/social-pack --presets linkedin,x,moments
 ```
 
-Add `vertical` for 9:16, or `square` for a general square asset. Use `--formats png` for the first layout pass. Optional `--gif-width` and `--force` behave as in the base skill. Each output preserves the content source and receives its own composition and report. For custom dimensions, use the base renderer with `--width` and `--height`.
+Add `xiaohongshu` for 3:4, `vertical` for 9:16, or `square` for a general square asset. These are authoring choices, not a guarantee of feed-thumbnail behavior. Use `--formats png` for the first layout pass. Optional `--gif-width` and `--force` behave as in the base skill. Each output preserves the content source and receives its own composition and report. For custom dimensions, use the base renderer with `--width` and `--height`.
+
+For a v2 component recipe, use the sibling `motion-story/scripts/compose.mjs --preset xiaohongshu` instead of `pack.mjs`. Keep its cache between ratios and later edits.
+
+For finished footage, prefer reuse over reconstructing every scene. A designed frame preserves the original video and audio, adds readable context, and fills the canvas with chosen colors:
+
+```sh
+node scripts/frame.mjs --input existing.mp4 --copy copy.json --out framed.mp4 --preset xiaohongshu
+```
+
+Use `--preview` before encoding. The copy file contains `heading`, optional `eyebrow`, `caption`, and six-digit hex `colors` (`background`, `ink`, `accent`, `muted`). Exact repeat requests reuse the checked output. The source is fitted in full; its internal text is not re-typeset. See [reuse recipes](../motion-story/references/reuse.md).
 
 If only an existing video or GIF is available, it cannot be re-typeset from pixels. Inspect it and choose from [finished-footage adaptation](references/finished-footage.md):
 

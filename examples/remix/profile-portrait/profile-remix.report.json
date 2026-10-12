@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 2,
+  "key": "a85a9010d9330ab30bd6e7a9f22d922711d4e4718cd85a723ee87f7bfee09cd5",
+  "id": "profile-remix",
+  "preset": "xiaohongshu",
+  "width": 1080,
+  "height": 1440,
+  "duration": 12,
+  "sourceMode": "reusable-vector-components",
+  "platformPreviewVerified": false,
+  "cache": {
+    "outputHit": false,
+    "clipsReused": 0,
+    "clipsRendered": 3
+  },
+  "renderApiCalls": 0,
+  "recipeBytes": 479,
+  "clips": [
+    {
+      "module": "profile.marketing",
+      "key": "0346b86df1cfd6561862cd84caa83c28cd72605ac9a1599223700a8f15b60fdc",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "先把想法",
+              "做给人看。"
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 88.56,
+                "y": 162.208,
+                "w": 211.626,
+                "h": 50.814
+              },
+              {
+                "x": 87.048,
+                "y": 232.29999999999998,
+                "w": 234.468,
+                "h": 50.814
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "一张草稿，也能成为一次对话。"
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 87.518,
+                "y": 1231.3780000000002,
+                "w": 345.93,
+                "h": 24.985999999999997
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "营销与内容"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 87.54,
+                "y": 110.82,
+                "w": 98.24000000000001,
+                "h": 18.98
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "profile.marketing",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+      }
+    },
+    {
+      "module": "profile.product",
+      "key": "84f94c691833ea646f9f5a76e104936a2847c30435f9a87e7f484556f79e9774",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "边做，边问。",
+              "再改一点。"
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 86.994,
+                "y": 162.208,
+                "w": 288.522,
+                "h": 52.974
+              },
+              {
+                "x": 88.128,
+                "y": 232.35399999999998,
+                "w": 233.388,
+                "h": 50.814
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "不等所有问题都有答案才开始。"
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 87.492,
+                "y": 1231.326,
+                "w": 345.95599999999996,
+                "h": 24.31
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "产品与交互体验"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 86.92,
+                "y": 110.8,
+                "w": 139.12,
+                "h": 19.2
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "profile.product",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+      }
+    },
+    {
+      "module": "profile.agents",
+      "key": "c72148c274d6b5b86f90e4b452cf80f63f6ab744e84a36fcf104c35fa6090f5e",
+      "seconds": 4,
+      "composition": {
+        "width": 1080,
+        "height": 1440,
+        "safe": {
+          "left": 0.08,
+          "right": 0.08,
+          "top": 0.075,
+          "bottom": 0.09
+        },
+        "layout": "stacked",
+        "text": [
+          {
+            "lines": [
+              "和 AI 一起，",
+              "接着试。"
+            ],
+            "size": 54,
+            "bounds": [
+              {
+                "x": 87.64200000000001,
+                "y": 162.316,
+                "w": 257.7867772521973,
+                "h": 52.866
+              },
+              {
+                "x": 87.58800000000001,
+                "y": 232.02999999999997,
+                "w": 179.928,
+                "h": 51.03
+              }
+            ],
+            "field": "title",
+            "box": {
+              "x": 86.4,
+              "y": 154,
+              "w": 907.2,
+              "h": 150
+            }
+          },
+          {
+            "lines": [
+              "试过的办法，留给下一次。"
+            ],
+            "size": 26,
+            "bounds": [
+              {
+                "x": 87.7,
+                "y": 1231.43,
+                "w": 293.748,
+                "h": 24.933999999999997
+              }
+            ],
+            "field": "subtitle",
+            "box": {
+              "x": 86.4,
+              "y": 1227.4,
+              "w": 907.2,
+              "h": 83
+            }
+          },
+          {
+            "lines": [
+              "Agent 与人的协作"
+            ],
+            "size": 20,
+            "bounds": [
+              {
+                "x": 86.34,
+                "y": 111.02,
+                "w": 160.66467987060548,
+                "h": 21.86
+              }
+            ],
+            "field": "module name",
+            "box": {
+              "x": 86.4,
+              "y": 108,
+              "w": 907.2,
+              "h": 35
+            }
+          }
+        ],
+        "module": "profile.agents",
+        "artBounds": {
+          "x": 86.4,
+          "y": 427.12000000000006,
+          "w": 907.2,
+          "h": 650.16
+        },
+        "source": "https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs"
+      }
+    }
+  ],
+  "outputs": {
+    "mp4": {
+      "width": 1080,
+      "height": 1440,
+      "seconds": 12,
+      "frames": 360,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "videoBitrate": 984226,
+      "bytes": 1494135,
+      "sha256": "1e0826e446953e71f3d1ec5493e38f3272e8abe342e9a2fdf611d8b55c95f5e4"
+    },
+    "gif": {
+      "width": 600,
+      "height": 800,
+      "seconds": 12,
+      "frames": 240,
+      "codec": "gif",
+      "pixelFormat": "bgra",
+      "videoBitrate": null,
+      "bytes": 2058130,
+      "sha256": "6ce683170280b69763c1a6a27f21c8e2be617d83009146c532850097ee1b689f"
+    }
+  },
+  "fileHashes": {
+    "profile-remix.mp4": "1e0826e446953e71f3d1ec5493e38f3272e8abe342e9a2fdf611d8b55c95f5e4",
+    "profile-remix.gif": "6ce683170280b69763c1a6a27f21c8e2be617d83009146c532850097ee1b689f",
+    "profile-remix.png": "e7d2947f3eccd96b8839249cfa29521f2ed2fbcdd0b0d2e0127e971aeaf2aed2",
+    "profile-remix-safe.png": "1e1fd618102fa6fa6ee65a0eef5981af904d539383ce2b92984e753831cb5b08",
+    "profile-remix.recipe.json": "c137c017b7bde36b23c10dd1fc50757b81b59a2360781770cd15de0448ae2cbf"
+  },
+  "elapsedMs": 21318
+}

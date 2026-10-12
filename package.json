@@ -1,12 +1,13 @@
 {
   "name": "motion-story-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "setup": "npm ci --prefix skills/motion-story",
     "test": "node --test tests/*.test.mjs",
     "examples": "node scripts/build-examples.mjs",
+    "examples:remix": "node scripts/build-remixes.mjs",
     "install:skills": "node scripts/install.mjs"
   },
   "engines": { "node": ">=22" }

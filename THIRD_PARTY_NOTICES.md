@@ -2,6 +2,8 @@
 
 The skill instructions, renderer, example content and vector artwork are original work distributed under the repository's MIT license. Existing enterprise playbook text, private customer material, and third-party art have not been copied into this distribution.
 
+The nine `profile.*` components reuse the author's own [profile renderer](https://github.com/NewenergyEric/NewenergyEric/blob/526a279de92886e0fc47eb9e2e9522d55629a875/motion/motion.mjs), extracted at the author's request for this open-source package. The three `reference.*` studies are independent implementations of common motion techniques; references and differences are documented in [motion-studies.md](skills/motion-story/references/motion-studies.md). No Motion+ code, third-party video, or private project media is distributed.
+
 ## Noto Sans SC
 
 `skills/motion-story/assets/fonts/NotoSansSC.ttf` is the unmodified variable font from [Google Fonts](https://github.com/google/fonts/tree/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/notosanssc), pinned to commit `bd8f81ddb5c74d5c8897b36ad88b440266245103`.

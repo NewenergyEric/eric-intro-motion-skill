@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "profile-remix",
+  "language": "zh",
+  "clips": [
+    {
+      "module": "profile.marketing",
+      "seconds": 4,
+      "title": "先把想法\n做给人看。",
+      "subtitle": "一张草稿，也能成为一次对话。"
+    },
+    {
+      "module": "profile.product",
+      "seconds": 4,
+      "title": "边做，边问。\n再改一点。",
+      "subtitle": "不等所有问题都有答案才开始。"
+    },
+    {
+      "module": "profile.agents",
+      "seconds": 4,
+      "title": "和 AI 一起，\n接着试。",
+      "subtitle": "试过的办法，留给下一次。"
+    }
+  ]
+}
