@@ -2,6 +2,7 @@ node_modules/
 .work/
 dist/
 output/
+.bundle/
 *.log
 .DS_Store
 __pycache__/

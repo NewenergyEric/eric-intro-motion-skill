@@ -42,10 +42,10 @@ test('encode, reuse unchanged clips, invalidate changed copy, assemble pixels, p
     const cut=await assembleMedia(mediaRecipe,{out:mediaOut});
     assert.equal(cut.output.frames,60);assert.equal(cut.newVisualAssets,0);
     assert.equal((await assembleMedia(mediaRecipe,{out:mediaOut})).cacheHit,true);
-    const framed=await frameVideo({input:mediaOut,out:path.join(root,'framed.mp4'),preset:'xiaohongshu',copy:{heading:'A new frame.',caption:'The original stays complete.'}});
+    const framed=await frameVideo({intent:'embed',input:mediaOut,out:path.join(root,'framed.mp4'),preset:'xiaohongshu',copy:{heading:'A new frame.',caption:'The original stays complete.'}});
     assert.equal(framed.output.height,1440);assert.equal(framed.output.frames,60);
     assert.equal(framed.preservesFullSourceFrame,true);assert.equal(framed.platformPreviewVerified,false);
     await assert.rejects(assembleMedia({schemaVersion:1,clips:[{file:source,from:99,seconds:2}]},{out:path.join(root,'bad.mp4')}),/beyond/);
-    await assert.rejects(frameVideo({input:source,out:source,copy:{heading:'X'}}),/overwritten/);
+    await assert.rejects(frameVideo({intent:'embed',input:source,out:source,copy:{heading:'X'}}),/overwritten/);
   } finally {await rm(root,{recursive:true,force:true});}
 });

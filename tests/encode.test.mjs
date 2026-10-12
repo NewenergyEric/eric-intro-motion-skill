@@ -25,17 +25,17 @@ test('real MP4 and GIF encode with the expected geometry, duration and frame cou
     assert.ok(gif.includes(Buffer.from('NETSCAPE2.0')), 'GIF contains loop extension');
     assert.equal(result.platformPreviewVerified, false);
     await assert.rejects(renderStory(story, { out, width: 960, height: 540, gifWidth: 480, formats: ['png'] }), /already exists/);
-    const backdrop = await reframe({ input: path.join(out, `${story.id}.gif`), out: path.join(out, 'backdrop.mp4'), preset: 'moments' });
+    const backdrop = await reframe({ intent: 'embed', input: path.join(out, `${story.id}.gif`), out: path.join(out, 'backdrop.mp4'), preset: 'moments' });
     assert.equal(backdrop.preservesFullSourceFrame, true);
     assert.equal(backdrop.textSafetyVerified, false);
     assert.equal(backdrop.output.width, 1080);
     assert.equal(backdrop.output.height, 1080);
     assert.equal(backdrop.output.frames, 60);
-    const crop = await reframe({ input: path.join(out, `${story.id}.mp4`), out: path.join(out, 'crop.mp4'), preset: 'linkedin', mode: 'crop', focusX: 0.7 });
+    const crop = await reframe({ intent: 'crop', input: path.join(out, `${story.id}.mp4`), out: path.join(out, 'crop.mp4'), preset: 'linkedin', mode: 'crop', focusX: 0.7 });
     assert.equal(crop.preservesFullSourceFrame, false);
     assert.equal(crop.output.height, 1350);
     assert.ok(crop.output.videoBitrate >= 192000);
-    await assert.rejects(reframe({ input: path.join(out, 'crop.mp4'), out: path.join(out, 'crop.mp4'), force: true }), /source will not be replaced/);
+    await assert.rejects(reframe({ intent: 'embed', input: path.join(out, 'crop.mp4'), out: path.join(out, 'crop.mp4'), force: true }), /source will not be replaced/);
   } finally {
     await rm(out, { recursive: true, force: true });
   }

@@ -37,7 +37,7 @@ Frames use a deterministic clock. Cuts are intentional; this version does not of
 node scripts/assemble-media.mjs --input edit.json --out remix.mp4
 ```
 
-Paths resolve relative to the recipe. `from` and `seconds` are seconds, not frame numbers. All footage must share an aspect ratio and square pixels; frame different ratios first. The output uses the first source's dimensions, 30 fps H.264, AAC and faststart. Existing audio is trimmed and concatenated; silent clips receive silence. This re-encodes existing pixels, so it is not a lossless file copy. No new artwork is generated. Exact repeat requests verify the output hash and skip encoding.
+Paths resolve relative to the recipe. `from` and `seconds` are seconds, not frame numbers. All footage must share an aspect ratio and square pixels; recompose different ratios from source first, or use framing only when explicitly requested. The output uses the first source's dimensions, 30 fps H.264, AAC and faststart. Existing audio is trimmed and concatenated; silent clips receive silence. This re-encodes existing pixels, so it is not a lossless file copy. No new artwork is generated. Exact repeat requests verify the output hash and skip encoding.
 
 ## Put finished footage in a social frame
 
@@ -45,10 +45,10 @@ Paths resolve relative to the recipe. `from` and `seconds` are seconds, not fram
 {"eyebrow":"A SMALL PROJECT","heading":"Keep the feeling.\nPass it on.","caption":"A note for whoever comes next.","colors":{"background":"#001f3f","ink":"#f5f9fb","accent":"#92e4da","muted":"#b2cbd7"}}
 ```
 
-Use sibling `social-motion/scripts/frame.mjs` with `--copy` and `--preset moments`, `xiaohongshu`, or `vertical`. `--preview` exports a poster; use `--force` for the subsequent full encode into the same output base. The original full frame and audio remain; the surrounding area has a deliberate background, heading and caption. Inspect small original text on a phone. This cannot change text already baked into the source video or remove its existing borders.
+This is an explicit embedding treatment, **not native aspect-ratio adaptation**. Use sibling `social-motion/scripts/frame.mjs --intent embed` with `--copy` and `--preset moments`, `xiaohongshu`, or `vertical` only when that treatment was requested. `--preview` exports a poster; use `--force` for the subsequent full encode into the same output base. The original frame and audio remain; the surrounding area has a background, heading and caption. For the whole video in a new ratio, use [native recomposition](../../social-motion/references/native-recomposition.md).
 
 ## Context and cost discipline
 
-Keep source-media hashes, dimensions, duration, clip choices, a short recipe, and selected posters. Read source code only for the component being changed. Retain caches, and use a saved recipe for retries after a network interruption. Never resend a whole repository or regenerate assets merely to change a ratio.
+Keep source-media hashes, dimensions, duration, clip choices, a short recipe, and selected posters. Read and edit all components needed for the requested adaptation. Retain caches and use a saved recipe for retries after a network interruption. Reuse source assets while spending the required effort on new layouts; saving tokens must not change the requested result.
 
 Reports expose `renderApiCalls: 0`, cache hits, and (for media assembly) `newVisualAssets: 0`. These describe the local renderer, not the assistant's total token usage. Recipe size is measured in UTF-8 bytes, not tokens. Compare actual account usage if a numerical token-saving claim is needed.

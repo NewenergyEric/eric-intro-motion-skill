@@ -1,6 +1,10 @@
 # Motion Story Skills
 
-**v0.2 adds reusable motion.** Nine scenes from the author's profile, three independent motion studies, cached component recipes, existing-media cuts, and full-frame social adaptations. [Reuse guide](skills/motion-story/references/reuse.md) · [Reference credits](skills/motion-story/references/motion-studies.md).
+**v0.3 makes native recomposition the default.** Re-layout the whole film from editable layers for 1:1, 3:4 and 9:16; framing/backdrop/crop require an explicit treatment flag. [Native workflow and measured checks](skills/social-motion/references/native-recomposition.md).
+
+[A complete source-based example](examples/native-art-director/): the same 24-second Art Director film in square, 3:4 and 9:16, with React/Remotion source, original artwork, fonts and measured layout reports.
+
+**v0.2 added reusable motion.** Nine scenes from the author's profile, three independent motion studies, cached component recipes, existing-media cuts, and full-frame social adaptations. [Reuse guide](skills/motion-story/references/reuse.md) · [Reference credits](skills/motion-story/references/motion-studies.md).
 
 ```sh
 node skills/motion-story/scripts/compose.mjs --list
@@ -11,7 +15,7 @@ Change a short JSON recipe instead of rebuilding every asset. Unchanged clips re
 
 New 12-second samples: [profile remix, square](examples/remix/profile-square/profile-remix.mp4), [profile remix, 3:4](examples/remix/profile-portrait/profile-remix.mp4), [three motion studies](examples/remix/reference-portrait/reference-remix.mp4). GIFs and editable recipes sit beside each MP4. Rebuild them with `npm run examples:remix -- --force`.
 
-Social presets now include Xiaohongshu 1080×1440 (3:4), alongside Moments 1080×1080 and optional vertical 1080×1920. These are design recommendations; check the actual platform preview. `social-motion/scripts/frame.mjs` keeps finished footage intact inside a filled, branded composition. Private project media is not included in this repository.
+Social presets now include Xiaohongshu 1080×1440 (3:4), alongside Moments 1080×1080 and optional vertical 1080×1920. These are design recommendations; check the actual platform preview. `social-motion/scripts/frame.mjs --intent embed` is an optional inset-video treatment, not native ratio adaptation. Private project media is not included in this repository.
 
 [中文](README.zh-CN.md) · [Examples](examples/) · [Download](https://github.com/NewenergyEric/motion-story-skills/releases/latest) · [MIT license](LICENSE)
 
@@ -28,7 +32,7 @@ The same story can sit beside its diagram in a wide frame, above it in a square,
 | Skill | Use it for |
 | --- | --- |
 | [`motion-story`](skills/motion-story/SKILL.md) | Turn an idea into a short vector story. Export MP4, GIF, a poster and editable content. |
-| [`social-motion`](skills/social-motion/SKILL.md) | Re-layout that story for LinkedIn, X, Moments or another ratio. Also adapt existing footage with a filled backdrop or a deliberate crop. |
+| [`social-motion`](skills/social-motion/SKILL.md) | Re-layout that story for LinkedIn, X, Moments or another ratio. Recover source and recompose existing films; explicit embedding/cropping remains optional. |
 
 Three starter motifs cover a process, a collaboration loop, and a collection of visual references. They are starting points for new stories, not a limit on what a skill can help create. English and Simplified Chinese examples are included. The instructions work with agents that read `SKILL.md`; Codex also receives display metadata.
 
@@ -83,10 +87,10 @@ After cloning or downloading the example archive, open [`examples/index.html`](e
 
 Native compositions fill their own canvas and keep text within checked design insets. This prevents black padding or clipped text from being baked into those files. Platforms still control their players, overlays and feed thumbnails. LinkedIn explicitly documents device-dependent cropping; the Moments square preset is a conservative authoring choice that needs a real-phone preview. [Read the checked platform guidance and sources.](skills/social-motion/references/platforms.md)
 
-For an existing GIF/MP4 without editable source:
+For native adaptation of an existing GIF/MP4, recover source or reconstruct its layers first. Only for an explicitly requested backdrop treatment:
 
 ```sh
-node skills/social-motion/scripts/reframe.mjs --input existing.mp4 --out square.mp4 --preset moments --mode backdrop
+node skills/social-motion/scripts/reframe.mjs --intent embed --input existing.mp4 --out square.mp4 --preset moments --mode backdrop
 ```
 
 `backdrop` keeps the full source over a blurred duplicate. `crop` intentionally cuts the edges; use it only when that suits the content. Existing borders remain part of a supplied source, and small text may need rebuilding. [See the tradeoffs.](skills/social-motion/references/finished-footage.md)

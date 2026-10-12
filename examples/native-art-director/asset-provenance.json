@@ -1,0 +1,23 @@
+[
+  {
+    "project": "art-director",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "7f7cd6f67864be397507592a96bbe9809031367f",
+    "path": "public/art-director/fonts/OFL.txt",
+    "sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded"
+  },
+  {
+    "project": "art-director",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "7f7cd6f67864be397507592a96bbe9809031367f",
+    "path": "public/art-director/fonts/field-sans.woff2",
+    "sha256": "bfb8975a86d73d01d99b30fd4e7446576e9ee28987a327f349686bb77b035db9"
+  },
+  {
+    "project": "art-director",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "7f7cd6f67864be397507592a96bbe9809031367f",
+    "path": "public/art-director/studio/asset-system-board.png",
+    "sha256": "00422b3a18e80f19f667715b5e61c9a97e4d4f74a4cc2cf5ecb4aebdc1cfb3e9"
+  }
+]

@@ -1,4 +1,4 @@
 interface:
   display_name: "Social Motion"
-  short_description: "Fit motion to Moments, Xiaohongshu, LinkedIn, and X"
-  default_prompt: "Use $social-motion to adapt my existing video or motion recipe for Moments, Xiaohongshu, LinkedIn, and X, preserving content and reusing existing assets."
+  short_description: "Recompose whole videos for square and portrait formats"
+  default_prompt: "Use $social-motion to recompose my whole video for the requested aspect ratios. Re-layout text, artwork and motion paths from source, reuse existing assets, and test every scene and transition."

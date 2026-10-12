@@ -6,7 +6,8 @@ import { probe, run, inspectVideo } from '../../motion-story/scripts/render.mjs'
 
 const catalog = JSON.parse(await readFile(new URL('../assets/presets.json', import.meta.url), 'utf8'));
 
-export async function reframe({ input, out, preset = 'moments', mode = 'backdrop', focusX = 0.5, focusY = 0.5, force = false }) {
+export async function reframe({ input, out, preset = 'moments', mode = 'backdrop', focusX = 0.5, focusY = 0.5, force = false, intent = 'native' }) {
+  if(intent!==(mode==='crop'?'crop':'embed')) throw new Error('Reframing pixels is not native ratio adaptation. Use source layers, or explicitly select --intent embed (backdrop) / --intent crop.');
   if (!input || !out) throw new Error('input and out are required.');
   if (!Object.hasOwn(catalog.presets, preset)) throw new Error(`Unknown preset: ${preset}`);
   if (!['backdrop', 'crop'].includes(mode)) throw new Error('mode must be backdrop or crop.');
@@ -44,11 +45,11 @@ export async function reframe({ input, out, preset = 'moments', mode = 'backdrop
 
 async function main() {
   if (process.argv.includes('--help')) {
-    console.log('node scripts/reframe.mjs --input existing.mp4 --out adapted.mp4 [--preset moments --mode backdrop|crop --focus-x 0.5 --focus-y 0.5 --force]');
+    console.log('node scripts/reframe.mjs --intent embed|crop --input existing.mp4 --out adapted.mp4 [--preset moments --mode backdrop|crop --focus-x 0.5 --focus-y 0.5 --force]');
     return;
   }
-  const args = parseArgs(process.argv.slice(2), ['input', 'out', 'preset', 'mode', 'focus-x', 'focus-y']);
-  console.log(JSON.stringify(await reframe({ input: args.input, out: args.out, preset: args.preset, mode: args.mode, focusX: args['focus-x'] === undefined ? 0.5 : Number(args['focus-x']), focusY: args['focus-y'] === undefined ? 0.5 : Number(args['focus-y']), force: args.force }), null, 2));
+  const args = parseArgs(process.argv.slice(2), ['input', 'out', 'preset', 'mode', 'intent', 'focus-x', 'focus-y']);
+  console.log(JSON.stringify(await reframe({ input: args.input, out: args.out, preset: args.preset, mode: args.mode, intent: args.intent, focusX: args['focus-x'] === undefined ? 0.5 : Number(args['focus-x']), focusY: args['focus-y'] === undefined ? 0.5 : Number(args['focus-y']), force: args.force }), null, 2));
 }
 
 if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) main().catch(error => { console.error(error.message); process.exitCode = 1; });

@@ -21,6 +21,12 @@
 
 已有三种起步样式：信息沿着流程传递、围绕中心协作、整理视觉参考。它们是样例，可以继续扩展。自带英文、简体中文内容和字体，不依赖付费 API 或账号连接。
 
+## v0.3：让整个视频适应新画幅
+
+默认从源码重排每一幕的标题、插画、卡片和运动路径，分别做成 1:1、3:4、9:16。改背景、加外框、整体缩放或裁切不会被当作原生适配。加框与裁切工具必须明确指定用途；新增检查会拒绝整段画面只缩放平移的结果。[原生重编排与验证](skills/social-motion/references/native-recomposition.md)。
+
+[完整案例：Art Director](examples/native-art-director/) 提供同一条 24 秒短片的三种原生比例，附 React/Remotion 源码、原插画、字体及排版检查报告。
+
 ## v0.2：先复用，再创作
 
 个人介绍里的九段动效现在可以拆开、换顺序、换文字，再按新画幅排版。另有错峰网格、路径追踪、滚动字带三种[参考研究](skills/motion-story/references/motion-studies.md)。只想重剪已有 GIF/MP4，也可以直接截取片段拼接，新增素材为零。
@@ -38,7 +44,7 @@ node skills/motion-story/scripts/compose.mjs --input skills/motion-story/assets/
 | 同一份组合 · 3:4 | [MP4](examples/remix/profile-portrait/profile-remix.mp4) · [GIF](examples/remix/profile-portrait/profile-remix.gif) |
 | 三种动效研究 · 3:4 | [MP4](examples/remix/reference-portrait/reference-remix.mp4) · [GIF](examples/remix/reference-portrait/reference-remix.gif) |
 
-朋友圈提供 1080×1080，小红书提供 1080×1440，也可选择 1080×1920。小红书 3:4 和朋友圈 1:1 是制作建议，发布时仍需检查手机预览。已有成片可以用 `social-motion/scripts/frame.mjs` 保留完整画面，在外面加标题、说明和同色背景。
+朋友圈提供 1080×1080，小红书提供 1080×1440，也可选择 1080×1920。小红书 3:4 和朋友圈 1:1 是制作建议，发布时仍需检查手机预览。只有明确需要嵌入式视频时才使用 `social-motion/scripts/frame.mjs --intent embed` 加外框。要让整个视频成为新比例，需要从源码重排，或从成片重建必要图层。
 
 ## 先跑一份
 
@@ -93,10 +99,10 @@ node scripts/install.mjs
 
 平台仍然会决定播放器、按钮覆盖和信息流缩略图怎样显示。LinkedIn 官方说明里明确提到设备差异和裁切；朋友圈方形版是保守的制作建议，需要在实际手机里预览。这里不会把广告规格当作个人朋友圈的规定。[平台依据和检查日期在这里。](skills/social-motion/references/platforms.md)
 
-只有成片时，也有一个入口：
+只有成片时，原生画幅需要恢复源码或重建必要图层。下面的入口只用于明确要求模糊背景加框的情况：
 
 ```sh
-node skills/social-motion/scripts/reframe.mjs --input existing.mp4 --out square.mp4 --preset moments --mode backdrop
+node skills/social-motion/scripts/reframe.mjs --intent embed --input existing.mp4 --out square.mp4 --preset moments --mode backdrop
 ```
 
 默认保留完整原画面，把周围空间用模糊背景填满。原片自带的黑边仍属于原片；横版小字放进竖屏也可能变小。这时最好回到源文件重做。也提供主动裁切模式，适合可以牺牲边缘的镜头。[处理方式说明](skills/social-motion/references/finished-footage.md)。

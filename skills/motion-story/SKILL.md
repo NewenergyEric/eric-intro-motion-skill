@@ -1,6 +1,6 @@
 ---
 name: motion-story
-description: Reuse, remix, and create GIF/MP4 motion graphics locally. Use for animated profiles, README demos, product stories, reusable animation components, and low-token video assembly from existing footage or short JSON recipes.
+description: Reuse, remix, and create GIF/MP4 motion graphics locally. Use for animated profiles, README demos, product stories, reusable animation components, and video assembly from existing footage or short JSON recipes.
 ---
 
 # Motion Story
@@ -9,14 +9,16 @@ Turn an idea into a small visual story: objects should gather, travel, connect, 
 
 ## Reuse first; keep context small
 
-Inspect existing media and manifests before creating anything. Do not regenerate reusable assets or load whole repositories, every scene's source, or long frame dumps into context. One short recipe and a few posters usually suffice.
+Inspect existing media and manifests before creating anything. Reuse artwork, fonts and suitable components. Read the source needed for the requested changes; a whole-film ratio adaptation may require editing every scene. Keep resumable manifests and caches instead of repeatedly loading unchanged material.
 
-Choose the cheapest suitable path:
+Choose the least expensive path that actually achieves the requested result:
 
 1. Same finished animation: copy its GIF or transcode to MP4. No new artwork.
 2. Reorder/cut footage: `scripts/assemble-media.mjs` keeps existing pixels and audio. Read [reuse recipes](references/reuse.md).
 3. Change copy, modules, or ratio: `scripts/compose.mjs`. Run `--list` once for the 12-module catalog; inspect only selected labels in `assets/modules.json` if changing them. Nine profile scenes and three motion studies can be sequenced freely.
 4. A new visual idea: extend just the missing component, then reuse it through the same recipe.
+
+A request to change the whole video's aspect ratio requires independent layer re-layout, including every scene and transition. An inset landscape video with a new background is a different treatment. For existing source films, follow sibling [social-motion's native recomposition workflow](../social-motion/references/native-recomposition.md); the small bundled module renderer is not a universal converter. Quality and fidelity take priority over token savings when the user requests that tradeoff.
 
 ```sh
 node scripts/compose.mjs --input assets/examples/profile-remix.json --out output/remix --cache output/cache --preset moments

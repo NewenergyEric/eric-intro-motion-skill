@@ -9,7 +9,7 @@ DIST.mkdir(exist_ok=True)
 
 def add_tree(archive, folder, prefix):
     for file in sorted(folder.rglob("*")):
-        if file.is_file() and not any(part in {"node_modules", "__pycache__", "output"} for part in file.relative_to(folder).parts):
+        if file.is_file() and file.suffix != '.log' and not any(part in {"node_modules", "__pycache__", "output", ".bundle"} for part in file.relative_to(folder).parts):
             archive.write(file, str(Path(prefix) / file.relative_to(folder)).replace("\\", "/"))
 
 VERSION = json.loads((ROOT / 'package.json').read_text(encoding='utf-8'))['version']

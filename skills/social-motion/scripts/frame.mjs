@@ -35,7 +35,8 @@ export function makeFrame(copy,video,preset='moments') {
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><rect width="${w}" height="${h}" fill="${colors.background}"/><circle cx="${w}" cy="${h*.46}" r="${w*.55}" fill="${colors.accent}" opacity=".045"/><path d="M${margin} ${top-20*s}H${margin+55*s}" stroke="${colors.accent}" stroke-width="5"/>${eyebrow.svg}${title.svg}${caption.svg}<rect x="${media.x-1}" y="${media.y-1}" width="${vw+2}" height="${vh+2}" fill="none" stroke="${colors.accent}" stroke-opacity=".25"/></svg>`;
   return {width:w,height:h,media,svg,text:[title,eyebrow,caption].map(({svg,...item})=>item)};
 }
-export async function frameVideo({input,out,copy,preset='moments',force=false,preview=false}) {
+export async function frameVideo({input,out,copy,preset='moments',force=false,preview=false,intent='native'}) {
+  if(intent!=='embed') throw new Error('frameVideo embeds finished footage; it is not native ratio adaptation. Use source layers, or explicitly select intent: "embed" / --intent embed.');
   if(!input||!out||!copy||typeof copy.heading!=='string') throw new Error('input, out and copy.heading are required.');
   const sourceFile=path.resolve(input),file=path.resolve(out);
   if(sourceFile.toLowerCase()===file.toLowerCase()) throw new Error('The source will not be overwritten.');
@@ -79,8 +80,8 @@ export async function frameVideo({input,out,copy,preset='moments',force=false,pr
   return report;
 }
 async function main(){
-  if(process.argv.includes('--help')) {console.log('frame.mjs --input source.mp4 --copy copy.json --out framed.mp4 [--preset moments|xiaohongshu|vertical --preview --force]');return;}
-  const args=parseArgs(process.argv.slice(2),['input','copy','out','preset'],['preview','force']);
+  if(process.argv.includes('--help')) {console.log('frame.mjs --intent embed --input source.mp4 --copy copy.json --out framed.mp4 [--preset moments|xiaohongshu|vertical --preview --force]');return;}
+  const args=parseArgs(process.argv.slice(2),['input','copy','out','preset','intent'],['preview','force']);
   const result=await frameVideo({...args,copy:JSON.parse(await readFile(args.copy,'utf8'))});
   console.log(JSON.stringify({preset:result.preset,cacheHit:result.cacheHit,output:result.output}));
 }

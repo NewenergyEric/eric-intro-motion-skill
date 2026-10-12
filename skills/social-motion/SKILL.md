@@ -1,49 +1,38 @@
 ---
 name: social-motion
-description: Adapt GIF/MP4 and editable motion recipes to LinkedIn, X, WeChat Moments, Xiaohongshu, and other ratios. Re-layout vectors or preserve finished footage in a branded frame, reusing media and cached results.
+description: Recompose motion graphics and source animations for LinkedIn, X, WeChat Moments, Xiaohongshu, and other aspect ratios. Re-layout the entire video using independent text, artwork, cards and motion paths; reserve framing or cropping for explicitly requested treatments.
 ---
 
 # Social Motion
 
-Make each target ratio a usable composition. This skill depends on the sibling `motion-story` folder with its Node dependencies installed. Install both skill folders together; the relative imports work in the repository and in a skills directory.
+Make the whole video work in the requested ratio. Use the sibling `motion-story` runtime for bundled recipes; custom films may use their own source renderer.
 
-## Choose the adaptation method
+## Choose a method that matches the request
 
-If an editable story exists, re-render it. Read [platform guidance](references/platforms.md) for the requested destination and use the preset as a design starting point. Inspect current official guidance again for a live publication when the verification date is stale or requirements may have changed.
+“Make this video 1:1 / 3:4 / 9:16” means **native recomposition** unless the user asks for another treatment. Re-layout each scene's text, graphics and animation paths. Adding a colored/blurred background, putting the existing landscape video inside a new frame, cropping it, or uniformly scaling the master is not completion of that request.
 
-From this skill directory:
+For an existing project or arbitrary film, read [native recomposition](references/native-recomposition.md). Recover its editable source first. Reuse its artwork, fonts and motion logic, then derive geometry from each target canvas. If only pixels remain, reconstruct the required layers and explain any fidelity limits. Do not substitute framing to save tokens or time.
 
-```sh
-node scripts/pack.mjs --input /path/to/story.json --out /path/to/social-pack --presets linkedin,x,moments
-```
-
-Add `xiaohongshu` for 3:4, `vertical` for 9:16, or `square` for a general square asset. These are authoring choices, not a guarantee of feed-thumbnail behavior. Use `--formats png` for the first layout pass. Optional `--gif-width` and `--force` behave as in the base skill. Each output preserves the content source and receives its own composition and report. For custom dimensions, use the base renderer with `--width` and `--height`.
-
-For a v2 component recipe, use the sibling `motion-story/scripts/compose.mjs --preset xiaohongshu` instead of `pack.mjs`. Keep its cache between ratios and later edits.
-
-For finished footage, prefer reuse over reconstructing every scene. A designed frame preserves the original video and audio, adds readable context, and fills the canvas with chosen colors:
+For a bundled v1 story:
 
 ```sh
-node scripts/frame.mjs --input existing.mp4 --copy copy.json --out framed.mp4 --preset xiaohongshu
+node scripts/pack.mjs --input /path/to/story.json --out /path/to/social-pack --presets moments,xiaohongshu,vertical
 ```
 
-Use `--preview` before encoding. The copy file contains `heading`, optional `eyebrow`, `caption`, and six-digit hex `colors` (`background`, `ink`, `accent`, `muted`). Exact repeat requests reuse the checked output. The source is fitted in full; its internal text is not re-typeset. See [reuse recipes](../motion-story/references/reuse.md).
+For a v2 component recipe, use sibling `motion-story/scripts/compose.mjs --preset xiaohongshu`. These renderers cover their documented motifs, not arbitrary finished films. Preserve caches and start with `--formats png` to review every scene before encoding.
 
-If only an existing video or GIF is available, it cannot be re-typeset from pixels. Inspect it and choose from [finished-footage adaptation](references/finished-footage.md):
+Presets include square 1080×1080, 3:4 1080×1440 and 9:16 1080×1920. Read [platform guidance](references/platforms.md) for destination-specific scope and dates. These are authoring choices, not guarantees about platform feed thumbnails.
 
-- `backdrop` keeps the complete source frame, fits it inside the new canvas, and fills the surrounding space with a blurred duplicate. Check that text is still large enough.
-- `crop` fills the frame by cutting away source edges. Use it when that loss is acceptable for the user's content; inspect subjects, faces, and every text block.
+## Explicit embedding or cropping
 
-```sh
-node scripts/reframe.mjs --input /path/to/existing.mp4 --out /path/to/adapted.mp4 --preset moments --mode backdrop
-```
+If the user specifically wants an inset video with an outer title/background, `frame.mjs --intent embed` provides it. If they request a blurred backdrop or crop, use `reframe.mjs --intent embed --mode backdrop` or `--intent crop --mode crop`. These utilities refuse an implicit native-adaptation request and always report `nativeReflow:false`.
 
-## Deliver and describe accurately
+Read [finished footage](references/finished-footage.md) only for those treatments. The flags express the chosen method; they do not authorize choosing it against the user's request.
 
-Inspect every requested ratio, including moving frames and a phone-sized preview. In the re-layout workflow, fix overflow by changing layout or appropriately shortening copy. Do not silently omit content or stretch an export to another ratio.
+## Review and deliver
 
-Provide the MP4, optional GIF, static poster, source, and reports. Use MP4 as the default handoff for social video and GIF for a README or supported inline preview. Never rename a GIF to MP4.
+Inspect all scenes and transition boundaries in every requested language/ratio, including phone-sized previews. Check text bounds, text overlap, artwork occlusion, motion paths and reading time. A filled canvas and valid output dimensions alone do not prove native re-layout.
 
-Say what was actually verified: the generated file's dimensions, its content bounds, and whether a platform composer was previewed. A clean full-canvas export does not guarantee a platform will never crop, letterbox, compress, overlay controls, or choose a different thumbnail. Our safe insets are conservative design choices, not official UI masks. Personal Moments guidance is explicitly provisional.
+For custom source renderers, [the measured audit format](references/native-recomposition.md#verify-before-delivering) and `scripts/native-audit.mjs` can check layout evidence and reject a uniformly scaled master. This supplements visual review; it does not replace it.
 
-Only publish or connect accounts when requested. Preparing a social pack by itself grants no such authorization.
+Render the complete timeline. Deliver MP4, requested GIFs, static posters, editable source and verification reports. Describe file geometry separately from platform behavior: platforms may still crop thumbnails, overlay controls, or change playback framing. Do not silently drop copy or audio. Preparing a pack does not authorize publishing, connecting accounts or changing profiles.

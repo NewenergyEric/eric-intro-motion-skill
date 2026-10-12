@@ -1,0 +1,2473 @@
+{
+  "composition": "art-director-zh-square",
+  "sourceHash": "d85636c4e87f5c7248dfdadbf6a7eae39c0a4ea23dcd0ddcf5d5203d86fcbaa5",
+  "width": 1080,
+  "height": 1080,
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "samples": [
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 86,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-reference",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 561.742431640625,
+            "y": 407.2247314453125,
+            "w": 459.5899658203125,
+            "h": 315.6597900390625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "art-caption",
+          "kind": "text",
+          "text": "项目参考 · 原创候选",
+          "bounds": {
+            "x": 579.5261840820312,
+            "y": 668.1724853515625,
+            "w": 432.025390625,
+            "h": 35.3167724609375
+          },
+          "textBounds": {
+            "x": 579.5261840820312,
+            "y": 681.4224243164062,
+            "w": 141.02874755859375,
+            "h": 18.989990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "heading-0",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 266.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "eyebrow-0",
+          "kind": "text",
+          "text": "01 / COLLECT",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 134,
+            "w": 172.09375,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-0-0",
+          "kind": "text",
+          "text": "从你手上的",
+          "bounds": {
+            "x": 64.52407836914062,
+            "y": 182.890625,
+            "w": 957.001708984375,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 63.918113708496094,
+            "y": 194.890625,
+            "w": 411.2889175415039,
+            "h": 78
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-0-1",
+          "kind": "text",
+          "text": "资料开始。",
+          "bounds": {
+            "x": 58.99833297729492,
+            "y": 288.328125,
+            "w": 957.0016479492188,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 58.39236831665039,
+            "y": 300.328125,
+            "w": 411.28893661499023,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-prompt",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 416,
+            "w": 450,
+            "h": 191.21875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-label",
+          "kind": "text",
+          "text": "你对 Agent 说",
+          "bounds": {
+            "x": 90,
+            "y": 442,
+            "w": 398,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 90,
+            "y": 448,
+            "w": 141.296875,
+            "h": 26
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-quote",
+          "kind": "text",
+          "text": "“用这些参考，建立项目规范。”",
+          "bounds": {
+            "x": 90,
+            "y": 491.34375,
+            "w": 398,
+            "h": 89.875
+          },
+          "textBounds": {
+            "x": 90,
+            "y": 499.34375,
+            "w": 372,
+            "h": 74.9375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-chips",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 565,
+            "y": 738,
+            "w": 450,
+            "h": 184.03125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-chip-0",
+          "kind": "text",
+          "text": "已有作品",
+          "bounds": {
+            "x": 565,
+            "y": 738,
+            "w": 450,
+            "h": 53.34375
+          },
+          "textBounds": {
+            "x": 585,
+            "y": 754,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-chip-1",
+          "kind": "text",
+          "text": "喜欢的参考",
+          "bounds": {
+            "x": 565,
+            "y": 803.34375,
+            "w": 450,
+            "h": 53.34375
+          },
+          "textBounds": {
+            "x": 585,
+            "y": 819.34375,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-chip-2",
+          "kind": "text",
+          "text": "主美的批注",
+          "bounds": {
+            "x": 565,
+            "y": 868.6875,
+            "w": 450,
+            "h": 53.34375
+          },
+          "textBounds": {
+            "x": 585,
+            "y": 884.6875,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "input-note",
+          "kind": "text",
+          "text": "资料不完整，也能先整理出初稿。",
+          "bounds": {
+            "x": 64,
+            "y": 730,
+            "w": 445,
+            "h": 87
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 738,
+            "w": 390,
+            "h": 72.5
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 235,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-reference",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 707.1985473632812,
+            "y": 449.2474060058594,
+            "w": 312.0201416015625,
+            "h": 229.07797241210938
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "heading-1",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 266.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "eyebrow-1",
+          "kind": "text",
+          "text": "02 / DEFINE",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 134,
+            "w": 151.453125,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-1-0",
+          "kind": "text",
+          "text": "把风格说到",
+          "bounds": {
+            "x": 64.52407836914062,
+            "y": 182.890625,
+            "w": 957.001708984375,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 63.918113708496094,
+            "y": 195.890625,
+            "w": 411.2889175415039,
+            "h": 77
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-1-1",
+          "kind": "text",
+          "text": "能执行。",
+          "bounds": {
+            "x": 58.99833297729492,
+            "y": 288.328125,
+            "w": 957.0016479492188,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 58.39236831665039,
+            "y": 300.328125,
+            "w": 330.28893661499023,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "define-body",
+          "kind": "text",
+          "text": "Agent 整理要求与样板，主美逐步校准。",
+          "bounds": {
+            "x": 64,
+            "y": 414,
+            "w": 620,
+            "h": 43.5
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 422,
+            "w": 537.578125,
+            "h": 34
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "style-rules",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 548,
+            "w": 635,
+            "h": 288.609375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rules-label",
+          "kind": "text",
+          "text": "设计规范 / UI 组件",
+          "bounds": {
+            "x": 86,
+            "y": 570,
+            "w": 591,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 86,
+            "y": 575,
+            "w": 145.40625,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rules-title",
+          "kind": "text",
+          "text": "每种状态，都有依据",
+          "bounds": {
+            "x": 86,
+            "y": 608.09375,
+            "w": 591,
+            "h": 47.84375
+          },
+          "textBounds": {
+            "x": 86,
+            "y": 616.09375,
+            "w": 297,
+            "h": 34
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-key-0",
+          "kind": "text",
+          "text": "固定",
+          "bounds": {
+            "x": 86,
+            "y": 676.9375,
+            "w": 80,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 86,
+            "y": 682.9375,
+            "w": 42,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-value-0",
+          "kind": "text",
+          "text": "配色 · 轮廓 · 光源",
+          "bounds": {
+            "x": 186,
+            "y": 676.9375,
+            "w": 195.71875,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 186,
+            "y": 682.9375,
+            "w": 195.71875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-key-1",
+          "kind": "text",
+          "text": "变化",
+          "bounds": {
+            "x": 86,
+            "y": 725.828125,
+            "w": 80,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 86,
+            "y": 731.828125,
+            "w": 42,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-value-1",
+          "kind": "text",
+          "text": "默认 · 按下 · 禁用",
+          "bounds": {
+            "x": 186,
+            "y": 725.828125,
+            "w": 195.71875,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 186,
+            "y": 731.828125,
+            "w": 195.71875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-key-2",
+          "kind": "text",
+          "text": "验收",
+          "bounds": {
+            "x": 86,
+            "y": 774.71875,
+            "w": 80,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 86,
+            "y": 780.71875,
+            "w": 42,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "rule-value-2",
+          "kind": "text",
+          "text": "实际尺寸 · 放回界面",
+          "bounds": {
+            "x": 186,
+            "y": 774.71875,
+            "w": 207.859375,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 186,
+            "y": 780.71875,
+            "w": 207.859375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "director-stamp",
+          "kind": "text",
+          "text": "主美看样板，再确认",
+          "bounds": {
+            "x": 446.4620666503906,
+            "y": 799.7422485351562,
+            "w": 254.07583618164062,
+            "h": 78.3905029296875
+          },
+          "textBounds": {
+            "x": 469.21697998046875,
+            "y": 822.873046875,
+            "w": 208.4957275390625,
+            "h": 31.6298828125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "palette",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 748,
+            "y": 736,
+            "w": 252,
+            "h": 135
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 355,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "heading-2",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 266.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "eyebrow-2",
+          "kind": "text",
+          "text": "03 / SHARE",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 134,
+            "w": 142.34375,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-2-0",
+          "kind": "text",
+          "text": "打成一个包，",
+          "bounds": {
+            "x": 64.52407836914062,
+            "y": 182.890625,
+            "w": 957.001708984375,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 63.918113708496094,
+            "y": 194.890625,
+            "w": 492.2889175415039,
+            "h": 81
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-2-1",
+          "kind": "text",
+          "text": "交给整个团队。",
+          "bounds": {
+            "x": 58.99833297729492,
+            "y": 288.328125,
+            "w": 957.0016479492188,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 58.39236831665039,
+            "y": 299.328125,
+            "w": 573.2889060974121,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "pack-version",
+          "kind": "text",
+          "text": "PROJECT SKILL / v1.0",
+          "bounds": {
+            "x": 300.5,
+            "y": 458,
+            "w": 479,
+            "h": 36.25
+          },
+          "textBounds": {
+            "x": 300.5,
+            "y": 467,
+            "w": 287.390625,
+            "h": 25
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "pack-file",
+          "kind": "text",
+          "text": "SKILL.md",
+          "bounds": {
+            "x": 300.5,
+            "y": 512.25,
+            "w": 479,
+            "h": 97.140625
+          },
+          "textBounds": {
+            "x": 300.5,
+            "y": 536.25,
+            "w": 322.078125,
+            "h": 55
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "pack-contents",
+          "kind": "text",
+          "text": "规范 + 样板 + 交付要求",
+          "bounds": {
+            "x": 300.5,
+            "y": 623.390625,
+            "w": 479,
+            "h": 39.140625
+          },
+          "textBounds": {
+            "x": 300.5,
+            "y": 631.390625,
+            "w": 270.171875,
+            "h": 26
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "recipient-0",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 756.93359375,
+            "w": 430,
+            "h": 139.1875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "recipient-label-0",
+          "kind": "text",
+          "text": "PROJECT v1.0",
+          "bounds": {
+            "x": 87,
+            "y": 779.93359375,
+            "w": 384,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 87,
+            "y": 787.93359375,
+            "w": 148,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "recipient-name-0",
+          "kind": "text",
+          "text": "团队成员",
+          "bounds": {
+            "x": 87,
+            "y": 825.27734375,
+            "w": 384,
+            "h": 47.84375
+          },
+          "textBounds": {
+            "x": 87,
+            "y": 833.27734375,
+            "w": 132,
+            "h": 33
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "share-note",
+          "kind": "text",
+          "text": "装进各自的 Agent，不用重讲一遍。",
+          "bounds": {
+            "x": 64,
+            "y": 906,
+            "w": 952,
+            "h": 43.5
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 914,
+            "w": 477.578125,
+            "h": 34
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 482,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-reference",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 742.3793334960938,
+            "y": 425.0492858886719,
+            "w": 271.31292724609375,
+            "h": 205.19430541992188
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "heading-3",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 266.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "eyebrow-3",
+          "kind": "text",
+          "text": "04 / CREATE",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 134,
+            "w": 154.984375,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-3-0",
+          "kind": "text",
+          "text": "说出任务，",
+          "bounds": {
+            "x": 64.52407836914062,
+            "y": 182.890625,
+            "w": 957.001708984375,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 63.918113708496094,
+            "y": 195.890625,
+            "w": 411.2889175415039,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-3-1",
+          "kind": "text",
+          "text": "沿用同一版。",
+          "bounds": {
+            "x": 58.99833297729492,
+            "y": 288.328125,
+            "w": 957.0016479492188,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 58.39236831665039,
+            "y": 300.328125,
+            "w": 492.2889060974121,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-prompt",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 423,
+            "w": 640,
+            "h": 134.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-label",
+          "kind": "text",
+          "text": "成员对 Agent 说",
+          "bounds": {
+            "x": 64,
+            "y": 423,
+            "w": 640,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 429,
+            "w": 157.15625,
+            "h": 25
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-quote",
+          "kind": "text",
+          "text": "“按项目规则，\n做按钮三态。”",
+          "bounds": {
+            "x": 64,
+            "y": 467.890625,
+            "w": 640,
+            "h": 89.875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 475.890625,
+            "w": 217,
+            "h": 74.9375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-context",
+          "kind": "text",
+          "text": "规则、参考、版本，自动接到任务里。",
+          "bounds": {
+            "x": 64,
+            "y": 909,
+            "w": 952,
+            "h": 43.5
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 917,
+            "w": 510,
+            "h": 30
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-task-surface",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 597,
+            "w": 952,
+            "h": 300
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-surface-label",
+          "kind": "text",
+          "text": "本次制作 / UI 按钮",
+          "bounds": {
+            "x": 92,
+            "y": 625,
+            "w": 896,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 92,
+            "y": 631,
+            "w": 177.71875,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "state-0",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 92,
+            "y": 693,
+            "w": 248,
+            "h": 154
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "button-label-0",
+          "kind": "text",
+          "text": "默认",
+          "bounds": {
+            "x": 92,
+            "y": 797,
+            "w": 248,
+            "h": 36.25
+          },
+          "textBounds": {
+            "x": 191,
+            "y": 805,
+            "w": 50,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "state-1",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 390,
+            "y": 693,
+            "w": 248,
+            "h": 154
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "button-label-1",
+          "kind": "text",
+          "text": "按下",
+          "bounds": {
+            "x": 390,
+            "y": 797,
+            "w": 248,
+            "h": 36.25
+          },
+          "textBounds": {
+            "x": 489,
+            "y": 804,
+            "w": 50,
+            "h": 24
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "state-2",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 688,
+            "y": 693,
+            "w": 248,
+            "h": 154
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "button-label-2",
+          "kind": "text",
+          "text": "禁用",
+          "bounds": {
+            "x": 688,
+            "y": 797,
+            "w": 248,
+            "h": 36.25
+          },
+          "textBounds": {
+            "x": 787,
+            "y": 805,
+            "w": 50,
+            "h": 24
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-surface-footer",
+          "kind": "text",
+          "text": "沿用配色、轮廓与光源 · 首件待评审",
+          "bounds": {
+            "x": 92,
+            "y": 827.5625,
+            "w": 896,
+            "h": 45.4375
+          },
+          "textBounds": {
+            "x": 92,
+            "y": 848.5625,
+            "w": 345.421875,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 610,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-reference",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 752.42822265625,
+            "y": 430.2475891113281,
+            "w": 261.13623046875,
+            "h": 199.22348022460938
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "heading-4",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 266.765625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "eyebrow-4",
+          "kind": "text",
+          "text": "05 / REVIEW",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 134,
+            "w": 154.203125,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-4-0",
+          "kind": "text",
+          "text": "查出偏差，",
+          "bounds": {
+            "x": 64.52407836914062,
+            "y": 182.890625,
+            "w": 957.001708984375,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 63.918113708496094,
+            "y": 195.890625,
+            "w": 411.2889175415039,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "title-4-1",
+          "kind": "text",
+          "text": "带着依据改。",
+          "bounds": {
+            "x": 58.99833297729492,
+            "y": 288.328125,
+            "w": 957.0016479492188,
+            "h": 95.4375
+          },
+          "textBounds": {
+            "x": 58.39236831665039,
+            "y": 299.328125,
+            "w": 492.2889060974121,
+            "h": 80
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-body",
+          "kind": "text",
+          "text": "按规则逐项检查，\n把返工说清楚。",
+          "bounds": {
+            "x": 64,
+            "y": 432,
+            "w": 650,
+            "h": 87
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 440,
+            "w": 240,
+            "h": 72.5
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-note",
+          "kind": "text",
+          "text": "共性问题，交主美更新规范。",
+          "bounds": {
+            "x": 64,
+            "y": 909,
+            "w": 952,
+            "h": 43.5
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 917,
+            "w": 390,
+            "h": 30
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-task-surface",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 597,
+            "w": 952,
+            "h": 300
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-surface-label",
+          "kind": "text",
+          "text": "对照规范 / 禁用态",
+          "bounds": {
+            "x": 92,
+            "y": 625,
+            "w": 896,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 92,
+            "y": 631,
+            "w": 172.484375,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "state-2",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 99,
+            "y": 693,
+            "w": 248,
+            "h": 154
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "button-label-2",
+          "kind": "text",
+          "text": "禁用",
+          "bounds": {
+            "x": 99,
+            "y": 797,
+            "w": 248,
+            "h": 36.25
+          },
+          "textBounds": {
+            "x": 198,
+            "y": 805,
+            "w": 50,
+            "h": 24
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-annotations",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 429,
+            "y": 682,
+            "w": 512,
+            "h": 128.640625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "issue",
+          "kind": "text",
+          "text": "✓ 禁用态已区分",
+          "bounds": {
+            "x": 429,
+            "y": 682,
+            "w": 512,
+            "h": 42.046875
+          },
+          "textBounds": {
+            "x": 429,
+            "y": 691,
+            "w": 201.5625,
+            "h": 28
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "revision",
+          "kind": "text",
+          "text": "降低饱和度\n拉开状态差异",
+          "bounds": {
+            "x": 429,
+            "y": 741.046875,
+            "w": 512,
+            "h": 69.59375
+          },
+          "textBounds": {
+            "x": 429,
+            "y": 747.046875,
+            "w": 144,
+            "h": 57.796875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "task-surface-footer",
+          "kind": "text",
+          "text": "问题 → 修改依据 → 复查",
+          "bounds": {
+            "x": 92,
+            "y": 827.5625,
+            "w": 896,
+            "h": 45.4375
+          },
+          "textBounds": {
+            "x": 92,
+            "y": 848.5625,
+            "w": 228.828125,
+            "h": 20
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 23
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "art-director",
+      "language": "zh",
+      "frame": 700,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "ART DIRECTOR ●",
+          "bounds": {
+            "x": 64,
+            "y": 40,
+            "w": 212.921875,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 47,
+            "w": 212.921875,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "agent-label",
+          "kind": "text",
+          "text": "在你的 Agent 里完成",
+          "bounds": {
+            "x": 825.421875,
+            "y": 43.625,
+            "w": 190.578125,
+            "h": 26.09375
+          },
+          "textBounds": {
+            "x": 825.421875,
+            "y": 48.625,
+            "w": 190.578125,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "shared-reference",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 576.8112182617188,
+            "y": 463.6391296386719,
+            "w": 429.057373046875,
+            "h": 297.7458190917969
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "art-caption",
+          "kind": "text",
+          "text": "项目参考 · 原创候选",
+          "bounds": {
+            "x": 586.3475341796875,
+            "y": 704.6212768554688,
+            "w": 401.88531494140625,
+            "h": 37.06243896484375
+          },
+          "textBounds": {
+            "x": 586.3733520507812,
+            "y": 709.6212768554688,
+            "w": 141.08544921875,
+            "h": 18.75408935546875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-eyebrow",
+          "kind": "text",
+          "text": "ONE TEAM, ONE VISUAL MEMORY.",
+          "bounds": {
+            "x": 64,
+            "y": 127,
+            "w": 952,
+            "h": 31.890625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 135,
+            "w": 424.921875,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 230,
+            "w": 952,
+            "h": 208.59375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-0",
+          "kind": "text",
+          "text": "一个团队／项目，",
+          "bounds": {
+            "x": 64,
+            "y": 230,
+            "w": 952,
+            "h": 94.296875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 242,
+            "w": 632,
+            "h": 82
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-1",
+          "kind": "text",
+          "text": "一份视觉记忆。",
+          "bounds": {
+            "x": 64,
+            "y": 334.296875,
+            "w": 952,
+            "h": 94.296875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 346.296875,
+            "w": 553,
+            "h": 78
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-body",
+          "kind": "text",
+          "text": "让每一次交付，都有共同依据。",
+          "bounds": {
+            "x": 64,
+            "y": 445,
+            "w": 490,
+            "h": 43.5
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 453,
+            "w": 420,
+            "h": 30
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-file",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 589,
+            "w": 470,
+            "h": 42.046875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "style-source",
+          "kind": "text",
+          "text": "STYLE.md",
+          "bounds": {
+            "x": 64,
+            "y": 589,
+            "w": 141.09375,
+            "h": 42.046875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 599,
+            "w": 141.09375,
+            "h": 25
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "skill-delivery",
+          "kind": "text",
+          "text": "SKILL.md",
+          "bounds": {
+            "x": 278.09375,
+            "y": 589,
+            "w": 135.953125,
+            "h": 42.046875
+          },
+          "textBounds": {
+            "x": 278.09375,
+            "y": 599,
+            "w": 135.953125,
+            "h": 25
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-cta",
+          "kind": "text",
+          "text": "装上 Skill，在你的 Agent 里开始。",
+          "bounds": {
+            "x": 64,
+            "y": 825,
+            "w": 952,
+            "h": 94.9375
+          },
+          "textBounds": {
+            "x": 94,
+            "y": 858,
+            "w": 485.21875,
+            "h": 35
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-0",
+          "kind": "text",
+          "text": "资料",
+          "bounds": {
+            "x": 64,
+            "y": 968,
+            "w": 46,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 974,
+            "w": 46,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-1",
+          "kind": "text",
+          "text": "规范与样板",
+          "bounds": {
+            "x": 124,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 124,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-2",
+          "kind": "text",
+          "text": "项目包",
+          "bounds": {
+            "x": 253,
+            "y": 968,
+            "w": 69,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 253,
+            "y": 974,
+            "w": 69,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-3",
+          "kind": "text",
+          "text": "成员制作",
+          "bounds": {
+            "x": 336,
+            "y": 968,
+            "w": 92,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 336,
+            "y": 974,
+            "w": 92,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "nav-4",
+          "kind": "text",
+          "text": "检查与返修",
+          "bounds": {
+            "x": 442,
+            "y": 968,
+            "w": 115,
+            "h": 33.34375
+          },
+          "textBounds": {
+            "x": 442,
+            "y": 974,
+            "w": 115,
+            "h": 22
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "truth-footer",
+          "kind": "text",
+          "text": "流程示意 · 原创候选素材",
+          "bounds": {
+            "x": 64,
+            "y": 1014.34375,
+            "w": 952,
+            "h": 29
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 1020.34375,
+            "w": 228.96875,
+            "h": 19
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "errors": []
+}
