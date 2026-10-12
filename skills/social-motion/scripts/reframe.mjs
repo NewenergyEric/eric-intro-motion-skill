@@ -19,21 +19,25 @@ export async function reframe({ input, out, preset = 'moments', mode = 'backdrop
   if (!video) throw new Error('No video stream found in the source.');
   const duration = Number(video.duration || source.format.duration);
   if (!Number.isFinite(duration) || duration <= 0) throw new Error('Cannot determine source duration.');
+  const frameCount = Math.max(1, Math.round(duration * 30)), outputDuration = frameCount / 30;
   const { width: w, height: h } = catalog.presets[preset];
+  // Older FFmpeg builds end a decoded GIF at the last frame timestamp instead of
+  // including its display delay. Pad the end, then trim to our explicit clock.
+  const finish = `setsar=1,setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration=1,fps=30,trim=end_frame=${frameCount},format=yuv420p[v]`;
   const filters = mode === 'backdrop'
-    ? `[0:v]split=2[bgsrc][fgsrc];[bgsrc]scale=${w}:${h}:force_original_aspect_ratio=increase:force_divisible_by=2,crop=${w}:${h},gblur=sigma=35,eq=brightness=-0.08:saturation=0.65[bg];[fgsrc]scale=${w}:${h}:force_original_aspect_ratio=decrease:force_divisible_by=2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2:shortest=1,setsar=1,fps=30,format=yuv420p[v]`
-    : `[0:v]scale=${w}:${h}:force_original_aspect_ratio=increase:force_divisible_by=2,crop=${w}:${h}:(iw-ow)*${focusX}:(ih-oh)*${focusY},setsar=1,fps=30,format=yuv420p[v]`;
+    ? `[0:v]split=2[bgsrc][fgsrc];[bgsrc]scale=${w}:${h}:force_original_aspect_ratio=increase:force_divisible_by=2,crop=${w}:${h},gblur=sigma=35,eq=brightness=-0.08:saturation=0.65[bg];[fgsrc]scale=${w}:${h}:force_original_aspect_ratio=decrease:force_divisible_by=2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2:shortest=1,${finish}`
+    : `[0:v]scale=${w}:${h}:force_original_aspect_ratio=increase:force_divisible_by=2,crop=${w}:${h}:(iw-ow)*${focusX}:(ih-oh)*${focusY},${finish}`;
   const hasAudio = source.streams.some(stream => stream.codec_type === 'audio');
   const args = ['-hide_banner', '-loglevel', 'error', '-y', '-i', sourcePath];
   if (!hasAudio) args.push('-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=48000');
-  args.push('-filter_complex', filters, '-map', '[v]', '-map', hasAudio ? '0:a:0' : '1:a:0', '-t', String(duration), '-c:v', 'libx264', '-preset', 'medium');
+  args.push('-filter_complex', filters, '-map', '[v]', '-map', hasAudio ? '0:a:0' : '1:a:0', '-frames:v', String(frameCount), '-t', String(outputDuration), '-c:v', 'libx264', '-preset', 'medium');
   if (preset === 'linkedin') args.push('-b:v', '4M', '-minrate', '4M', '-maxrate', '4M', '-bufsize', '8M', '-x264-params', 'nal-hrd=cbr');
   else args.push('-crf', '20');
   args.push('-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', '-threads', '4', targetPath);
   await mkdir(path.dirname(targetPath), { recursive: true });
   await run('ffmpeg', args);
-  const output = await inspectVideo(targetPath, { width: w, height: h, duration, fps: 30 });
-  const report = { mode, preset, output, preservesFullSourceFrame: mode === 'backdrop', addsBlackPadding: false, nativeReflow: false, textSafetyVerified: false, platformPreviewVerified: false, note: mode === 'backdrop' ? 'The whole source is fitted over a blurred duplicate. Existing borders stay part of the source; check text readability and platform preview.' : 'The source is deliberately cropped. Inspect the result for lost text and faces before publishing.' };
+  const output = await inspectVideo(targetPath, { width: w, height: h, duration: outputDuration, fps: 30 });
+  const report = { mode, preset, sourceSeconds: duration, output, preservesFullSourceFrame: mode === 'backdrop', addsBlackPadding: false, nativeReflow: false, textSafetyVerified: false, platformPreviewVerified: false, note: mode === 'backdrop' ? 'The whole source is fitted over a blurred duplicate. Existing borders stay part of the source; check text readability and platform preview.' : 'The source is deliberately cropped. Inspect the result for lost text and faces before publishing.' };
   await writeFile(`${targetPath}.report.json`, JSON.stringify(report, null, 2) + '\n');
   return report;
 }
