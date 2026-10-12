@@ -1,0 +1,11 @@
+{
+  "verifiedOn": "2026-10-12",
+  "note": "These are authoring choices, not guaranteed platform player or thumbnail behavior. Insets are our conservative design guides, not official UI masks.",
+  "presets": {
+    "x": { "width": 1920, "height": 1080, "safe": { "left": 0.06, "right": 0.06, "top": 0.08, "bottom": 0.08 }, "label": "X / landscape", "scope": "organic-video", "status": "recommended-layout" },
+    "linkedin": { "width": 1080, "height": 1350, "safe": { "left": 0.075, "right": 0.075, "top": 0.075, "bottom": 0.09 }, "label": "LinkedIn / portrait feed", "scope": "organic-video", "status": "recommended-layout" },
+    "moments": { "width": 1080, "height": 1080, "safe": { "left": 0.08, "right": 0.08, "top": 0.08, "bottom": 0.08 }, "label": "WeChat Moments / square", "scope": "personal-moments", "status": "heuristic-preview-required" },
+    "vertical": { "width": 1080, "height": 1920, "safe": { "left": 0.09, "right": 0.09, "top": 0.11, "bottom": 0.16 }, "label": "Vertical / conservative inset", "scope": "generic-vertical", "status": "preview-required" },
+    "square": { "width": 1080, "height": 1080, "safe": { "left": 0.075, "right": 0.075, "top": 0.075, "bottom": 0.075 }, "label": "Square / general", "scope": "generic", "status": "recommended-layout" }
+  }
+}

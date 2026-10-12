@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Story"
+  short_description: "Make clear, looping vector stories as GIF and MP4"
+  default_prompt: "Use $motion-story to turn my idea into a short vector animation, with a GIF, MP4, and static poster."

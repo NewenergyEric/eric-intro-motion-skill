@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.mp4 binary
+*.ttf binary
+# Preserve the upstream license text, including its original trailing space.
+skills/motion-story/assets/fonts/OFL.txt whitespace=-blank-at-eol

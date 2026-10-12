@@ -1,0 +1,168 @@
+{
+  "generatedBy": "npm run examples",
+  "rulesCheckedOn": "2026-10-12",
+  "examples": [
+    {
+      "name": "idea-to-post",
+      "target": "x",
+      "mp4": {
+        "width": 1920,
+        "height": 1080,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976222,
+        "bytes": 988748,
+        "sha256": "49fe48d99261753abcbfcf74c77394101b6bca045b41e04f54c1e38486667e2d"
+      },
+      "gif": {
+        "width": 720,
+        "height": 405,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 287226,
+        "sha256": "4ece6993eaf5cbb8160bcaa0d3c62e517b1be2ee67e70fa0375a1597a4d3badb",
+        "under5MB": true
+      }
+    },
+    {
+      "name": "idea-to-post",
+      "target": "linkedin",
+      "mp4": {
+        "width": 1080,
+        "height": 1350,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976219,
+        "bytes": 988744,
+        "sha256": "3b7df9b24d3bc305b153b0f538b1ae5d8b2d93da7781626f7987edc27117325c"
+      },
+      "gif": {
+        "width": 720,
+        "height": 900,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 623551,
+        "sha256": "4c1b3714ed9fc9a0dc2f9bc5285721ac3a229e346ed2a131dd0d90624efe0833",
+        "under5MB": true
+      }
+    },
+    {
+      "name": "idea-to-post",
+      "target": "moments",
+      "mp4": {
+        "width": 1080,
+        "height": 1080,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976218,
+        "bytes": 988743,
+        "sha256": "288b350498a98667c9793fcc7319e3bfa551883c2670b28b5600808c80d2c3c0"
+      },
+      "gif": {
+        "width": 720,
+        "height": 720,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 559634,
+        "sha256": "5a6ae67d6d9861f8af2c949bf7dd596f90b7bb16365745f2275e237fb8650811",
+        "under5MB": true
+      }
+    },
+    {
+      "name": "idea-to-post",
+      "target": "vertical",
+      "mp4": {
+        "width": 1080,
+        "height": 1920,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976222,
+        "bytes": 988748,
+        "sha256": "3444042d28245f400d1099b06d581c7e50e5f901869fb4d891cef5da6dd895bf"
+      },
+      "gif": {
+        "width": 720,
+        "height": 1280,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 771713,
+        "sha256": "0253f76c9b834da5dd397f07cdd8c6c9a78815c07f7b252caf3b8a4e6de41081",
+        "under5MB": true
+      }
+    },
+    {
+      "name": "agents-at-work",
+      "target": "x",
+      "mp4": {
+        "width": 1920,
+        "height": 1080,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976222,
+        "bytes": 988740,
+        "sha256": "13e27dbae4562264dbaace45d34fa3e4a1d60e57516df7fa4b34d1b582ee4f2d"
+      },
+      "gif": {
+        "width": 720,
+        "height": 405,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 349885,
+        "sha256": "55d0887465a66b16b118429518b6963181e5a1a77d769302331de2fc287f6d5e",
+        "under5MB": true
+      }
+    },
+    {
+      "name": "keep-the-feeling",
+      "target": "moments",
+      "mp4": {
+        "width": 1080,
+        "height": 1080,
+        "seconds": 8,
+        "frames": 240,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 976212,
+        "bytes": 988737,
+        "sha256": "7a2968ad17bbe2b90cb6e99345743b15707633194be03226083f169293d08c31"
+      },
+      "gif": {
+        "width": 720,
+        "height": 720,
+        "seconds": 8,
+        "frames": 160,
+        "codec": "gif",
+        "pixelFormat": "bgra",
+        "videoBitrate": null,
+        "bytes": 587253,
+        "sha256": "0d1b89d5e8d086055c419787b649cc751dc90033504100d57b45a022d3c18193",
+        "under5MB": true
+      }
+    }
+  ]
+}

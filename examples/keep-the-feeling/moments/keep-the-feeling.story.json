@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "keep-the-feeling",
+  "lang": "zh-CN",
+  "motif": "stack",
+  "eyebrow": "把想法留下来 / 03",
+  "title": "有些感觉，\n值得留住。",
+  "subtitle": "把散落的参考收好，下次接着往前做。",
+  "cards": [
+    {
+      "label": "收集",
+      "caption": "先把喜欢的留下来。"
+    },
+    {
+      "label": "挑选",
+      "caption": "慢慢看清自己在意什么。"
+    },
+    {
+      "label": "接着做",
+      "caption": "下一次，不必从零开始。"
+    }
+  ],
+  "footer": "一点点整理，一点点往前。",
+  "duration": 8
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "idea-to-post",
+  "lang": "en",
+  "motif": "flow",
+  "eyebrow": "A LITTLE MOTION STORY",
+  "title": "One idea.\nRoom to move.",
+  "subtitle": "A rough note becomes something worth sharing.",
+  "cards": [
+    {
+      "label": "Catch it",
+      "caption": "Start with a small thought."
+    },
+    {
+      "label": "Shape it",
+      "caption": "Give the good part some space."
+    },
+    {
+      "label": "Share it",
+      "caption": "Let it meet the world."
+    }
+  ],
+  "footer": "Made to move. Made to fit.",
+  "duration": 8
+}

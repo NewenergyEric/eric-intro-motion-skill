@@ -1,0 +1,7 @@
+node_modules/
+.work/
+dist/
+output/
+*.log
+.DS_Store
+__pycache__/

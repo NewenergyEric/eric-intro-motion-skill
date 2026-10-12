@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "agents-at-work",
+  "lang": "en",
+  "motif": "orbit",
+  "eyebrow": "EXPERIMENT / 02",
+  "title": "A little help.\nA better loop.",
+  "subtitle": "A question, a few useful tools, and a person who decides.",
+  "cards": [
+    { "label": "Context", "caption": "Know what matters." },
+    { "label": "Tools", "caption": "Try something useful." },
+    { "label": "People", "caption": "Keep a hand on the wheel." }
+  ],
+  "footer": "Still trying. Still learning.",
+  "duration": 8
+}

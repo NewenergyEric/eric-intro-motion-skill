@@ -1,0 +1,27 @@
+name: Validate skills and render
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: skills/motion-story/package-lock.json
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm run setup
+      - run: npm test
+      - name: Validate portable skill package
+        run: |
+          node scripts/install.mjs --dest .work/installed
+          npm ci --prefix .work/installed/motion-story
+          node .work/installed/social-motion/scripts/pack.mjs --input skills/motion-story/assets/examples/keep-the-feeling.json --out .work/portable-check --presets linkedin,x,moments,vertical --formats png
