@@ -22,3 +22,9 @@ The gallery was inspected at its desktop size and at a 390-pixel mobile viewport
 ## Scope
 
 The films are silent. The artwork is a pinned, publicly licensed candidate prototype, not an approved or shipped game. Browser playback and file validation do not establish how an external platform will crop, recompress or display an uploaded film. The README GIF is a lower-resolution preview; the MP4s are the delivered films.
+
+## English gallery update · v0.5.1
+
+The home and case pages were reviewed again with English introductions, navigation, controls and status messages. Both pages select English in their initial HTML: video, poster, download, layout-report and scene-preview links match before JavaScript runs. The English README uses the English GIF and three-format preview.
+
+All three English films were replayed to 24 seconds with no media errors. Switching to Chinese and back updated the media and evidence links together. English copy was inspected at the desktop size and a 390-pixel mobile viewport on both pages; no horizontal overflow was observed. The delivered films and their source fingerprint are unchanged from v0.5.0.

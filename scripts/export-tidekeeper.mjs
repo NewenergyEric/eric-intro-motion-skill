@@ -55,9 +55,11 @@ for(const language of ['zh','en']){
  const movie=path.join(dir,`tidekeeper-${language}-square/film.mp4`);
  await run('ffmpeg',['-v','error','-y','-i',movie,'-filter_complex','fps=10,scale=480:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4','-loop','0',path.join(dir,`preview-${language}.gif`)]);
 }
-const items=[];
-for(const [col,[ratio]] of ratios.entries())items.push(`<image href="data:image/png;base64,${(await readFile(path.join(dir,`tidekeeper-zh-${ratio}/poster.png`))).toString('base64')}" x="${col*360+15}" y="15" width="330" height="590" preserveAspectRatio="xMidYMin meet"/>`);
-await writeFile(path.join(temp,'ratios.png'),png(`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620"><rect width="100%" height="100%" fill="#e4e8da"/>${items.join('')}</svg>`,1080));
-await run('ffmpeg',['-v','error','-y','-i',path.join(temp,'ratios.png'),'-frames:v','1','-q:v','3',path.join(dir,'ratio-review.jpg')]);
+for(const language of ['zh','en']){
+ const items=[];
+ for(const [col,[ratio]] of ratios.entries())items.push(`<image href="data:image/png;base64,${(await readFile(path.join(dir,`tidekeeper-${language}-${ratio}/poster.png`))).toString('base64')}" x="${col*360+15}" y="15" width="330" height="590" preserveAspectRatio="xMidYMin meet"/>`);
+ await writeFile(path.join(temp,`ratios-${language}.png`),png(`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620"><rect width="100%" height="100%" fill="#e4e8da"/>${items.join('')}</svg>`,1080));
+ await run('ffmpeg',['-v','error','-y','-i',path.join(temp,`ratios-${language}.png`),'-frames:v','1','-q:v','3',path.join(dir,language==='en'?'ratio-review-en.jpg':'ratio-review.jpg')]);
+}
 await writeFile(path.join(dir,'verification.json'),JSON.stringify({checkedAt:new Date().toISOString(),sourceHash,passed:true,sourceCommit:'a6d17d873845ebeeb530fdf295b9d527c6ac2181',nativeEveryScene:true,embeddedMasterVideo:false,languages:['zh','en'],ratios:['1:1','3:4','9:16'],sceneCount:6,results,visualReview:'visual-review.md',browserPlayback:'browser-playback.json',platformUploadVerified:false},null,2)+'\n');
 console.log('PASS: six films, eight measured holds/UI states each, all encoded scenes and cuts, full decoding.');

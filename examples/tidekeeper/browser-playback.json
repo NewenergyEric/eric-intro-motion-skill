@@ -2,6 +2,18 @@
   "checkedOn": "2026-10-13",
   "environment": "Codex in-app browser on Windows, local HTTP preview",
   "scope": "Local pre-publication gallery playback and responsive inspection",
+  "galleryLanguageReview": {
+    "release": "0.5.1",
+    "checkedOn": "2026-10-13",
+    "interfaceLanguage": "en",
+    "defaultFilmLanguage": "en",
+    "homeAndDetailMarkupDefaultToEnglish": true,
+    "defaultVideosPostersScenesAndDownloadsMatch": true,
+    "englishFilmsReplayedToCompletion": 3,
+    "chineseSwitchAndReturnToEnglishVerified": true,
+    "mobileHomeAndDetailWidth": 390,
+    "mobileHorizontalOverflow": false
+  },
   "passed": true,
   "results": [
     {"id": "tidekeeper-zh-square", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},

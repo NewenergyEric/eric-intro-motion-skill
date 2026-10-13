@@ -2,6 +2,8 @@
 
 Six 24-second films: Chinese and English, each composed for 1080×1080, 1080×1440 and 1080×1920 at 30 fps. Watch [the live gallery](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) or serve `examples/` locally with `npm run preview` from the repository root.
 
+The gallery's introduction and controls are in English. The English films, posters, scene stills and downloads are selected by default, including on first load before JavaScript runs. Use the film-language switch to select the Chinese edition.
+
 The harbor, lampmaker, item chains and game UI reuse the author's finished public [Art Director case](https://github.com/NewenergyEric/art-director-skill/tree/a6d17d873845ebeeb530fdf295b9d527c6ac2181/motion), pinned to `a6d17d873845ebeeb530fdf295b9d527c6ac2181`. Artwork is copied byte-for-byte. `asset-provenance.json` records original paths, licenses and hashes. `SOURCE-LICENSE.txt` retains the author's MIT notice; the two font locations keep their OFL notices. These are candidate prototype assets, not an approved or shipped game.
 
 ## What's in the film

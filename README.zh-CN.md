@@ -2,13 +2,13 @@
 
 用可编辑的镜头介绍产品、个人和具体想法。复用已有素材与渲染缓存，为 **1:1、3:4、9:16 的每个镜头原生重排**，分别调整标题、图片、卡片、文字换行和运动路径。中英文独立排版。
 
-[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.0) · [MIT 许可](LICENSE)
+[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.1](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.1) · [MIT 许可](LICENSE)
 
 [![潮灯小镇：完整场景、角色与真实游戏界面](examples/tidekeeper/preview-zh.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
 
 ## v0.5 主案例：潮灯小镇
 
-海港灯房、灯匠阿澜、逐级合成的灯具，以及完整的游戏界面。复用已经加工完成的公开美术，为六个镜头逐一重排，提供 **中文与英文 × 1:1、3:4、9:16，共六支完整 24 秒成片**。源码、素材、许可、逐镜头静帧和成片检查一起交付。画廊首页也已改为优先展示这个案例。
+海港灯房、灯匠阿澜、逐级合成的灯具，以及完整的游戏界面。复用已经加工完成的公开美术，为六个镜头逐一重排，提供 **中文与英文 × 1:1、3:4、9:16，共六支完整 24 秒成片**。源码、素材、许可、逐镜头静帧和成片检查一起交付。画廊以英文介绍这个最新案例，默认展示英文视频、封面和下载入口；中文版可通过语言按钮切换。
 
 [观看六支完整影片](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [源码与重建](examples/tidekeeper/README.md) · [素材来源](examples/tidekeeper/asset-provenance.json)
 

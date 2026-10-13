@@ -2,17 +2,17 @@
 
 Editable product and personal introduction videos. Reuse source artwork and render caches, then compose **every scene** for 1:1, 3:4 and 9:16. Chinese and English get their own typography, line breaks and card layouts.
 
-[中文](README.zh-CN.md) · [Watch examples](https://newenergyeric.github.io/eric-intro-motion-skill/) · [Download v0.5.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.0) · [MIT](LICENSE)
+[中文](README.zh-CN.md) · [Watch examples](https://newenergyeric.github.io/eric-intro-motion-skill/) · [Download v0.5.1](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.1) · [MIT](LICENSE)
 
 [![Tidekeeper: an illustrated world, characters and working game UI](examples/tidekeeper/preview-en.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
 
 ## Featured in v0.5: Tidekeeper
 
-An illustrated harbor, a lampmaker, evolving objects, and a working merge-game UI. The new **Tidekeeper** case reuses the author's finished public artwork and rebuilds all six scenes in **Chinese and English × 1:1, 3:4 and 9:16**. Six complete 24-second films, source, assets, licenses, scene stills and encode checks are included. The gallery now opens with this case.
+An illustrated harbor, a lampmaker, evolving objects, and a working merge-game UI. The latest **Tidekeeper** case reuses the author's finished public artwork and rebuilds all six scenes in **English and Chinese × 1:1, 3:4 and 9:16**. Six complete 24-second films, source, assets, licenses, scene stills and encode checks are included. The gallery introduces the case in English and opens with the English films, posters and downloads. A language switch also offers the Chinese edition.
 
 [Watch all six films](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [Source and rebuild](examples/tidekeeper/README.md) · [Asset provenance](examples/tidekeeper/asset-provenance.json)
 
-![Three native Tidekeeper compositions](examples/tidekeeper/ratio-review.jpg)
+![Three native Tidekeeper compositions in English](examples/tidekeeper/ratio-review-en.jpg)
 
 Choose the illustrated case for a product with rich artwork and UI. The small Pocket Notes recipe remains a simpler workflow starter; it is not the default visual style for every project.
 
