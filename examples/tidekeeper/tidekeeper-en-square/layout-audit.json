@@ -1,0 +1,1972 @@
+{
+  "composition": "tidekeeper-en-square",
+  "sourceHash": "94c750a955211d8e0b38db749dd4a5c1f34f6bd965bb5d28f64ad07392b1147e",
+  "width": 1080,
+  "height": 1080,
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "samples": [
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 86,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "opening-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-tag",
+          "kind": "text",
+          "text": "CARRY THE DIRECTION INTO EVERY DELIVERY.",
+          "bounds": {
+            "x": 64,
+            "y": 125,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 132.95845170454547,
+            "w": 617.96875,
+            "h": 19.907670454545467
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 202,
+            "w": 952,
+            "h": 219.8125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title-0",
+          "kind": "text",
+          "text": "One team,",
+          "bounds": {
+            "x": 64,
+            "y": 202,
+            "w": 952,
+            "h": 109.90625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 223.97017045454544,
+            "w": 434.578125,
+            "h": 85.92670454545453
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title-1",
+          "kind": "text",
+          "text": "one visual memory.",
+          "bounds": {
+            "x": 64,
+            "y": 311.90625,
+            "w": 952,
+            "h": 109.90625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 326.8823863636364,
+            "w": 827.21875,
+            "h": 91.92159090909087
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-description",
+          "kind": "text",
+          "text": "Characters, worlds, UI and item chains.\nA shared basis for every delivery.",
+          "bounds": {
+            "x": 64,
+            "y": 450,
+            "w": 800,
+            "h": 99
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 461,
+            "w": 541.703125,
+            "h": 76
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 662,
+            "y": 570,
+            "w": 340,
+            "h": 480
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 205,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "direction-tag",
+          "kind": "text",
+          "text": "01 / DIRECTOR BUILDS THE BASELINE",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 114.96306818181819,
+            "w": 506.25,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 169,
+            "w": 952,
+            "h": 200.375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title-0",
+          "kind": "text",
+          "text": "Make the feeling",
+          "bounds": {
+            "x": 64,
+            "y": 169,
+            "w": 952,
+            "h": 100.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 183.04500000000002,
+            "w": 600.859375,
+            "h": 83.15562499999999
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title-1",
+          "kind": "text",
+          "text": "repeatable.",
+          "bounds": {
+            "x": 64,
+            "y": 269.1875,
+            "w": 952,
+            "h": 100.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 286.238125,
+            "w": 419.421875,
+            "h": 77.14437499999997
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 450,
+            "y": 454,
+            "w": 602,
+            "h": 350
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 8,
+            "y": 414,
+            "w": 300,
+            "h": 460
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 345,
+            "y": 390,
+            "w": 650,
+            "h": 190.890625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note-title",
+          "kind": "text",
+          "text": "Define the shared language",
+          "bounds": {
+            "x": 378,
+            "y": 412,
+            "w": 591,
+            "h": 55.390625
+          },
+          "textBounds": {
+            "x": 378,
+            "y": 422.07102272727275,
+            "w": 435.0625,
+            "h": 35.24857954545456
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note-copy",
+          "kind": "text",
+          "text": "Chunky shapes · soft broad highlights\nSeparate identity, use and variation.",
+          "bounds": {
+            "x": 378,
+            "y": 477.390625,
+            "w": 591,
+            "h": 81.5
+          },
+          "textBounds": {
+            "x": 378,
+            "y": 485.3418445121951,
+            "w": 452.046875,
+            "h": 63.085365853658516
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-lamp-1",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 344,
+            "y": 720,
+            "w": 200,
+            "h": 200
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-lamp-2",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 552,
+            "y": 720,
+            "w": 200,
+            "h": 200
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-footer",
+          "kind": "text",
+          "text": "Rules, samples, fonts and source. One project pack.",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 45.25
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 952.0444444444445,
+            "w": 619.40625,
+            "h": 27.149999999999977
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 325,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "members-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 300,
+            "y": 405,
+            "w": 780,
+            "h": 470
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-tag",
+          "kind": "text",
+          "text": "02 / TEAMMATE CONTINUES FROM THE PACK",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 114.96306818181819,
+            "w": 595.46875,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 173,
+            "w": 952,
+            "h": 195.59375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title-0",
+          "kind": "text",
+          "text": "A new pair of hands.",
+          "bounds": {
+            "x": 64,
+            "y": 173,
+            "w": 952,
+            "h": 97.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 186.9502551020408,
+            "w": 714.953125,
+            "h": 77.83832908163268
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title-1",
+          "kind": "text",
+          "text": "The same world.",
+          "bounds": {
+            "x": 64,
+            "y": 270.796875,
+            "w": 952,
+            "h": 97.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 286.74298469387753,
+            "w": 589.390625,
+            "h": 60.87356505102042
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 15,
+            "y": 472,
+            "w": 310,
+            "h": 490
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-label",
+          "kind": "text",
+          "text": "NEW POSE / RESTORED SCENE / L3 · L4",
+          "bounds": {
+            "x": 375,
+            "y": 638,
+            "w": 620,
+            "h": 61.34375
+          },
+          "textBounds": {
+            "x": 395,
+            "y": 659.0450819672132,
+            "w": 451.109375,
+            "h": 24.135245901639337
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-lamp-3",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 390,
+            "y": 720,
+            "w": 230,
+            "h": 230
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-lamp-4",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 640,
+            "y": 720,
+            "w": 230,
+            "h": 230
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-footer",
+          "kind": "text",
+          "text": "Use the same version. Record the inputs and the new work.",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 45.25
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 953.05,
+            "w": 712.203125,
+            "h": 26.144444444444503
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 395,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / CHECK THE ACTUAL COMPOSITION",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 114.96306818181819,
+            "w": 524.765625,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 282.46875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "Fits together.",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 293.0386597938144,
+            "w": 510.125,
+            "h": 83.1336984536083
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "Works together.",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 185.3125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 393.2018581081081,
+            "w": 351.28125,
+            "h": 168.2913851351351
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "ALAN · LIGHT THE WAY",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 83.033447265625,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999267578125,
+            "w": 83.033447265625,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "0/1",
+          "bounds": {
+            "x": 749.0418701171875,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 753.7218627929688,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "A light for home",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.86187039888824,
+            "w": 68.74969482421875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "Merge more",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 790.40625,
+            "y": 446.8531232561384,
+            "w": 46.751220703125,
+            "h": 8.579998561314142
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "NERI · REPAIR THE DOCK",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 90.5653076171875,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999267578125,
+            "w": 90.5653076171875,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 896.8518676757812,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 901.5318603515625,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "Fresh timber",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.86187039888824,
+            "w": 55.1484375,
+            "h": 7.912503756009642
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "Deliver",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 947.4421997070312,
+            "y": 446.073123386928,
+            "w": 28.29937744140625,
+            "h": 7.799998692103827
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "Lampmaker’s kit",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 836.8409423828125,
+            "w": 130.528076171875,
+            "h": 11.699951171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 839.1809326171875,
+            "w": 71.5040283203125,
+            "h": 8.579964192708303
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "Tap for a lamp or timber. Costs 1 energy.",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 850.8809204101562,
+            "w": 130.528076171875,
+            "h": 9.8231201171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 851.6121403620793,
+            "w": 130.528076171875,
+            "h": 8.311870868389406
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "ORIGINAL ART PROTOTYPE · SAMPLE VALUES",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 797.0362548828125,
+            "y": 938.9599831321023,
+            "w": 133.72125244140625,
+            "h": 5.459972034801126
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "merging-lamp",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 920.8368530273438,
+            "y": 515.45654296875,
+            "w": 39,
+            "h": 39
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "MATCH TWO → MERGE",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 580.9861111111111,
+            "w": 339.09375,
+            "h": 24.97106481481478
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "Orders, icons, buttons and type.\nAll belong to this game.",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 712.9764093137255,
+            "w": 429.09375,
+            "h": 77.32414215686265
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 430,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / CHECK THE ACTUAL COMPOSITION",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 114.96306818181819,
+            "w": 524.765625,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 282.46875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "Fits together.",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 293.0386597938144,
+            "w": 510.125,
+            "h": 83.1336984536083
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "Works together.",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 185.3125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 393.2018581081081,
+            "w": 351.28125,
+            "h": 168.2913851351351
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "ALAN · LIGHT THE WAY",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 83.033447265625,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999267578125,
+            "w": 83.033447265625,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 749.0418701171875,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 753.7218627929688,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "A light for home",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.86187039888824,
+            "w": 68.74969482421875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "Deliver",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 799.6322021484375,
+            "y": 446.073123386928,
+            "w": 28.29937744140625,
+            "h": 7.799998692103827
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "NERI · REPAIR THE DOCK",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 90.5653076171875,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999267578125,
+            "w": 90.5653076171875,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 896.8518676757812,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 901.5318603515625,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "Fresh timber",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.86187039888824,
+            "w": 55.1484375,
+            "h": 7.912503756009642
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "Deliver",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 947.4421997070312,
+            "y": 446.073123386928,
+            "w": 28.29937744140625,
+            "h": 7.799998692103827
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "Merged: little beacon",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 836.8409423828125,
+            "w": 142.86181640625,
+            "h": 11.699951171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 839.1809326171875,
+            "w": 82.36309814453125,
+            "h": 9.359960937499977
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "Match two items of the same level to merge.",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 850.8809204101562,
+            "w": 142.86181640625,
+            "h": 9.8231201171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 851.6121403620793,
+            "w": 142.86181640625,
+            "h": 8.311870868389406
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "ORIGINAL ART PROTOTYPE · SAMPLE VALUES",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 797.0362548828125,
+            "y": 938.9599831321023,
+            "w": 133.72125244140625,
+            "h": 5.459972034801126
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "ORDER READY → DELIVER",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 580.9861111111111,
+            "w": 390.21875,
+            "h": 24.97106481481478
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "Orders, icons, buttons and type.\nAll belong to this game.",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 712.9764093137255,
+            "w": 429.09375,
+            "h": 77.32414215686265
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 480,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / CHECK THE ACTUAL COMPOSITION",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 114.96306818181819,
+            "w": 524.765625,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 282.46875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "Fits together.",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 293.0386597938144,
+            "w": 510.125,
+            "h": 83.1336984536083
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "Works together.",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 185.3125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 393.2018581081081,
+            "w": 351.28125,
+            "h": 168.2913851351351
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "ALAN · LIGHT THE WAY",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 83.033447265625,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999267578125,
+            "w": 83.033447265625,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "✓",
+          "bounds": {
+            "x": 757.0734252929688,
+            "y": 453.40997314453125,
+            "w": 16.34344482421875,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 761.75341796875,
+            "y": 457.31000398334703,
+            "w": 6.98345947265625,
+            "h": 8.580004240337189
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "A light for home",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.86187039888824,
+            "w": 68.74969482421875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "View town",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 793.2581176757812,
+            "y": 446.073123386928,
+            "w": 41.03533935546875,
+            "h": 7.799998692103827
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "NERI · REPAIR THE DOCK",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 90.5653076171875,
+            "h": 10.139984130859375
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999267578125,
+            "w": 90.5653076171875,
+            "h": 6.239990234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "✓",
+          "bounds": {
+            "x": 904.8834228515625,
+            "y": 453.40997314453125,
+            "w": 16.34344482421875,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 909.5634155273438,
+            "y": 457.31000398334703,
+            "w": 6.98345947265625,
+            "h": 8.580004240337189
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "Fresh timber",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.86187039888824,
+            "w": 55.1484375,
+            "h": 7.912503756009642
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "View town",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 941.068115234375,
+            "y": 446.073123386928,
+            "w": 41.0352783203125,
+            "h": 7.799998692103827
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "Both orders done. The workshop is ready!",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 836.8409423828125,
+            "w": 162.97119140625,
+            "h": 11.699951171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 839.1809326171875,
+            "w": 162.97119140625,
+            "h": 9.359960937499977
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "Tap for a lamp or timber. Costs 1 energy.",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 850.8809204101562,
+            "w": 162.97119140625,
+            "h": 9.8231201171875
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 851.6121403620793,
+            "w": 130.528076171875,
+            "h": 8.311870868389406
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "ORIGINAL ART PROTOTYPE · SAMPLE VALUES",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 797.0362548828125,
+            "y": 938.9599831321023,
+            "w": 133.72125244140625,
+            "h": 5.459972034801126
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "INVENTORY / REWARD / UNLOCK",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 579.9872685185185,
+            "w": 490.984375,
+            "h": 30.964120370370324
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "Orders, icons, buttons and type.\nAll belong to this game.",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 712.9764093137255,
+            "w": 429.09375,
+            "h": 77.32414215686265
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 595,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "review-before",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-after",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-note",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 460,
+            "y": 96,
+            "w": 556,
+            "h": 100.5
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-badge",
+          "kind": "text",
+          "text": "ACTUAL CONTINUATION / BEFORE & AFTER",
+          "bounds": {
+            "x": 460,
+            "y": 96,
+            "w": 556,
+            "h": 100.5
+          },
+          "textBounds": {
+            "x": 482,
+            "y": 117.96039603960396,
+            "w": 440.15625,
+            "h": 57.1460396039604
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-caption",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 660,
+            "w": 952,
+            "h": 315.171875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-tag",
+          "kind": "text",
+          "text": "04 / COMPARE, REVISE, UPDATE THE PACK",
+          "bounds": {
+            "x": 64,
+            "y": 660,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 667.9584517045455,
+            "w": 538.9375,
+            "h": 23.889204545454504
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-title",
+          "kind": "text",
+          "text": "The same place.\nA new chapter.",
+          "bounds": {
+            "x": 64,
+            "y": 723.796875,
+            "w": 952,
+            "h": 171.375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 738.8516995614035,
+            "w": 566.234375,
+            "h": 152.34320175438597
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-copy",
+          "kind": "text",
+          "text": "Repair the deck. Open the shutters. Turn on the light.",
+          "bounds": {
+            "x": 64,
+            "y": 921.171875,
+            "w": 952,
+            "h": 54
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 932.171875,
+            "w": 735.390625,
+            "h": 32
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "en",
+      "frame": 690,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "closing-tag",
+          "kind": "text",
+          "text": "ART DIRECTOR / AGENT SKILL",
+          "bounds": {
+            "x": 64,
+            "y": 125,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 131.9630681818182,
+            "w": 398.984375,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 212,
+            "w": 952,
+            "h": 224.375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-0",
+          "kind": "text",
+          "text": "One team,",
+          "bounds": {
+            "x": 64,
+            "y": 212,
+            "w": 952,
+            "h": 112.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 235.05691964285714,
+            "w": 429.375,
+            "h": 86.1439732142857
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-1",
+          "kind": "text",
+          "text": "one visual memory.",
+          "bounds": {
+            "x": 64,
+            "y": 324.1875,
+            "w": 952,
+            "h": 112.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 341.234375,
+            "w": 817.296875,
+            "h": 91.15234375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-copy",
+          "kind": "text",
+          "text": "Carry the direction into every delivery.\nInstall. Start in your agent.",
+          "bounds": {
+            "x": 64,
+            "y": 445,
+            "w": 952,
+            "h": 105
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 457,
+            "w": 568.0625,
+            "h": 82
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 672,
+            "y": 570,
+            "w": 315,
+            "h": 440
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-footer",
+          "kind": "text",
+          "text": "PORTABLE PROJECT PACKS · OPEN SOURCE · CANDIDATE ART",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 45.25
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 954.0555555555555,
+            "w": 768.453125,
+            "h": 20.111111111111086
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "errors": [],
+  "sourceHashFormat": "tidekeeper-source-lf-v1",
+  "renderedSourceByteHash": "e1ba8e5fa008d0f572155340670ec1a255cf787ad96d36cf50621170fdc91230"
+}

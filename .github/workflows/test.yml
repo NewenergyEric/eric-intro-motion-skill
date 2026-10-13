@@ -20,6 +20,8 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm run setup
       - run: npm test
+      - name: Verify featured films and gallery
+        run: node scripts/verify-gallery.mjs
       - name: Validate portable skill package
         run: |
           node scripts/install.mjs --dest .work/installed

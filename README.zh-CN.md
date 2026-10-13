@@ -2,9 +2,20 @@
 
 用可编辑的镜头介绍产品、个人和具体想法。复用已有素材与渲染缓存，为 **1:1、3:4、9:16 的每个镜头原生重排**，分别调整标题、图片、卡片、文字换行和运动路径。中英文独立排版。
 
-[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.4.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.4.0) · [MIT 许可](LICENSE)
+[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.0) · [MIT 许可](LICENSE)
 
-![随手记双语案例的三种原生构图](examples/native-intro/ratio-review.png)
+[![潮灯小镇：完整场景、角色与真实游戏界面](examples/tidekeeper/preview-zh.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
+
+## v0.5 主案例：潮灯小镇
+
+海港灯房、灯匠阿澜、逐级合成的灯具，以及完整的游戏界面。复用已经加工完成的公开美术，为六个镜头逐一重排，提供 **中文与英文 × 1:1、3:4、9:16，共六支完整 24 秒成片**。源码、素材、许可、逐镜头静帧和成片检查一起交付。画廊首页也已改为优先展示这个案例。
+
+[观看六支完整影片](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [源码与重建](examples/tidekeeper/README.md) · [素材来源](examples/tidekeeper/asset-provenance.json)
+
+![潮灯小镇的三种原生构图](examples/tidekeeper/ratio-review.jpg)
+
+有完整美术与 UI 的项目，可从这个案例开始；「随手记」保留为简洁的流程模板，不再代表所有作品的默认视觉风格。
+
 
 ## v0.4 的实际更新
 
@@ -32,7 +43,22 @@ node scripts/install.mjs
 
 > 用 $eric-intro-motion-skill 介绍这个产品的真实使用流程。复用已有素材，中英文文案自然具体，为 1:1、3:4、9:16 逐镜头重新编排，交付源码和检查过的完整视频。
 
-## 运行新案例
+## 渲染潮灯小镇
+
+这个美术案例使用独立锁定的 React/Remotion 依赖，并需要 Chrome。直接观看成片无需安装渲染环境。
+
+```sh
+cd examples/tidekeeper
+npm ci
+node render.mjs --stills
+node render.mjs
+```
+
+先检查静帧，再执行完整渲染。选择语言与画幅、配置 Chrome、导出并检查成片的用法见[案例说明](examples/tidekeeper/README.md)。
+
+## 运行随手记流程模板
+
+在仓库根目录执行：
 
 ```sh
 npm run examples:intro -- --stills

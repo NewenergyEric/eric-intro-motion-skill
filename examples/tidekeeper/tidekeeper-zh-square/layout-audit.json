@@ -1,0 +1,1972 @@
+{
+  "composition": "tidekeeper-zh-square",
+  "sourceHash": "94c750a955211d8e0b38db749dd4a5c1f34f6bd965bb5d28f64ad07392b1147e",
+  "width": 1080,
+  "height": 1080,
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "samples": [
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 86,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "opening-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-tag",
+          "kind": "text",
+          "text": "把主美的判断，带到每次交付。",
+          "bounds": {
+            "x": 64,
+            "y": 125,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 130.9676846590909,
+            "w": 364,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 202,
+            "w": 952,
+            "h": 236.0625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title-0",
+          "kind": "text",
+          "text": "一个团队／项目，",
+          "bounds": {
+            "x": 64,
+            "y": 202,
+            "w": 952,
+            "h": 118.03125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 216.0074152542373,
+            "w": 736,
+            "h": 96.02542372881356
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-title-1",
+          "kind": "text",
+          "text": "一份视觉记忆。",
+          "bounds": {
+            "x": 64,
+            "y": 320.03125,
+            "w": 952,
+            "h": 118.03125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 334.0386652542373,
+            "w": 644,
+            "h": 91.02409957627117
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-description",
+          "kind": "text",
+          "text": "角色、场景、UI、合成链。\n每次交付都有共同依据。",
+          "bounds": {
+            "x": 64,
+            "y": 450,
+            "w": 800,
+            "h": 99
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 459,
+            "w": 360.421875,
+            "h": 74
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "opening-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 662,
+            "y": 570,
+            "w": 340,
+            "h": 480
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 205,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "direction-tag",
+          "kind": "text",
+          "text": "01 / 主美建立规范",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 113.9676846590909,
+            "w": 214.75,
+            "h": 25.879971590909093
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 169,
+            "w": 952,
+            "h": 200.375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title-0",
+          "kind": "text",
+          "text": "把“这种感觉”，",
+          "bounds": {
+            "x": 64,
+            "y": 169,
+            "w": 952,
+            "h": 100.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 181.04125,
+            "w": 562,
+            "h": 78.14625000000001
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-title-1",
+          "kind": "text",
+          "text": "留下来。",
+          "bounds": {
+            "x": 64,
+            "y": 269.1875,
+            "w": 952,
+            "h": 100.1875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 281.22875,
+            "w": 300,
+            "h": 74.13875000000007
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 450,
+            "y": 454,
+            "w": 602,
+            "h": 350
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 8,
+            "y": 414,
+            "w": 300,
+            "h": 460
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 345,
+            "y": 390,
+            "w": 650,
+            "h": 190.890625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note-title",
+          "kind": "text",
+          "text": "先定共同语言",
+          "bounds": {
+            "x": 378,
+            "y": 412,
+            "w": 591,
+            "h": 55.390625
+          },
+          "textBounds": {
+            "x": 378,
+            "y": 421.06392045454544,
+            "w": 192,
+            "h": 32.22727272727275
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-note-copy",
+          "kind": "text",
+          "text": "饱满体块 · 柔和高光\n身份、用途与变化，分别说明。",
+          "bounds": {
+            "x": 378,
+            "y": 477.390625,
+            "w": 591,
+            "h": 81.5
+          },
+          "textBounds": {
+            "x": 378,
+            "y": 485.3418445121951,
+            "w": 350,
+            "h": 60.10365853658544
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-lamp-1",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 344,
+            "y": 720,
+            "w": 200,
+            "h": 200
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-lamp-2",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 552,
+            "y": 720,
+            "w": 200,
+            "h": 200
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "direction-footer",
+          "kind": "text",
+          "text": "规范、样板、字体与源码，一起装进项目包。",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 49.59375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 951.935,
+            "w": 560,
+            "h": 27.772500000000036
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 325,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "members-world",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 300,
+            "y": 405,
+            "w": 780,
+            "h": 470
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-tag",
+          "kind": "text",
+          "text": "02 / 成员拿包续作",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 113.9676846590909,
+            "w": 214.75,
+            "h": 25.879971590909093
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 173,
+            "w": 952,
+            "h": 195.59375
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title-0",
+          "kind": "text",
+          "text": "换一个人做，",
+          "bounds": {
+            "x": 64,
+            "y": 173,
+            "w": 952,
+            "h": 97.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 184.9544005102041,
+            "w": 438,
+            "h": 75.8424744897959
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-title-1",
+          "kind": "text",
+          "text": "还是同一个世界。",
+          "bounds": {
+            "x": 64,
+            "y": 270.796875,
+            "w": 952,
+            "h": 97.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 282.7512755102041,
+            "w": 584,
+            "h": 71.85076530612247
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 15,
+            "y": 472,
+            "w": 310,
+            "h": 490
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-label",
+          "kind": "text",
+          "text": "新动作 / 修复状态 / L3 · L4",
+          "bounds": {
+            "x": 375,
+            "y": 638,
+            "w": 620,
+            "h": 61.34375
+          },
+          "textBounds": {
+            "x": 395,
+            "y": 658.0394467213115,
+            "w": 287.828125,
+            "h": 25.140881147540995
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-lamp-3",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 390,
+            "y": 720,
+            "w": 230,
+            "h": 230
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-lamp-4",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 640,
+            "y": 720,
+            "w": 230,
+            "h": 230
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "members-footer",
+          "kind": "text",
+          "text": "沿用同一版本，记录实际输入与新输出。",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 49.59375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 951.935,
+            "w": 504,
+            "h": 27.772500000000036
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 395,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / 放进真正的使用画面",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 113.9676846590909,
+            "w": 292.75,
+            "h": 25.879971590909093
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 194.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "接得上，",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 292.03704896907215,
+            "w": 304,
+            "h": 77.12403350515467
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "也要用得起来。",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 389.19329896907215,
+            "w": 532,
+            "h": 74.11920103092785
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "阿澜 · 点亮灯房",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 63.99652099609375,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999839782715,
+            "w": 63.99652099609375,
+            "h": 9.360008239746094
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "0/1",
+          "bounds": {
+            "x": 749.0418701171875,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 753.7218627929688,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "第一盏归航灯",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.07062002328723,
+            "w": 51.47998046875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "继续合成",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 795.0618896484375,
+            "y": 445.2931246076311,
+            "w": 37.44000244140625,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "奈莉 · 修好栈桥",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 63.99658203125,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999839782715,
+            "w": 63.99658203125,
+            "h": 8.580007553100586
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 896.8518676757812,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 901.5318603515625,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "栈桥需要新木料",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.07062002328723,
+            "w": 60.0599365234375,
+            "h": 8.703754131610651
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "交付",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 952.2318725585938,
+            "y": 445.2931246076311,
+            "w": 18.72003173828125,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "灯匠工作箱",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 835.512451171875,
+            "w": 148.224365234375,
+            "h": 13.260009765625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 837.8524528952206,
+            "w": 46.79998779296875,
+            "h": 10.140007467830856
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "点击取出灯具或木料，每次消耗 1 点体力。",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 851.1124877929688,
+            "w": 148.224365234375,
+            "h": 10.91998291015625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 852.6724548339844,
+            "w": 148.224365234375,
+            "h": 7.79998779296875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "原创交互试作 · 数值为示例 · 非已上线游戏",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 801.813720703125,
+            "y": 938.1799871271306,
+            "w": 124.154052734375,
+            "h": 6.239968039772748
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "merging-lamp",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 920.8368530273438,
+            "y": 515.45654296875,
+            "w": 39,
+            "h": 39
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "两件同级物品 → 合成",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 577.9895833333334,
+            "w": 293.140625,
+            "h": 30.964120370370324
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "订单、图标、按钮和文字，\n都属于这款游戏。",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 710.9806985294117,
+            "w": 348,
+            "h": 74.33057598039227
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 430,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / 放进真正的使用画面",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 113.9676846590909,
+            "w": 292.75,
+            "h": 25.879971590909093
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 194.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "接得上，",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 292.03704896907215,
+            "w": 304,
+            "h": 77.12403350515467
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "也要用得起来。",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 389.19329896907215,
+            "w": 532,
+            "h": 74.11920103092785
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "阿澜 · 点亮灯房",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 63.99652099609375,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999839782715,
+            "w": 63.99652099609375,
+            "h": 9.360008239746094
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 749.0418701171875,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 753.7218627929688,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "第一盏归航灯",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.07062002328723,
+            "w": 51.47998046875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "交付",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 804.421875,
+            "y": 445.2931246076311,
+            "w": 18.719970703125,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "奈莉 · 修好栈桥",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 63.99658203125,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999839782715,
+            "w": 63.99658203125,
+            "h": 8.580007553100586
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "1/1",
+          "bounds": {
+            "x": 896.8518676757812,
+            "y": 453.40997314453125,
+            "w": 24.375,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 901.5318603515625,
+            "y": 457.31000398334703,
+            "w": 15.0150146484375,
+            "h": 10.14000501130755
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "栈桥需要新木料",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.07062002328723,
+            "w": 60.0599365234375,
+            "h": 8.703754131610651
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "交付",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 952.2318725585938,
+            "y": 445.2931246076311,
+            "w": 18.72003173828125,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "合成成功 · 小小航标灯",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 835.512451171875,
+            "w": 140.39996337890625,
+            "h": 13.260009765625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 837.8524528952206,
+            "w": 97.88995361328125,
+            "h": 10.140007467830856
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "选中，再点同级物品；也可以拖动合成。",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 851.1124877929688,
+            "w": 140.39996337890625,
+            "h": 10.91998291015625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 852.6724548339844,
+            "w": 140.39996337890625,
+            "h": 8.579986572265625
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "原创交互试作 · 数值为示例 · 非已上线游戏",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 801.813720703125,
+            "y": 938.1799871271306,
+            "w": 124.154052734375,
+            "h": 6.239968039772748
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "订单已备齐 → 交付",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 577.9895833333334,
+            "w": 262.140625,
+            "h": 29.96527777777783
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "订单、图标、按钮和文字，\n都属于这款游戏。",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 710.9806985294117,
+            "w": 348,
+            "h": 74.33057598039227
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 480,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "game-tag",
+          "kind": "text",
+          "text": "03 / 放进真正的使用画面",
+          "bounds": {
+            "x": 64,
+            "y": 108,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 113.9676846590909,
+            "w": 292.75,
+            "h": 25.879971590909093
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 194.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-0",
+          "kind": "text",
+          "text": "接得上，",
+          "bounds": {
+            "x": 64,
+            "y": 280,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 292.03704896907215,
+            "w": 304,
+            "h": 77.12403350515467
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-title-1",
+          "kind": "text",
+          "text": "也要用得起来。",
+          "bounds": {
+            "x": 64,
+            "y": 377.15625,
+            "w": 580,
+            "h": 97.15625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 389.19329896907215,
+            "w": 532,
+            "h": 74.11920103092785
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-screen",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 711.796875,
+            "y": 290,
+            "w": 304.1875,
+            "h": 658.3125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-0",
+          "kind": "text",
+          "text": "阿澜 · 点亮灯房",
+          "bounds": {
+            "x": 726.6168823242188,
+            "y": 409.3399963378906,
+            "w": 63.99652099609375,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 726.6168823242188,
+            "y": 411.67999839782715,
+            "w": 63.99652099609375,
+            "h": 9.360008239746094
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-1",
+          "kind": "text",
+          "text": "✓",
+          "bounds": {
+            "x": 757.0734252929688,
+            "y": 453.40997314453125,
+            "w": 16.34344482421875,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 761.75341796875,
+            "y": 457.31000398334703,
+            "w": 6.98345947265625,
+            "h": 8.580004240337189
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-2",
+          "kind": "text",
+          "text": "第一盏归航灯",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 425.2568664550781,
+            "w": 76.04998779296875,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 775.7568969726562,
+            "y": 426.07062002328723,
+            "w": 51.47998046875,
+            "h": 9.495004507211547
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-3",
+          "kind": "text",
+          "text": "去看看",
+          "bounds": {
+            "x": 775.7568969726562,
+            "y": 438.6631164550781,
+            "w": 76.04998779296875,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 799.7418823242188,
+            "y": 445.2931246076311,
+            "w": 28.08001708984375,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-4",
+          "kind": "text",
+          "text": "奈莉 · 修好栈桥",
+          "bounds": {
+            "x": 874.4268798828125,
+            "y": 409.3399963378906,
+            "w": 63.99658203125,
+            "h": 12.480010986328125
+          },
+          "textBounds": {
+            "x": 874.4268798828125,
+            "y": 411.67999839782715,
+            "w": 63.99658203125,
+            "h": 8.580007553100586
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-5",
+          "kind": "text",
+          "text": "✓",
+          "bounds": {
+            "x": 904.8834228515625,
+            "y": 453.40997314453125,
+            "w": 16.34344482421875,
+            "h": 14.82000732421875
+          },
+          "textBounds": {
+            "x": 909.5634155273438,
+            "y": 457.31000398334703,
+            "w": 6.98345947265625,
+            "h": 8.580004240337189
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-6",
+          "kind": "text",
+          "text": "栈桥需要新木料",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 425.2568664550781,
+            "w": 76.0499267578125,
+            "h": 10.2862548828125
+          },
+          "textBounds": {
+            "x": 923.56689453125,
+            "y": 426.07062002328723,
+            "w": 60.0599365234375,
+            "h": 8.703754131610651
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-7",
+          "kind": "text",
+          "text": "去看看",
+          "bounds": {
+            "x": 923.56689453125,
+            "y": 438.6631164550781,
+            "w": 76.0499267578125,
+            "h": 21.839996337890625
+          },
+          "textBounds": {
+            "x": 947.5518798828125,
+            "y": 445.2931246076311,
+            "w": 28.0799560546875,
+            "h": 10.139998299734941
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-8",
+          "kind": "text",
+          "text": "两张订单完成，灯房可以开门了！",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 835.512451171875,
+            "w": 148.224365234375,
+            "h": 13.260009765625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 837.8524528952206,
+            "w": 140.39996337890625,
+            "h": 10.140007467830856
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-9",
+          "kind": "text",
+          "text": "点击取出灯具或木料，每次消耗 1 点体力。",
+          "bounds": {
+            "x": 771.076904296875,
+            "y": 851.1124877929688,
+            "w": 148.224365234375,
+            "h": 10.91998291015625
+          },
+          "textBounds": {
+            "x": 771.076904296875,
+            "y": 852.6724548339844,
+            "w": 148.224365234375,
+            "h": 7.79998779296875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-text-10",
+          "kind": "text",
+          "text": "原创交互试作 · 数值为示例 · 非已上线游戏",
+          "bounds": {
+            "x": 711.796875,
+            "y": 936.6199951171875,
+            "w": 304.199951171875,
+            "h": 8.5799560546875
+          },
+          "textBounds": {
+            "x": 801.813720703125,
+            "y": 938.1799871271306,
+            "w": 124.154052734375,
+            "h": 6.239968039772748
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-step",
+          "kind": "text",
+          "text": "库存消耗 / 金币奖励 / 解锁区域",
+          "bounds": {
+            "x": 64,
+            "y": 570,
+            "w": 540,
+            "h": 53.9375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 577.9895833333334,
+            "w": 424.28125,
+            "h": 32.96180555555543
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "game-context",
+          "kind": "text",
+          "text": "订单、图标、按钮和文字，\n都属于这款游戏。",
+          "bounds": {
+            "x": 64,
+            "y": 700,
+            "w": 530,
+            "h": 101.78125
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 710.9806985294117,
+            "w": 348,
+            "h": 74.33057598039227
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 595,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "review-before",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-after",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1080
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-note",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 460,
+            "y": 96,
+            "w": 556,
+            "h": 64.25
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-badge",
+          "kind": "text",
+          "text": "真实续作 / 修复前后",
+          "bounds": {
+            "x": 460,
+            "y": 96,
+            "w": 556,
+            "h": 64.25
+          },
+          "textBounds": {
+            "x": 482,
+            "y": 117.02734375,
+            "w": 221.0625,
+            "h": 27.10546875
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-caption",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 660,
+            "w": 952,
+            "h": 324.453125
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-tag",
+          "kind": "text",
+          "text": "04 / 对照、返修、回写规范",
+          "bounds": {
+            "x": 64,
+            "y": 660,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 665.9676846590909,
+            "w": 316.8125,
+            "h": 25.879971590909122
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-title",
+          "kind": "text",
+          "text": "同一座灯房，\n新的生活。",
+          "bounds": {
+            "x": 64,
+            "y": 723.796875,
+            "w": 952,
+            "h": 180.65625
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 733.7569924033149,
+            "w": 444,
+            "h": 157.69138466850825
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "review-copy",
+          "kind": "text",
+          "text": "补木板 · 开窗 · 亮灯。",
+          "bounds": {
+            "x": 64,
+            "y": 930.453125,
+            "w": 952,
+            "h": 54
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 939.453125,
+            "w": 326.890625,
+            "h": 29
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "project": "tidekeeper",
+      "language": "zh",
+      "frame": 690,
+      "width": 1080,
+      "height": 1080,
+      "videoElements": 0,
+      "rows": [
+        {
+          "id": "closing-tag",
+          "kind": "text",
+          "text": "ART DIRECTOR / AGENT SKILL",
+          "bounds": {
+            "x": 64,
+            "y": 125,
+            "w": 952,
+            "h": 43.796875
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 131.9630681818182,
+            "w": 398.984375,
+            "h": 24.884588068181813
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 64,
+            "y": 212,
+            "w": 952,
+            "h": 234
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-0",
+          "kind": "text",
+          "text": "一个团队／项目，",
+          "bounds": {
+            "x": 64,
+            "y": 212,
+            "w": 952,
+            "h": 117
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 227,
+            "w": 712,
+            "h": 92
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-title-1",
+          "kind": "text",
+          "text": "一份视觉记忆。",
+          "bounds": {
+            "x": 64,
+            "y": 329,
+            "w": 952,
+            "h": 117
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 345,
+            "w": 623,
+            "h": 86
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-copy",
+          "kind": "text",
+          "text": "把主美的判断，带到每次交付。\n装好，在你的 Agent 里开始。",
+          "bounds": {
+            "x": 64,
+            "y": 445,
+            "w": 952,
+            "h": 105
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 455,
+            "w": 448,
+            "h": 84
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-character",
+          "kind": "layer",
+          "text": "",
+          "bounds": {
+            "x": 672,
+            "y": 570,
+            "w": 315,
+            "h": 440
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "closing-footer",
+          "kind": "text",
+          "text": "可打包分发 · 开源 · 原创候选案例",
+          "bounds": {
+            "x": 64,
+            "y": 944,
+            "w": 952,
+            "h": 49.59375
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 951.935,
+            "w": 445.3125,
+            "h": 26.7806250000001
+          },
+          "overflow": false,
+          "out": false
+        },
+        {
+          "id": "identity",
+          "kind": "text",
+          "text": "ART DIRECTOR / TIDEKEEPER",
+          "bounds": {
+            "x": 64,
+            "y": 36,
+            "w": 952,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 64,
+            "y": 42,
+            "w": 362.359375,
+            "h": 21
+          },
+          "overflow": false,
+          "out": false
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "errors": [],
+  "sourceHashFormat": "tidekeeper-source-lf-v1",
+  "renderedSourceByteHash": "e1ba8e5fa008d0f572155340670ec1a255cf787ad96d36cf50621170fdc91230"
+}

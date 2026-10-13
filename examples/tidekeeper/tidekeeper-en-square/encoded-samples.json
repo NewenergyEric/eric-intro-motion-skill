@@ -1,0 +1,182 @@
+{
+  "sourceHash": "94c750a955211d8e0b38db749dd4a5c1f34f6bd965bb5d28f64ad07392b1147e",
+  "sha256": "783e6c37197d6abac2a06f211f69c4dc6954a965dc91923587d8a6b6bc237b9b",
+  "samples": [
+    {
+      "frame": 86,
+      "file": "scene-1.jpg",
+      "kind": "scene-hold",
+      "sha256": "afcdb0929a384db1c0c8e57406b5e9f6e0801dd0174002b2a245dfa4dc5a3cba"
+    },
+    {
+      "frame": 205,
+      "file": "scene-2.jpg",
+      "kind": "scene-hold",
+      "sha256": "5a94752253747fa7542dabb88ed9b7eba30aa1a46a3d73e998caca0cb81af2b9"
+    },
+    {
+      "frame": 325,
+      "file": "scene-3.jpg",
+      "kind": "scene-hold",
+      "sha256": "5199da16e138d984ab66d1425fe5dc669913e82adf494e5a25bf49c47e9adddd"
+    },
+    {
+      "frame": 480,
+      "file": "scene-4.jpg",
+      "kind": "scene-hold",
+      "sha256": "4b5a23e59c08258671f6583c755f8ad5e4a36f69769e48f6023ee49b2e0802bd"
+    },
+    {
+      "frame": 595,
+      "file": "scene-5.jpg",
+      "kind": "scene-hold",
+      "sha256": "8de58a2f90ac620b0fe6e0f819ada12c90a81c40fad9ad16d7eebcc8efbc5f69"
+    },
+    {
+      "frame": 690,
+      "file": "scene-6.jpg",
+      "kind": "scene-hold",
+      "sha256": "c29419a08b5a2d8f59a11300951a799ad2d9257ba01e4a3bbc62a76247c92986"
+    },
+    {
+      "frame": 15,
+      "file": "entrance-1.jpg",
+      "kind": "entrance",
+      "sha256": "10f3b6983d540fb8fdc6e9fd83d51272df40192805209d47588a24964a9d1d97"
+    },
+    {
+      "frame": 138,
+      "file": "entrance-2.jpg",
+      "kind": "entrance",
+      "sha256": "95daf290e6d0cd08265fb3a822d0bf686ab6b7dfffa763609b0836637109de4a"
+    },
+    {
+      "frame": 258,
+      "file": "entrance-3.jpg",
+      "kind": "entrance",
+      "sha256": "11c1b44d9f12680fa07236dd90a6be75a6cae3c570e41c11fbee8768e58da91a"
+    },
+    {
+      "frame": 378,
+      "file": "entrance-4.jpg",
+      "kind": "entrance",
+      "sha256": "be715ca292501bb9f3cc2a07c6b949f03540a02808d0b08bca59f2780e97d6f3"
+    },
+    {
+      "frame": 528,
+      "file": "entrance-5.jpg",
+      "kind": "entrance",
+      "sha256": "8c3fc3cda2e0f7a3ba93215fd00c2d37f2979c10aa99b7018f72bbeecbb20900"
+    },
+    {
+      "frame": 648,
+      "file": "entrance-6.jpg",
+      "kind": "entrance",
+      "sha256": "515c41271387f479e7ce91d7cb37cf72784935314103213fabe927374e61352d"
+    },
+    {
+      "frame": 114,
+      "file": "cut-1-before.jpg",
+      "kind": "cut",
+      "sha256": "b2f1f5052f38b84f9585f4ccac3d857e5ec9dc4915df705e1fec3bccb8ed0246"
+    },
+    {
+      "frame": 120,
+      "file": "cut-1-middle.jpg",
+      "kind": "cut",
+      "sha256": "9e0f28f6df1002c359154b542d4e52a039c6d3a24eafcd03518692b5b7ede835"
+    },
+    {
+      "frame": 126,
+      "file": "cut-1-after.jpg",
+      "kind": "cut",
+      "sha256": "2a689b2539d4513335da618fde22f3e7ee716cc50df3a5b236db2953c7088991"
+    },
+    {
+      "frame": 234,
+      "file": "cut-2-before.jpg",
+      "kind": "cut",
+      "sha256": "bbe0069cb4025f700d8c5d51bf0263a202984a68d878eb3de0e1e069afce0509"
+    },
+    {
+      "frame": 240,
+      "file": "cut-2-middle.jpg",
+      "kind": "cut",
+      "sha256": "1730caa454d7d3fa3b7507fdbd8c3fd3504f66db6d77c84767ee36c4fc6941b9"
+    },
+    {
+      "frame": 246,
+      "file": "cut-2-after.jpg",
+      "kind": "cut",
+      "sha256": "8a87b00bb1e337e1cc29815fbe0a500ada8fe72e9f47523bf3eea525f3756cc5"
+    },
+    {
+      "frame": 354,
+      "file": "cut-3-before.jpg",
+      "kind": "cut",
+      "sha256": "1dc90d7b03ea6d5b4d8da873a70c037d7a812d656a30e543756b40f95dee6656"
+    },
+    {
+      "frame": 360,
+      "file": "cut-3-middle.jpg",
+      "kind": "cut",
+      "sha256": "be27a79b085f5280a6cb891792726c51d2908295f378619b3ff0c9966f43f355"
+    },
+    {
+      "frame": 366,
+      "file": "cut-3-after.jpg",
+      "kind": "cut",
+      "sha256": "4d41eccb4e3d82efbda97e03b7bb189c8e196e6f44066691bd7fb0909231100b"
+    },
+    {
+      "frame": 504,
+      "file": "cut-4-before.jpg",
+      "kind": "cut",
+      "sha256": "91c97f95d3127e8f1c5511834f4bac493c8267f12359a7cf8f49a8341d656c1c"
+    },
+    {
+      "frame": 510,
+      "file": "cut-4-middle.jpg",
+      "kind": "cut",
+      "sha256": "340c0515616860db3be00af76b94b57037cafd9e8107468fcccf50ad9c676196"
+    },
+    {
+      "frame": 516,
+      "file": "cut-4-after.jpg",
+      "kind": "cut",
+      "sha256": "51f21f3c9c050443e2e76384c245824f4efc1e23a0c3bbbdb27276e811845376"
+    },
+    {
+      "frame": 624,
+      "file": "cut-5-before.jpg",
+      "kind": "cut",
+      "sha256": "8788a95c5685f5438412f9fec85c8c6b961998f4b25975016b5582499ba404f5"
+    },
+    {
+      "frame": 630,
+      "file": "cut-5-middle.jpg",
+      "kind": "cut",
+      "sha256": "7a96289b4863eb89c7df5a988a1ae322302f10214a12f8784357e6d250796ed2"
+    },
+    {
+      "frame": 636,
+      "file": "cut-5-after.jpg",
+      "kind": "cut",
+      "sha256": "8aa6205fa46e33a1eed0c40eb5371f0c1ba50a493c34f17027124842e00c2c17"
+    },
+    {
+      "frame": 395,
+      "file": "game-395.jpg",
+      "kind": "ui-state",
+      "sha256": "f930a7626dc9a965ad4bebef08793f27155a0c2cb51bde842fc1f6db26849adb"
+    },
+    {
+      "frame": 430,
+      "file": "game-430.jpg",
+      "kind": "ui-state",
+      "sha256": "310d6241c3c5ebf4d3a8dafb6b3ba4d0070c4a81ae78fe26b5feae00167ba229"
+    }
+  ],
+  "sourceHashFormat": "tidekeeper-source-lf-v1",
+  "renderedSourceByteHash": "e1ba8e5fa008d0f572155340670ec1a255cf787ad96d36cf50621170fdc91230"
+}

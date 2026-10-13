@@ -2,9 +2,20 @@
 
 Editable product and personal introduction videos. Reuse source artwork and render caches, then compose **every scene** for 1:1, 3:4 and 9:16. Chinese and English get their own typography, line breaks and card layouts.
 
-[中文](README.zh-CN.md) · [Watch examples](https://newenergyeric.github.io/eric-intro-motion-skill/) · [Download v0.4.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.4.0) · [MIT](LICENSE)
+[中文](README.zh-CN.md) · [Watch examples](https://newenergyeric.github.io/eric-intro-motion-skill/) · [Download v0.5.0](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.0) · [MIT](LICENSE)
 
-![Three native layouts from the bilingual Pocket Notes workflow](examples/native-intro/ratio-review.png)
+[![Tidekeeper: an illustrated world, characters and working game UI](examples/tidekeeper/preview-en.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
+
+## Featured in v0.5: Tidekeeper
+
+An illustrated harbor, a lampmaker, evolving objects, and a working merge-game UI. The new **Tidekeeper** case reuses the author's finished public artwork and rebuilds all six scenes in **Chinese and English × 1:1, 3:4 and 9:16**. Six complete 24-second films, source, assets, licenses, scene stills and encode checks are included. The gallery now opens with this case.
+
+[Watch all six films](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [Source and rebuild](examples/tidekeeper/README.md) · [Asset provenance](examples/tidekeeper/asset-provenance.json)
+
+![Three native Tidekeeper compositions](examples/tidekeeper/ratio-review.jpg)
+
+Choose the illustrated case for a product with rich artwork and UI. The small Pocket Notes recipe remains a simpler workflow starter; it is not the default visual style for every project.
+
 
 ## What's new in v0.4
 
@@ -32,7 +43,22 @@ For an existing installation, use `node scripts/install.mjs --upgrade`. Existing
 
 > Use $eric-intro-motion-skill to introduce this product using its real workflow. Reuse its existing artwork, write natural Chinese and English, and recompose every shot for 1:1, 3:4 and 9:16. Deliver editable source and inspected videos.
 
-## Render the new example
+## Render Tidekeeper
+
+The illustrated case has its own locked React/Remotion dependencies and also requires Chrome. Its finished films can be watched without installing the renderer.
+
+```sh
+cd examples/tidekeeper
+npm ci
+node render.mjs --stills
+node render.mjs
+```
+
+Inspect the stills before the full render. See [the case README](examples/tidekeeper/README.md) for output selection, Chrome configuration and export checks.
+
+## Render the Pocket Notes workflow template
+
+From the repository root:
 
 ```sh
 npm run examples:intro -- --stills

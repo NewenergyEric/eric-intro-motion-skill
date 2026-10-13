@@ -19,6 +19,8 @@ The production's assets notice reserves its brand art and product content; it do
 
 ## Public evidence
 
+- `examples/tidekeeper`: the richer featured case added in v0.5, using finished public Art Director artwork/UI from commit `a6d17d873845ebeeb530fdf295b9d527c6ac2181`. Six complete bilingual 24-second films recompose all six scenes at three ratios. The gallery and README now feature this production first, with scene images, editable source, original asset hashes and final-encode checks. The game remains a fictional candidate prototype.
+
 - `examples/native-art-director`: the already-public source-based case and its pinned asset provenance.
 - `examples/native-intro`: six newly encoded bilingual examples, scene and transition samples, current layout/encode reports and original MIT recipe.
 - `examples/native-intro/verification.json`: release-time checks against actual outputs, including cache reuse and source provenance.

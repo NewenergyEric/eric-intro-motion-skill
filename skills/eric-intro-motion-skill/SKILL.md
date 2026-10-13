@@ -13,6 +13,8 @@ For a product introduction, read [intro production](references/intro-production.
 
 Inspect existing media and manifests before creating anything. Reuse artwork, fonts and suitable components. Read the source needed for the requested changes; a whole-film ratio adaptation may require editing every scene. Keep resumable manifests and caches instead of repeatedly loading unchanged material.
 
+When richer artwork or a polished product UI already exists, read [illustrated introductions](references/illustrated-intro.md). The finished Tidekeeper case combines scenes, characters, evolving objects and real UI states in six native bilingual films. Prefer the best completed case for the gallery and README; keep basic diagram studies below it. Do not reduce a mature visual system to generic cards just because a small template is available.
+
 Choose the least expensive path that actually achieves the requested result:
 
 1. Same finished animation: copy its GIF or transcode to MP4. No new artwork.

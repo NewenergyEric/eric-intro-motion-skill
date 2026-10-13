@@ -4,7 +4,7 @@ import {createReadStream} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=fileURLToPath(new URL('../examples/',import.meta.url)),port=Number(process.env.PORT||4322);
-const types={'.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8','.mp4':'video/mp4','.png':'image/png','.jpg':'image/jpeg','.gif':'image/gif','.svg':'image/svg+xml','.md':'text/plain; charset=utf-8'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.woff2':'font/woff2','.webp':'image/webp','.json':'application/json; charset=utf-8','.mp4':'video/mp4','.png':'image/png','.jpg':'image/jpeg','.gif':'image/gif','.svg':'image/svg+xml','.md':'text/plain; charset=utf-8'};
 createServer(async(req,res)=>{
  try{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405).end();return;}
@@ -23,4 +23,4 @@ createServer(async(req,res)=>{
   headers['Content-Length']=end-start+1;res.writeHead(status,headers);
   if(req.method==='HEAD')res.end();else createReadStream(file,{start,end}).pipe(res);
  }catch{res.writeHead(404).end('Not found');}
-}).listen(port,'127.0.0.1',()=>console.log(`Examples: http://127.0.0.1:${port}/native-intro/`));
+}).listen(port,'127.0.0.1',()=>console.log(`Examples: http://127.0.0.1:${port}/`));

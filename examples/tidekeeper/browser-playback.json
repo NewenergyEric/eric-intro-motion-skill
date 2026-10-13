@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-10-13",
+  "environment": "Codex in-app browser on Windows, local HTTP preview",
+  "scope": "Local pre-publication gallery playback and responsive inspection",
+  "passed": true,
+  "results": [
+    {"id": "tidekeeper-zh-square", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},
+    {"id": "tidekeeper-zh-portrait", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},
+    {"id": "tidekeeper-zh-vertical", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},
+    {"id": "tidekeeper-en-square", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},
+    {"id": "tidekeeper-en-portrait", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null},
+    {"id": "tidekeeper-en-vertical", "duration": 24, "currentTime": 24, "ended": true, "readyState": 4, "mediaError": null}
+  ],
+  "checks": {
+    "threeRatioPlayControl": true,
+    "languageSwitchUpdatesVideosAndPosters": true,
+    "languageSwitchUpdatesDownloadAndReportLinks": true,
+    "languageSwitchUpdatesSceneContactSheet": true,
+    "desktopLayoutInspected": true,
+    "mobileViewportWidth": 390,
+    "mobileSingleColumn": true,
+    "mobileHorizontalOverflow": false
+  },
+  "platformUploadVerified": false
+}

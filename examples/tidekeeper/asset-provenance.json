@@ -1,0 +1,166 @@
+[
+  {
+    "path": "public/tidekeeper/character-base.png",
+    "sourcePath": "motion/public/tidekeeper/character-base.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "47c541c57286d242bd816855adce654b5fc4159ee4d3fbaba48c4733b1c01e44"
+  },
+  {
+    "path": "public/tidekeeper/character-wave.png",
+    "sourcePath": "motion/public/tidekeeper/character-wave.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "7fb48b018ee080143405ba42b07fdcdc77a06b8fcf569871614b2f03b0b6d109"
+  },
+  {
+    "path": "public/tidekeeper/coin.png",
+    "sourcePath": "motion/public/tidekeeper/coin.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "d04b113a6420ef90b3521d55f318249b143d52776fac4ef4be9ea1df0bc87012"
+  },
+  {
+    "path": "public/tidekeeper/energy.png",
+    "sourcePath": "motion/public/tidekeeper/energy.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "3757d5bc13beee0cf19dfb845cd3fae00a0ffcfa5d4e23a1f142454b9e305116"
+  },
+  {
+    "path": "public/tidekeeper/lamp-l1.png",
+    "sourcePath": "motion/public/tidekeeper/lamp-l1.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "03e5ae0a44a12db32afdc47465562f3eb1f305d13bfb37698214a71493d7b59d"
+  },
+  {
+    "path": "public/tidekeeper/lamp-l2.png",
+    "sourcePath": "motion/public/tidekeeper/lamp-l2.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "319ccd679c7cdf01058eaf2f9958c48fd90d367b5422c48a06f921a8418bb661"
+  },
+  {
+    "path": "public/tidekeeper/lamp-l3.png",
+    "sourcePath": "motion/public/tidekeeper/lamp-l3.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "33dfb26763a74bb0943cde361c1db3b604a353f339baed06c5ec2973f8686995"
+  },
+  {
+    "path": "public/tidekeeper/lamp-l4.png",
+    "sourcePath": "motion/public/tidekeeper/lamp-l4.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "f9c7e7019f7d28ed069dc4631f7202cbda85bf90aa7aa9953a7aeeeba9b0bca7"
+  },
+  {
+    "path": "public/tidekeeper/locked.png",
+    "sourcePath": "motion/public/tidekeeper/locked.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "222f7f58abf40bc7d1c4cf6e5742120261f881fec199720180c5b80e7de99b7b"
+  },
+  {
+    "path": "public/tidekeeper/neri.png",
+    "sourcePath": "motion/public/tidekeeper/neri.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "8aefe0444985ec1d490e5ececd8b57262dcccf2a1a4963f7866fc68924d7cf10"
+  },
+  {
+    "path": "public/tidekeeper/producer.png",
+    "sourcePath": "motion/public/tidekeeper/producer.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "6225e64d0c16cb071cab9c222702cc66670b4b14af186e937119f0523a37b255"
+  },
+  {
+    "path": "public/tidekeeper/wood-l1.png",
+    "sourcePath": "motion/public/tidekeeper/wood-l1.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "63e290ab968c152b4877e265ccd7dc736126395f48d8ff9abf9ca4c7d79efa6b"
+  },
+  {
+    "path": "public/tidekeeper/wood-l2.png",
+    "sourcePath": "motion/public/tidekeeper/wood-l2.png",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "6a8c73be3639529940d05fbb0db4a42020d25810eb8bbb4df82c60921c28605e"
+  },
+  {
+    "path": "public/tidekeeper/workshop-after-portrait.jpg",
+    "sourcePath": "motion/public/tidekeeper/workshop-after-portrait.jpg",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "c0863cef87a4ccfe802125937a234d8db930b1ac50058a4c4efebad42b8f7198"
+  },
+  {
+    "path": "public/tidekeeper/workshop-before-portrait.jpg",
+    "sourcePath": "motion/public/tidekeeper/workshop-before-portrait.jpg",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "97436d29dcfbedeaf337952cc9a2a117f104e60cea57fa34bad6ab5dc19a3a60"
+  },
+  {
+    "path": "public/tidekeeper/workshop-after.jpg",
+    "sourcePath": "motion/public/tidekeeper/workshop-after.jpg",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "7d58a78af742b3d5b8c6990ddb067e475a43eb8e59d095d1086cb9c289bc80e2"
+  },
+  {
+    "path": "public/tidekeeper/workshop-before.jpg",
+    "sourcePath": "motion/public/tidekeeper/workshop-before.jpg",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "MIT",
+    "sha256": "1b07259b8d2392e38a39d63b64006828e7eda84e56579eaa01ebcae2d4f9a743"
+  },
+  {
+    "path": "public/tidekeeper/tide-sans.woff2",
+    "sourcePath": "motion/public/tidekeeper/tide-sans.woff2",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "SIL OFL 1.1",
+    "sha256": "e1583425cc84c3f40c104d917bf4c4e1eebe2ca9810fbaac8e8d8259c1597310"
+  },
+  {
+    "path": "public/tidekeeper/OFL.txt",
+    "sourcePath": "motion/public/tidekeeper/OFL.txt",
+    "repository": "NewenergyEric/art-director-skill",
+    "commit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+    "license": "SIL OFL 1.1",
+    "sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded"
+  },
+  {
+    "path": "public/shared/NotoSansSC.ttf",
+    "source": "Google Fonts / Noto Sans SC; see root THIRD_PARTY_NOTICES.md",
+    "license": "SIL OFL 1.1",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  {
+    "path": "public/shared/OFL.txt",
+    "source": "Google Fonts / Noto Sans SC; see root THIRD_PARTY_NOTICES.md",
+    "license": "SIL OFL 1.1",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  }
+]

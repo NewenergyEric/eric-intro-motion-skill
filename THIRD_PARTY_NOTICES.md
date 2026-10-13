@@ -8,6 +8,8 @@ The optional `examples/native-art-director` case derives from the author's [Art 
 
 ## Noto Sans SC
 
+The `examples/tidekeeper` case reuses the author's public [Tidekeeper artwork and game UI](https://github.com/NewenergyEric/art-director-skill/tree/a6d17d873845ebeeb530fdf295b9d527c6ac2181/motion), pinned to commit `a6d17d873845ebeeb530fdf295b9d527c6ac2181`. The case preserves the MIT copyright notice in `SOURCE-LICENSE.txt`; its unmodified artwork and font files have individual hashes in `asset-provenance.json`. Native layouts and the visible English UI translation are adaptations made here. The original candidate/prototype status is preserved. Tide Sans and the Noto fallback keep their own bundled OFL files; no private-project source, art, music or video was copied.
+
 The new `Pocket Notes` recipe, cards, native layouts, animation paths and renderer are original MIT work. It is a fictional workflow study. The locally inspected Anxiety Fixer and Dahao productions contributed general workflow findings only; their videos, product source, brand artwork and music are not distributed or relicensed here.
 
 `skills/eric-intro-motion-skill/assets/fonts/NotoSansSC.ttf` is the unmodified variable font from [Google Fonts](https://github.com/google/fonts/tree/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/notosanssc), pinned to commit `bd8f81ddb5c74d5c8897b36ad88b440266245103`.

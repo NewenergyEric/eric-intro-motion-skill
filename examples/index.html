@@ -1,80 +1,19 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Eric Intro Motion Skill — 样例工作台</title>
-  <style>
-    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #132e40; background: #f4f6f3; }
-    * { box-sizing: border-box; } body { margin: 0; } main { max-width: 1180px; margin: auto; padding: 48px 24px; }
-    a { color: #08777e; text-underline-offset: 4px; } .eyebrow { color: #087f85; font-size: 13px; letter-spacing: .12em; font-weight: 650; }
-    h1 { font-size: clamp(32px,5vw,64px); letter-spacing: -.045em; line-height: 1.12; max-width: 800px; margin: 22px 0; }
-    p { color: #526a76; line-height: 1.7; max-width: 730px; } .controls { display: flex; flex-wrap: wrap; gap: 9px; margin: 24px 0 14px; }
-    button { border: 1px solid #bdcbca; background: white; padding: 12px 16px; border-radius: 8px; color: #132e40; cursor: pointer; font: inherit; }
-    button[aria-pressed="true"] { background: #132e40; color: white; border-color: #132e40; } button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #385bfa; outline-offset: 3px; }
-    .stage { border: 1px solid #c6d2d2; background: #e6ece8; border-radius: 16px; padding: 28px; display: grid; place-items: center; min-height: 340px; }
-    .screen { max-width: 100%; width: 880px; } .screen.phone { width: 375px !important; } video, .safe { display: block; width: 100%; height: auto; border-radius: 5px; }
-    [hidden] { display: none !important; } .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; margin: 18px 0 22px; font-size: 14px; }
-    .toolbar label { cursor: pointer; margin-right: 16px; } .download { display: flex; gap: 18px; flex-wrap: wrap; } .note { font-size: 13px; }
-    h2 { font-size: 27px; margin-top: 58px; letter-spacing: -.025em; } .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
-    article { background: white; border: 1px solid #c6d2d2; border-radius: 12px; overflow: hidden; } article h3, article p { margin: 20px 24px; } article video { border-radius: 0; }
-    .comparison { width: 100%; border-radius: 12px; } footer { border-top: 1px solid #c6d2d2; margin-top: 48px; padding-top: 18px; font-size: 13px; color: #526a76; }
-    @media (max-width: 650px) { main { padding: 28px 16px; } .stage { padding: 10px; min-height: 200px; } .grid { grid-template-columns: 1fr; } button { font-size: 13px; padding: 10px; } }
-  </style>
-</head>
-<body>
-<p style="padding:16px;border:1px solid #ddd"><strong>New: eric-intro-motion-skill v0.4</strong> · <a href="native-intro/">Bilingual native intro: six complete films</a> · <a href="https://github.com/NewenergyEric/eric-intro-motion-skill/releases/latest">Download examples and source</a></p>
-<main>
-  <div class="eyebrow">MOTION STORY / OPEN SOURCE</div>
-  <h1>同一个想法，<br>换个画幅，接着讲。</h1>
-  <p><strong>v0.3：</strong><a href="native-art-director/index.html">看完整 24 秒短片的三种原生画幅</a>。从独立图层重新编排，附原插画、字体和 React/Remotion 源码。</p>
-  <p>这里是实际导出的 8 秒 GIF／MP4。切换画幅，看标题、卡片和连线如何重新安排。点播放才会动，也可以只看静态封面。</p>
-  <div class="controls" role="group" aria-label="选择画幅">
-    <button data-target="x" aria-pressed="true">X · 16:9</button>
-    <button data-target="linkedin" aria-pressed="false">LinkedIn · 4:5</button>
-    <button data-target="moments" aria-pressed="false">朋友圈 · 1:1</button>
-    <button data-target="vertical" aria-pressed="false">竖屏 · 9:16</button>
-  </div>
-  <div class="toolbar">
-    <div><label><input id="guide" type="checkbox"> 查看设计安全区</label><label><input id="phone" type="checkbox"> 375px 宽预览</label></div>
-    <span id="dimensions" aria-live="polite">1920 × 1080 · 8 秒</span>
-  </div>
-  <div class="stage"><div class="screen" id="screen">
-    <video id="hero" controls loop playsinline preload="metadata" poster="idea-to-post/x/idea-to-post.png" aria-label="从想法到分享的动画"><source src="idea-to-post/x/idea-to-post.mp4" type="video/mp4"></video>
-    <img id="safe" class="safe" src="idea-to-post/x/idea-to-post-safe.png" alt="红色虚线内是本作品的设计安全区，并非平台官方遮罩。" hidden>
-  </div></div>
-  <div class="toolbar"><div class="download"><a id="mp4" href="idea-to-post/x/idea-to-post.mp4" download>下载 MP4</a><a id="gif" href="idea-to-post/x/idea-to-post.gif" download>下载 GIF</a><a id="poster" href="idea-to-post/x/idea-to-post.png" download>静态封面</a><a id="source" href="idea-to-post/x/idea-to-post.story.json" download>内容源文件</a></div></div>
-  <p class="note">这是文件预览。安全区是制作建议；平台播放器、封面缩略图和按钮覆盖仍需在实际设备确认。朋友圈 1:1 是保守建议，并非已核实的官方规格。</p>
-  <h2>新：把已有的动效接着用</h2>
-  <p>九个个人介绍场景已经拆成组件。下面两份各 12 秒：一份重新组合旧组件，一份独立实现三种公开动效思路。<a href="remix/module-catalog.png">查看全部 12 个组件</a>。</p>
-  <div class="grid">
-    <article><video controls loop playsinline preload="metadata" poster="remix/profile-square/profile-remix.png" aria-label="个人介绍组件组合"><source src="remix/profile-square/profile-remix.mp4" type="video/mp4"></video><h3>改顺序，换文字，再试一次。</h3><p><a href="remix/profile-square/profile-remix.mp4" download>方形 MP4</a> · <a href="remix/profile-portrait/profile-remix.mp4" download>3:4 MP4</a> · <a href="remix/profile-square/profile-remix.gif" download>GIF</a> · <a href="remix/profile-square/profile-remix.recipe.json" download>组合清单</a></p></article>
-    <article><video controls loop playsinline preload="metadata" poster="remix/reference-portrait/reference-remix.png" aria-label="三种公开动效思路"><source src="remix/reference-portrait/reference-remix.mp4" type="video/mp4"></video><h3>错峰网格、路径追踪、滚动字带。</h3><p><a href="remix/reference-portrait/reference-remix.mp4" download>MP4</a> · <a href="remix/reference-portrait/reference-remix.gif" download>GIF</a> · <a href="https://animejs.com/documentation/utilities/stagger/">Anime.js 参考</a> · <a href="https://motion.dev/docs/react-ticker">Motion 参考</a></p></article>
-  </div>
-  <h2>还有两种讲法</h2>
-  <div class="grid">
-    <article><video controls loop playsinline preload="metadata" poster="agents-at-work/x/agents-at-work.png" aria-label="协作循环样例"><source src="agents-at-work/x/agents-at-work.mp4" type="video/mp4"></video><h3>A little help. A better loop.</h3><p>信息在上下文、工具和人之间流动。<br><a href="agents-at-work/x/agents-at-work.mp4" download>MP4</a> · <a href="agents-at-work/x/agents-at-work.gif" download>GIF</a></p></article>
-    <article><video controls loop playsinline preload="metadata" poster="keep-the-feeling/moments/keep-the-feeling.png" aria-label="中文视觉参考样例"><source src="keep-the-feeling/moments/keep-the-feeling.mp4" type="video/mp4"></video><h3>有些感觉，值得留住。</h3><p>把参考收好，下次接着往前做。<br><a href="keep-the-feeling/moments/keep-the-feeling.mp4" download>MP4</a> · <a href="keep-the-feeling/moments/keep-the-feeling.gif" download>GIF</a></p></article>
-  </div>
-  <h2>摆在一起看</h2><img class="comparison" src="ratio-comparison.png" alt="16:9、1:1、4:5、9:16 四种布局并列对照。">
-  <footer>MIT · <a href="https://github.com/NewenergyEric/eric-intro-motion-skill">查看开源仓库</a> · 动效默认暂停，静态封面始终可用。</footer>
-</main>
-<script>
-  const hero = document.querySelector('#hero'), safe = document.querySelector('#safe');
-  const guide = document.querySelector('#guide'), phone = document.querySelector('#phone'), screen = document.querySelector('#screen');
-  const sizes = { x: [1920,1080], linkedin: [1080,1350], moments: [1080,1080], vertical: [1080,1920] };
-  function setGuide() { if (guide.checked) hero.pause(); hero.hidden = guide.checked; safe.hidden = !guide.checked; }
-  guide.addEventListener('change', setGuide);
-  phone.addEventListener('change', () => screen.classList.toggle('phone', phone.checked));
-  for (const button of document.querySelectorAll('[data-target]')) button.addEventListener('click', () => {
-    const target = button.dataset.target, base = `idea-to-post/${target}/idea-to-post`, [w,h] = sizes[target];
-    hero.pause(); hero.poster = `${base}.png`; hero.querySelector('source').src = `${base}.mp4`; hero.load(); safe.src = `${base}-safe.png`;
-    screen.style.width = `${Math.min(880, 680 * w/h)}px`;
-    document.querySelector('#dimensions').textContent = `${w} × ${h} · 8 秒`;
-    for (const [id, extension] of [['mp4','mp4'],['gif','gif'],['poster','png'],['source','story.json']]) document.querySelector(`#${id}`).href = `${base}.${extension}`;
-    for (const other of document.querySelectorAll('[data-target]')) other.setAttribute('aria-pressed', String(other === button));
-    setGuide();
-  });
-</script>
-</body>
-</html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="把产品与故事做成值得看的介绍影片。潮灯小镇、双语产品演示、三种原生画幅，可播放、下载和继续编辑。"><title>作品先开口 — eric intro motion</title><link rel="stylesheet" href="gallery.css"></head>
+<body><div class="wrap"><header class="masthead"><a class="wordmark" href="./"><span>eric</span> / intro motion</a><nav><a href="#films">作品</a><a class="extra-nav" href="https://github.com/NewenergyEric/eric-intro-motion-skill#install">安装 Skill</a><a href="https://github.com/NewenergyEric/eric-intro-motion-skill">GitHub ↗</a></nav></header>
+<main><section class="hero"><div class="hero-copy"><div class="number">01</div><div class="eyebrow">Selected work / October 2026</div><h1>让作品，<br><em>先开口。</em></h1><p>把已经打磨好的美术与产品细节，编成一段完整的介绍。场景、角色、真实界面，各有自己的镜头。</p><div class="byline">本期主作品 / 潮灯小镇 · TIDEKEEPER</div><p>24 秒，从一份共同的视觉记忆，到合成、交付与灯房修复。</p><div class="actions"><a class="primary" href="tidekeeper/">观看三种画幅 ↗</a><a class="secondary" data-download="square" href="tidekeeper/tidekeeper-zh-square/film.mp4" download>下载当前影片</a></div></div>
+<div class="film-panel"><div class="film-frame"><video data-ratio="square" controls playsinline preload="metadata" width="1080" height="1080" src="tidekeeper/tidekeeper-zh-square/film.mp4" poster="tidekeeper/tidekeeper-zh-square/poster.png" aria-label="Tidekeeper 中文 square 24 seconds"></video></div><div class="film-bar"><span>24 SEC / 1:1 · 3:4 · 9:16 / 完整成片</span><div class="switch" aria-label="影片语言"><button data-language="zh" aria-pressed="true">中文</button><button data-language="en" aria-pressed="false">English</button></div></div><div class="status" role="status" aria-live="polite"></div></div></section>
+<section class="chapter"><div class="section-head"><div><div class="eyebrow">A world in six scenes</div><h2>画面丰富，故事也完整。</h2></div><p>沿用已经加工好的角色、场景、灯具和游戏界面。每一张都是最终影片里的实际画面。</p></div><div class="scene-strip">
+<figure><img data-scene="1" src="tidekeeper/tidekeeper-zh-square/scene-1.jpg" alt="阿澜站在海港灯房前" loading="lazy"><figcaption><span>01</span>先进入这个世界</figcaption></figure>
+<figure><img data-scene="2" src="tidekeeper/tidekeeper-zh-square/scene-2.jpg" alt="角色、灯具与场景的共同美术规范" loading="lazy"><figcaption><span>02</span>留下共同的视觉语言</figcaption></figure>
+<figure><img data-scene="3" src="tidekeeper/tidekeeper-zh-square/scene-3.jpg" alt="新动作、修复场景与高级灯具" loading="lazy"><figcaption><span>03</span>换个人做，仍是同一世界</figcaption></figure>
+<figure><img data-scene="4" src="tidekeeper/tidekeeper-zh-square/scene-4.jpg" alt="完整合成游戏中的订单与棋盘" loading="lazy"><figcaption><span>04</span>放进真实使用画面</figcaption></figure>
+<figure><img data-scene="5" src="tidekeeper/tidekeeper-zh-square/scene-5.jpg" alt="修复后的海港灯房" loading="lazy"><figcaption><span>05</span>让变化被看见</figcaption></figure>
+<figure><img data-scene="6" src="tidekeeper/tidekeeper-zh-square/scene-6.jpg" alt="角色与视觉记忆的结尾画面" loading="lazy"><figcaption><span>06</span>带着方向，继续创作</figcaption></figure>
+</div></section>
+<section class="chapter" id="films"><div class="section-head"><div><div class="eyebrow">More ways to tell a story</div><h2>选择适合内容的表达。</h2></div><p>完整美术案例放在最前。简洁的产品演示与早期动效练习，也各有用处。</p></div><div class="case-grid">
+<a class="case" href="tidekeeper/"><div class="case-image"><img src="tidekeeper/tidekeeper-zh-square/scene-3.jpg" alt="潮灯小镇角色与灯具" loading="lazy"></div><small>01 / ILLUSTRATED WORLD · ZH + EN</small><h3>潮灯小镇 ↗</h3><p>完整场景、角色、物品与可编辑游戏 UI。六支 24 秒原生画幅成片。</p></a>
+<a class="case" href="native-intro/"><div class="case-image"><img src="native-intro/pocket-notes-zh-square/poster.png" alt="随手记产品流程" loading="lazy"></div><small>02 / PRODUCT WORKFLOW · ZH + EN</small><h3>随手记 ↗</h3><p>记录、分类、保存、回来继续。适合简洁产品流程的六支 16 秒演示。</p></a>
+<a class="case" href="native-art-director/"><div class="case-image"><img src="native-art-director/square/poster.png" alt="Art Director 早期原生构图案例" loading="lazy"></div><small>03 / ORIGINAL NATIVE STUDY</small><h3>Art Director · 初版 ↗</h3><p>保留早期蓝绿色视觉系统，查看它怎样在三种画幅中逐镜头重排。</p></a>
+</div><div class="actions"><a class="secondary" href="archive.html">查看更早的流程动画与动效练习 ↗</a></div></section></main>
+<footer class="closing"><div><strong>Made to be seen. Built to be edited.</strong><p>eric-intro-motion-skill · 可播放成片、源码、素材与许可一起交付。</p></div><a href="https://github.com/NewenergyEric/eric-intro-motion-skill/releases/latest">下载完整案例包 ↗</a></footer></div><script src="gallery.js"></script></body></html>

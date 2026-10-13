@@ -1,0 +1,7 @@
+{
+  "method": "tidekeeper-source-lf-v1",
+  "sourceHash": "94c750a955211d8e0b38db749dd4a5c1f34f6bd965bb5d28f64ad07392b1147e",
+  "renderedSourceByteHash": "e1ba8e5fa008d0f572155340670ec1a255cf787ad96d36cf50621170fdc91230",
+  "change": "The same rendered source is identified after LF normalization, so Git checkout line endings do not invalidate it. Binary artwork and MP4 digests are unchanged.",
+  "lfArchiveEquivalentVerified": true
+}
