@@ -11,7 +11,10 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      PAGES_ARTIFACT_NAME: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
     permissions:
+      actions: read
       pages: write
       id-token: write
     environment:
@@ -24,7 +27,26 @@ jobs:
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
           path: examples
+      - name: Wait for the artifact index
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..12}; do
+            if count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?per_page=100" \
+              --jq "[.artifacts[] | select(.name == \"$PAGES_ARTIFACT_NAME\" and .expired == false)] | length"); then
+              if [ "$count" = "1" ]; then
+                echo "The Pages artifact is ready for deployment."
+                exit 0
+              fi
+            fi
+            sleep 5
+          done
+          echo "::error::The uploaded Pages artifact did not appear in the index."
+          exit 1
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
