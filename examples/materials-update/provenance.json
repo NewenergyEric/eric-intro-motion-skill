@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-10-13",
+  "repository": "NewenergyEric/art-director-skill",
+  "commit": "04f183050a5d1122648a9c5aa35b998f325bf08f",
+  "previousFilmArtworkCommit": "a6d17d873845ebeeb530fdf295b9d527c6ac2181",
+  "license": "MIT; embedded Noto font OFL 1.1",
+  "assets": [
+    {
+      "path": "latest-source-en.mp4",
+      "sourcePath": "docs/assets/motion/depth-showcase-en.mp4",
+      "sha256": "3434f9b12919d067453786895072d672622aa4428cab8f903480ec764724c0c9"
+    },
+    {
+      "path": "repair-en.jpg",
+      "source": "latest-source-en.mp4",
+      "timeSeconds": 16,
+      "sha256": "897b646a69bc359de683370cc86b91a36f4769d511f20052a40e2d078beb03c3"
+    },
+    {
+      "path": "light-en.jpg",
+      "source": "latest-source-en.mp4",
+      "timeSeconds": 18,
+      "sha256": "1c6dbd423c37f61510c8aa42d0bbc705938174dc0921667be256fb9413f8ece4"
+    },
+    {
+      "path": "arrival-en.jpg",
+      "source": "latest-source-en.mp4",
+      "timeSeconds": 21.7,
+      "sha256": "a2981643ef67c7307334e6d4587a6b5ce6c9557bc16dffaaae393600b4e53107"
+    }
+  ]
+}

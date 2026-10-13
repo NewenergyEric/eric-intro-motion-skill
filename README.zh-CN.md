@@ -2,7 +2,7 @@
 
 用可编辑的镜头介绍产品、个人和具体想法。复用已有素材与渲染缓存，为 **1:1、3:4、9:16 的每个镜头原生重排**，分别调整标题、图片、卡片、文字换行和运动路径。中英文独立排版。
 
-[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.1](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.1) · [MIT 许可](LICENSE)
+[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.2](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.2) · [MIT 许可](LICENSE)
 
 [![潮灯小镇：完整场景、角色与真实游戏界面](examples/tidekeeper/preview-zh.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
 
@@ -107,3 +107,7 @@ node skills/social-motion/scripts/pack.mjs --input skills/eric-intro-motion-skil
 [在线画廊](https://newenergyeric.github.io/eric-intro-motion-skill/)可直接播放和下载，也可在本地打开 `examples/index.html`。示例 ZIP 包含完整渲染器、源码、配方、字体许可、成片和静态替代图。旧示例可用 `npm run examples` / `npm run examples:remix` 重建，需要替换输出时加 `-- --force`。可选 Art Director 案例使用其单独锁定的 React/Remotion 依赖。
 
 代码、Skill 和原创矢量示例为 MIT；字体保留 OFL，私有项目素材不随包公开。[来源与许可](THIRD_PARTY_NOTICES.md)。
+
+## 三画幅同时播放与新素材检查
+
+首页默认同时播放英语 1:1、3:4、9:16 三部成片，静音循环，支持统一暂停、重播和中文切换。2026-10-13 已公开的新素材包括修缮动作、夜景举灯与补给船归航；最新英语原片和预览已放入[新素材展示](examples/materials-update/README.md)。三画幅对比仍使用原先六幕剪辑，新素材原片是另一个后续版本。

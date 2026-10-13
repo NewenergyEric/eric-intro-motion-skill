@@ -36,4 +36,12 @@ for(const name of ['examples/index.html','examples/tidekeeper/index.html']){
  }
 }
 await stat(path.join(folder,report.visualReview));await stat(path.join(folder,report.browserPlayback));
-console.log('PASS: featured gallery links, pinned artwork, six MP4 decodes, 48 native layout samples and 174 encoded images.');
+const updateFolder=path.join(root,'examples/materials-update');
+const update=await json(path.join(updateFolder,'provenance.json'));
+assert.equal(update.commit,'04f183050a5d1122648a9c5aa35b998f325bf08f');
+for(const asset of update.assets)assert.equal(digest(await readFile(path.join(updateFolder,asset.path))),asset.sha256,asset.path);
+const latestMovie=path.join(updateFolder,'latest-source-en.mp4');
+const latest=JSON.parse(await run('ffprobe',['-v','error','-count_frames','-show_streams','-of','json',latestMovie])).streams.find(s=>s.codec_type==='video');
+assert.equal(latest.width,1280);assert.equal(latest.height,720);assert.equal(Number(latest.nb_read_frames),720);assert.equal(Number(latest.duration),24);
+await run('ffmpeg',['-v','error','-i',latestMovie,'-f','null','-']);
+console.log('PASS: gallery links, pinned artwork, six native MP4s, 48 native layout samples, 174 encoded images and the latest English source preview.');

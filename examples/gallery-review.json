@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-10-13",
+  "version": "0.5.2",
+  "scope": "Homepage and Tidekeeper detail page in Chromium, desktop 1280x720 and mobile viewport 390x844. Films retain their existing render verification.",
+  "checks": {
+    "defaultEnglish": true,
+    "threeNativeFormatsVisibleTogetherOnHomepage": true,
+    "mutedAutoplay": true,
+    "loopingBeyondFirst24Seconds": true,
+    "sharedPause": true,
+    "sharedReplayFromStart": true,
+    "chineseSwitchResumesAllThree": true,
+    "englishSwitchResumesAllThree": true,
+    "mobileNoHorizontalOverflow": true,
+    "detailPageAutoplay": true,
+    "sourcePreviewHashesAndDecode": true
+  },
+  "observedSamples": {
+    "mobileEnglishPlayingSeconds": [
+      13.909267,
+      13.879959,
+      13.873719
+    ],
+    "chinesePlayingSeconds": [
+      0.733094,
+      0.782337,
+      0.734455
+    ],
+    "pausedSeconds": [
+      1.173292,
+      1.222551,
+      1.174709
+    ],
+    "replaySeconds": [
+      0.547155,
+      0.545414,
+      0.545116
+    ]
+  },
+  "limits": [
+    "Browser and operating-system autoplay restrictions may require the visible Play all button.",
+    "Network buffering coordination is implemented; no artificial network fault was injected.",
+    "New source previews are a later 16:9 edit; they have not been presented as newly rendered native-format films."
+  ]
+}
