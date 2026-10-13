@@ -22,6 +22,8 @@ jobs:
       - run: npm test
       - name: Verify featured films and gallery
         run: node scripts/verify-gallery.mjs
+      - name: Verify README previews and links
+        run: node scripts/verify-readme.mjs
       - name: Validate portable skill package
         run: |
           node scripts/install.mjs --dest .work/installed

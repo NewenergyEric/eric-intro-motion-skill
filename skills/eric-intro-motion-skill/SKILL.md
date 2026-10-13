@@ -1,6 +1,6 @@
 ---
 name: eric-intro-motion-skill
-description: Create editable product and personal introduction videos, GIF demos, and motion stories. Reuse existing assets and render caches, with scene-by-scene native layouts for 1:1, 3:4 and 9:16 and independent Chinese/English typography.
+description: Create editable product and personal introduction videos, GIF demos, and animated GitHub README showcases. Reuse existing assets and render caches, with scene-by-scene native layouts for 1:1, 3:4 and 9:16 and independent Chinese/English typography.
 ---
 
 # eric-intro-motion-skill
@@ -8,6 +8,8 @@ description: Create editable product and personal introduction videos, GIF demos
 Turn an idea into a small visual story: objects should gather, travel, connect, or change in a way that explains the idea. Deliver the editable content alongside the animation.
 
 For a product introduction, read [intro production](references/intro-production.md): verify the real workflow, choose meaningful shots, plan each language/ratio, and retain source and asset licenses. Duration follows the story and reading time; the examples are not a fixed length requirement.
+
+For motion in a GitHub repository introduction, read [GitHub README presentation](references/github-readme.md). Put a supported looping preview, clear value statement, factual badges and install entry in the README itself. Preserve the requested primary language; a separate Pages gallery does not fulfill an inline README showcase.
 
 ## Reuse first; keep context small
 

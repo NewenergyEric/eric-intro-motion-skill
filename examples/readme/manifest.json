@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-13T14:49:40.694Z",
+  "purpose": "English GitHub README animation previews; static posters for reduced motion",
+  "previewBudgetBytes": 6291456,
+  "inputs": [
+    {
+      "path": "examples/materials-update/latest-source-en.mp4",
+      "sha256": "3434f9b12919d067453786895072d672622aa4428cab8f903480ec764724c0c9",
+      "width": 1280,
+      "height": 720,
+      "durationSeconds": 24
+    },
+    {
+      "path": "examples/tidekeeper/tidekeeper-en-square/film.mp4",
+      "sha256": "783e6c37197d6abac2a06f211f69c4dc6954a965dc91923587d8a6b6bc237b9b",
+      "width": 1080,
+      "height": 1080,
+      "durationSeconds": 24
+    },
+    {
+      "path": "examples/tidekeeper/tidekeeper-en-portrait/film.mp4",
+      "sha256": "cec57f7e3acb3a55143b01c23f0d8fb635c37b1827e939cd5864680879ec03a0",
+      "width": 1080,
+      "height": 1440,
+      "durationSeconds": 24
+    },
+    {
+      "path": "examples/tidekeeper/tidekeeper-en-vertical/film.mp4",
+      "sha256": "68f8ed825ea6545f86400e3af8b707ae287bd11e9295957b811e3d818671d429",
+      "width": 1080,
+      "height": 1920,
+      "durationSeconds": 24
+    }
+  ],
+  "sourceRevisions": {
+    "hero": "04f183050a5d1122648a9c5aa35b998f325bf08f",
+    "nativeArtwork": "a6d17d873845ebeeb530fdf295b9d527c6ac2181"
+  },
+  "comparison": {
+    "matchingTimestamps": true,
+    "nativeFilmsAlreadyComposed": true,
+    "sourceFrameCropping": false,
+    "note": "Comparison displays the earlier native edit. The hero is the later English source film."
+  },
+  "outputs": [
+    {
+      "path": "hero-en.gif",
+      "bytes": 6013921,
+      "sha256": "b22ab7c2e8088b2adb93c3cf34ed7446ee339e768944c8626f6233ce137eeb27",
+      "width": 800,
+      "height": 450,
+      "fps": 20,
+      "frames": 480,
+      "durationSeconds": 24,
+      "loop": "infinite",
+      "fullDecodePassed": true
+    },
+    {
+      "path": "hero-en.png",
+      "bytes": 603397,
+      "sha256": "84c620cb25f1fb7d42126138da076e0f5e3423456761d3f22925098a373ac5ce",
+      "width": 800,
+      "height": 450
+    },
+    {
+      "path": "three-formats-en.gif",
+      "bytes": 3479961,
+      "sha256": "29050a7b0c74eb09757facbc66dfa981232e9ee0499cff97e2ad909f727cc637",
+      "width": 878,
+      "height": 424,
+      "fps": 20,
+      "frames": 480,
+      "durationSeconds": 24,
+      "loop": "infinite",
+      "fullDecodePassed": true
+    },
+    {
+      "path": "three-formats-en.png",
+      "bytes": 453906,
+      "sha256": "be10677e20cc8438262a8a5efd8607b0ecd2eff176f4318500f700de0948da43",
+      "width": 878,
+      "height": 424
+    }
+  ],
+  "browserVerification": "Separate from encoding; see visual-review.md"
+}

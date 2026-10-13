@@ -1,6 +1,6 @@
 {
   "name": "eric-intro-motion-skill",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "examples:remix": "node scripts/build-remixes.mjs",
     "install:skills": "node scripts/install.mjs",
     "examples:intro": "node scripts/build-intro.mjs",
+    "examples:readme": "node scripts/build-readme-media.mjs",
     "package": "python scripts/package.py",
     "preview": "node scripts/preview.mjs",
     "verify:intro": "node scripts/verify-intro.mjs"

@@ -21,6 +21,12 @@ The new `Pocket Notes` recipe, cards, native layouts, animation paths and render
 
 The font retains its own license; MIT does not replace it. Renaming the file for portability does not modify the font itself.
 
+## README showcase media
+
+`examples/readme/hero-en.gif` and its PNG cover are derivatives of the author's public English source film in `examples/materials-update`, pinned to Art Director commit `04f183050a5d1122648a9c5aa35b998f325bf08f`. Its MIT notice is preserved in `examples/materials-update/LICENSE`; embedded fonts retain OFL. The synchronized comparison derives from this repository's three English Tidekeeper films, using the earlier artwork revision documented above. `examples/readme/manifest.json` records the source and output hashes. The five informational badge SVGs are original MIT work.
+
+The README's introductory hierarchy was informed by [Huashu Design](https://github.com/alchaincyf/huashu-design). Its prose, artwork, films and compatibility claims are not included in this distribution.
+
 ## Runtime dependencies
 
 - [fontkit](https://github.com/foliojs/fontkit), 2.0.4, MIT.

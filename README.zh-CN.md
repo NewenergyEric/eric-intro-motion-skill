@@ -1,30 +1,58 @@
-# eric-intro-motion-skill
+<p align="center"><sub><a href="README.md">English · 主介绍</a> · <b>中文说明</b></sub></p>
 
-用可编辑的镜头介绍产品、个人和具体想法。复用已有素材与渲染缓存，为 **1:1、3:4、9:16 的每个镜头原生重排**，分别调整标题、图片、卡片、文字换行和运动路径。中英文独立排版。
+<h1 align="center">Eric Intro Motion</h1>
 
-[English](README.md) · [在线浏览示例](https://newenergyeric.github.io/eric-intro-motion-skill/) · [下载 v0.5.2](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.2) · [MIT 许可](LICENSE)
+<p align="center"><em>把产品讲成一个看得见的故事。</em></p>
 
-[![潮灯小镇：完整场景、角色与真实游戏界面](examples/tidekeeper/preview-zh.gif)](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/)
+<p align="center">
+  <a href="LICENSE"><img src="examples/readme/badges/license.svg" alt="MIT 许可"></a>
+  <a href="#安装与升级"><img src="examples/readme/badges/render.svg" alt="本地渲染"></a>
+  <a href="#三种画幅同步看"><img src="examples/readme/badges/languages.svg" alt="中英文独立排版"></a>
+  <a href="#三种画幅同步看"><img src="examples/readme/badges/layouts.svg" alt="三种原生画幅"></a>
+  <a href="#用在你的产品上"><img src="examples/readme/badges/source.svg" alt="可编辑源码"></a>
+</p>
 
-## v0.5 主案例：潮灯小镇
+<p align="center"><strong>一个产品，三种原生构图，中英文分别呈现。</strong><br>
+用已有美术和真实产品流程，做一支值得看完的介绍片。<br>
+保留角色、细节和可编辑源码，让每种画幅都有自己的构图。</p>
 
-海港灯房、灯匠阿澜、逐级合成的灯具，以及完整的游戏界面。复用已经加工完成的公开美术，为六个镜头逐一重排，提供 **中文与英文 × 1:1、3:4、9:16，共六支完整 24 秒成片**。源码、素材、许可、逐镜头静帧和成片检查一起交付。画廊以英文介绍这个最新案例，默认展示英文视频、封面和下载入口；中文版可通过语言按钮切换。
+<p align="center"><a href="#动态案例">看案例</a> · <a href="#三种画幅同步看">对比画幅</a> · <a href="#安装与升级">安装 Skill</a> · <a href="https://github.com/NewenergyEric/eric-intro-motion-skill/releases/tag/v0.5.3">下载 v0.5.3</a></p>
 
-[观看六支完整影片](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [源码与重建](examples/tidekeeper/README.md) · [素材来源](examples/tidekeeper/asset-provenance.json)
+## 动态案例
 
-![潮灯小镇的三种原生构图](examples/tidekeeper/ratio-review.jpg)
+**TIDEKEEPER · 潮灯小镇：修好灯房，点亮海港，迎接归航。**
 
-有完整美术与 UI 的项目，可从这个案例开始；「随手记」保留为简洁的流程模板，不再代表所有作品的默认视觉风格。
+最新英文影片把场景、角色、合成游戏界面和修缮过程连成完整的 24 秒故事。这里直接循环展示，仓库主介绍及主视频保持英语优先。
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="examples/readme/hero-en.png">
+  <img src="examples/readme/hero-en.gif" width="800" alt="最新英文潮灯小镇影片：海港、游戏界面、修缮、夜景举灯和补给船归航。">
+</picture>
 
-## v0.4 的实际更新
+**[播放完整英语影片](https://newenergyeric.github.io/eric-intro-motion-skill/#cases)** · [下载 MP4](https://newenergyeric.github.io/eric-intro-motion-skill/materials-update/latest-source-en.mp4) · [静态封面](examples/readme/hero-en.png)
 
-- 正式名称统一为 `eric-intro-motion-skill`，覆盖仓库、Skill 目录、元数据、展示名称、npm 包、安装入口和发布物。旧 `motion-story` 保留小型兼容入口；`social-motion` 继续作为画幅工具。[迁移说明](skills/eric-intro-motion-skill/references/migration.md)。
-- 新增「记录—分类—保存—回来继续」四种可组合镜头。[随手记案例](examples/native-intro/)提供中英文各三种画幅，共六支 16 秒成片、源码、静帧和压缩后转场抽样。这是使用原创 MIT 矢量图形制作的虚构工作流示例。
-- 校验逐镜头比对同一源码版本的文字和图层，检查文字是否超出卡片内部，拒绝只有部分镜头重排的假适配。
-- 帧缓存按哈希校验，可补渲缺失、损坏的帧；成片精确命中时跳过渲染和编码。仅改声音时复制视频码流并核对哈希，避免二次压缩。
+<sub>采用作者 Art Director 项目于 2026-10-13 已公开的最新英文原片。[来源、版本和许可](examples/materials-update/README.md)。</sub>
 
-这些方法来自已核实的最新制作实践，包括 Anxiety Fixer 中英文六支 68 秒介绍视频。它的品牌素材与 Dahao 私有源码留在本地，公开仓库只吸收通用方法和许可明确的案例。[依据与边界](skills/eric-intro-motion-skill/references/case-findings.md)。
+## 三种画幅同步看
+
+**同一故事，每个镜头分别编排。** 三种画幅在一张动图中同步播放，可直接观察角色、标题和游戏界面的不同位置。
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="examples/readme/three-formats-en.png">
+  <img src="examples/readme/three-formats-en.gif" width="878" alt="英文 1:1、3:4、9:16 三支潮灯小镇成片同步循环，完整显示各自的原生构图。">
+</picture>
+
+**[打开三画幅播放器](https://newenergyeric.github.io/eric-intro-motion-skill/)** · [中英文六支完整影片](https://newenergyeric.github.io/eric-intro-motion-skill/tidekeeper/) · [静态对比](examples/readme/three-formats-en.png)
+
+<sub>三画幅使用较早的六幕剪辑；上面的最新英文原片属于后续版本。[可编辑案例](examples/tidekeeper/README.md) · [逐镜头检查](examples/tidekeeper/verification.json) · [动图测量](examples/readme/manifest.json)。</sub>
+
+## 用在你的产品上
+
+提供已经完成的美术、产品界面和故事，让 Skill 复用有效素材，为每个场景和画幅重新编排，并交付可修改的文件。
+
+> 用 $eric-intro-motion-skill 介绍这个产品。复用我的美术，展示真实流程，中英文分别排版，为 1:1、3:4、9:16 逐镜头编排。在 GitHub README 内放英文循环预览和三画幅同步对比，交付源码、MP4、GIF 和静态封面。
+
+有完整美术与 UI 时从[潮灯小镇](examples/tidekeeper/README.md)开始；简单的记录、分类、保存流程可参考[随手记](examples/native-intro/)。具体视觉风格跟随你的产品。
 
 ## 安装与升级
 
@@ -41,7 +69,10 @@ node scripts/install.mjs
 
 已有版本请执行 `node scripts/install.mjs --upgrade`。安装器先把原目录完整备份到 skills 旁的带日期目录，再安装新版；不带此参数不会覆盖。指定其他 Skill 库可加 `--dest /path/to/skills`。也可以解压 [Skill 发布包](https://github.com/NewenergyEric/eric-intro-motion-skill/releases/latest)，再进入新名称目录执行 `npm ci`。
 
-> 用 $eric-intro-motion-skill 介绍这个产品的真实使用流程。复用已有素材，中英文文案自然具体，为 1:1、3:4、9:16 逐镜头重新编排，交付源码和检查过的完整视频。
+安装后的名称为 **`eric-intro-motion-skill`**；同时包含 `social-motion` 画幅工具和 `motion-story` 兼容入口。[迁移说明](skills/eric-intro-motion-skill/references/migration.md)。
+
+<details>
+<summary><strong>重建影片与 README 动图</strong></summary>
 
 ## 渲染潮灯小镇
 
@@ -82,6 +113,16 @@ node skills/eric-intro-motion-skill/scripts/replace-audio.mjs --video old.mp4 --
 
 输出到新文件，原片保留，并检查视频码流和帧数未变。
 
+### 重建 README 动图
+
+```sh
+npm run examples:readme -- --out output/readme
+```
+
+复用已完成的英语影片，导出两张完整 24 秒、20 FPS 循环 GIF、对应静态封面和哈希记录，并检查完整解码。[README 展示规范](skills/eric-intro-motion-skill/references/github-readme.md)。
+
+</details>
+
 ## 已有功能继续保留
 
 | 功能 | 入口 |
@@ -104,10 +145,8 @@ node skills/social-motion/scripts/pack.mjs --input skills/eric-intro-motion-skil
 
 `npm test` 覆盖双语边界、缺字和溢出、原功能、真实 MP4/GIF 编码、逐镜头重排、缓存恢复、音轨无损替换与安装备份。[本次验证记录](examples/native-intro/verification.json)说明实际检查结果。程序测量配合画面检查；社交平台仍可能裁切封面或叠加控件。
 
-[在线画廊](https://newenergyeric.github.io/eric-intro-motion-skill/)可直接播放和下载，也可在本地打开 `examples/index.html`。示例 ZIP 包含完整渲染器、源码、配方、字体许可、成片和静态替代图。旧示例可用 `npm run examples` / `npm run examples:remix` 重建，需要替换输出时加 `-- --force`。可选 Art Director 案例使用其单独锁定的 React/Remotion 依赖。
+[在线画廊](https://newenergyeric.github.io/eric-intro-motion-skill/)可直接播放和下载，也可在本地打开 `examples/index.html`。GitHub 源码压缩包包含完整渲染器、配方、字体许可、成片和静态替代图；Release 中较小的 ZIP 是便携 Skill 包。旧示例可用 `npm run examples` / `npm run examples:remix` 重建，需要替换输出时加 `-- --force`。可选 Art Director 案例使用其单独锁定的 React/Remotion 依赖。
 
 代码、Skill 和原创矢量示例为 MIT；字体保留 OFL，私有项目素材不随包公开。[来源与许可](THIRD_PARTY_NOTICES.md)。
 
-## 三画幅同时播放与新素材检查
-
-首页默认同时播放英语 1:1、3:4、9:16 三部成片，静音循环，支持统一暂停、重播和中文切换。2026-10-13 已公开的新素材包括修缮动作、夜景举灯与补给船归航；最新英语原片和预览已放入[新素材展示](examples/materials-update/README.md)。三画幅对比仍使用原先六幕剪辑，新素材原片是另一个后续版本。
+通用方法也吸收了 Anxiety Fixer 中英文六支 68 秒介绍视频的制作实践。其品牌素材和 Dahao 私有源码留在本地。[依据与边界](skills/eric-intro-motion-skill/references/case-findings.md)。
