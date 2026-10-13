@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 2,
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "width": 1080,
+  "height": 1080,
+  "errors": [],
+  "samples": [
+    {
+      "scene": 0,
+      "frame": 102,
+      "width": 1080,
+      "height": 1080,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 378,
+            "w": 526,
+            "h": 456
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 650,
+            "y": 444,
+            "w": 366,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "随手记 · 工作流示例",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 65.775,
+            "y": 63.75,
+            "w": 232.9262596130371,
+            "h": 23.474999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "留住刚才的想法。",
+          "bounds": {
+            "x": 64,
+            "y": 148,
+            "w": 952,
+            "h": 190
+          },
+          "textBounds": {
+            "x": 68.42,
+            "y": 157.99599999999998,
+            "w": 495.652,
+            "h": 63.988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "不急着整理，先写一句。",
+          "bounds": {
+            "x": 64,
+            "y": 924,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 65.344,
+            "y": 928.896,
+            "w": 329.79200000000003,
+            "h": 30.751999999999953
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "一件小事",
+          "bounds": {
+            "x": 96,
+            "y": 408,
+            "w": 462,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 96.819,
+            "y": 411.192,
+            "w": 82.40400000000001,
+            "h": 19.718999999999994
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "周五前，问问小梅对初稿的想法。",
+          "bounds": {
+            "x": 96,
+            "y": 482,
+            "w": 462,
+            "h": 254
+          },
+          "textBounds": {
+            "x": 97.188,
+            "y": 488.644,
+            "w": 393.18399999999997,
+            "h": 103.6640000000001
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "今天 09:41",
+          "bounds": {
+            "x": 96,
+            "y": 762,
+            "w": 462,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 96.759,
+            "y": 765.45,
+            "w": 107.31058016967775,
+            "h": 21.52800000000002
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "01 / 04",
+          "bounds": {
+            "x": 678,
+            "y": 474,
+            "w": 310,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 678.99,
+            "y": 478.312,
+            "w": 68.34257736206052,
+            "h": 21.670000000000016
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "先记下来",
+          "bounds": {
+            "x": 678,
+            "y": 542,
+            "w": 310,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 679.68,
+            "y": 548.342,
+            "w": 165.26999999999998,
+            "h": 39.563999999999965
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 1,
+      "frame": 222,
+      "width": 1080,
+      "height": 1080,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 378,
+            "w": 526,
+            "h": 456
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 650,
+            "y": 444,
+            "w": 366,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "随手记 · 工作流示例",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 65.775,
+            "y": 63.75,
+            "w": 232.9262596130371,
+            "h": 23.474999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "给想法找个位置。",
+          "bounds": {
+            "x": 64,
+            "y": 148,
+            "w": 952,
+            "h": 190
+          },
+          "textBounds": {
+            "x": 65.428,
+            "y": 157.384,
+            "w": 498.6440000000001,
+            "h": 64.73600000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "选一个能让你再次找到它的标签。",
+          "bounds": {
+            "x": 64,
+            "y": 924,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 65.344,
+            "y": 928.8,
+            "w": 457.792,
+            "h": 29.984000000000037
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "一件小事",
+          "bounds": {
+            "x": 96,
+            "y": 408,
+            "w": 462,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 96.819,
+            "y": 411.192,
+            "w": 82.40400000000001,
+            "h": 19.718999999999994
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "周五前，问问小梅对初稿的想法。",
+          "bounds": {
+            "x": 96,
+            "y": 482,
+            "w": 462,
+            "h": 254
+          },
+          "textBounds": {
+            "x": 97.188,
+            "y": 488.644,
+            "w": 393.18399999999997,
+            "h": 103.6640000000001
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "分类：工作",
+          "bounds": {
+            "x": 96,
+            "y": 762,
+            "w": 462,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 96.943,
+            "y": 765.657,
+            "w": 113.229,
+            "h": 21.298000000000002
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "02 / 04",
+          "bounds": {
+            "x": 678,
+            "y": 474,
+            "w": 310,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 678.99,
+            "y": 478.312,
+            "w": 68.34257736206052,
+            "h": 21.670000000000016
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "放进「工作」",
+          "bounds": {
+            "x": 678,
+            "y": 542,
+            "w": 310,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 678.672,
+            "y": 548.216,
+            "w": 224.36400000000003,
+            "h": 39.605999999999995
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 2,
+      "frame": 342,
+      "width": 1080,
+      "height": 1080,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 378,
+            "w": 526,
+            "h": 456
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 650,
+            "y": 444,
+            "w": 366,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "随手记 · 工作流示例",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 65.775,
+            "y": 63.75,
+            "w": 232.9262596130371,
+            "h": 23.474999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "先存好，等会儿再看。",
+          "bounds": {
+            "x": 64,
+            "y": 148,
+            "w": 952,
+            "h": 190
+          },
+          "textBounds": {
+            "x": 66.72,
+            "y": 157.792,
+            "w": 633.3520000000001,
+            "h": 67.25200000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "这一步完成，就回到手头的事。",
+          "bounds": {
+            "x": 64,
+            "y": 924,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 65.024,
+            "y": 928.736,
+            "w": 426.112,
+            "h": 30.912000000000035
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "一件小事",
+          "bounds": {
+            "x": 96,
+            "y": 408,
+            "w": 462,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 96.819,
+            "y": 411.192,
+            "w": 82.40400000000001,
+            "h": 19.718999999999994
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "周五前，问问小梅对初稿的想法。",
+          "bounds": {
+            "x": 96,
+            "y": 482,
+            "w": 462,
+            "h": 254
+          },
+          "textBounds": {
+            "x": 97.188,
+            "y": 488.644,
+            "w": 393.18399999999997,
+            "h": 103.6640000000001
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "工作 · 1 条笔记",
+          "bounds": {
+            "x": 96,
+            "y": 762,
+            "w": 462,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.15,
+            "y": 765.496,
+            "w": 164.44139114379882,
+            "h": 21.366999999999962
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "03 / 04",
+          "bounds": {
+            "x": 678,
+            "y": 474,
+            "w": 310,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 678.99,
+            "y": 478.312,
+            "w": 68.34257736206052,
+            "h": 21.670000000000016
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "已存入笔记",
+          "bounds": {
+            "x": 678,
+            "y": 542,
+            "w": 310,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 681.822,
+            "y": 548.048,
+            "w": 204.96000000000004,
+            "h": 39.65999999999997
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 3,
+      "frame": 462,
+      "width": 1080,
+      "height": 1080,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 378,
+            "w": 526,
+            "h": 456
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 650,
+            "y": 444,
+            "w": 366,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "随手记 · 工作流示例",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 65.775,
+            "y": 63.75,
+            "w": 232.9262596130371,
+            "h": 23.474999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "回来时，接着往下做。",
+          "bounds": {
+            "x": 64,
+            "y": 148,
+            "w": 952,
+            "h": 190
+          },
+          "textBounds": {
+            "x": 68.964,
+            "y": 157.85999999999999,
+            "w": 631.1080000000002,
+            "h": 67.184
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "随手记是虚构演示，可替换为你的真实操作。",
+          "bounds": {
+            "x": 64,
+            "y": 924,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 66.464,
+            "y": 928.8,
+            "w": 616.672,
+            "h": 30.847999999999956
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "一件小事",
+          "bounds": {
+            "x": 96,
+            "y": 408,
+            "w": 462,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 96.819,
+            "y": 411.192,
+            "w": 82.40400000000001,
+            "h": 19.718999999999994
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "周五前，问问小梅对初稿的想法。",
+          "bounds": {
+            "x": 96,
+            "y": 482,
+            "w": 462,
+            "h": 254
+          },
+          "textBounds": {
+            "x": 97.188,
+            "y": 488.644,
+            "w": 393.18399999999997,
+            "h": 103.6640000000001
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "上次的想法还在这里",
+          "bounds": {
+            "x": 96,
+            "y": 762,
+            "w": 462,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.127,
+            "y": 765.496,
+            "w": 204.7,
+            "h": 21.504999999999995
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "04 / 04",
+          "bounds": {
+            "x": 678,
+            "y": 474,
+            "w": 310,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 678.99,
+            "y": 478.312,
+            "w": 68.34257736206052,
+            "h": 21.670000000000016
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "打开笔记，继续",
+          "bounds": {
+            "x": 678,
+            "y": 542,
+            "w": 310,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 679.428,
+            "y": 548.048,
+            "w": 291.144,
+            "h": 41.53800000000001
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    }
+  ]
+}

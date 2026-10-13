@@ -3,11 +3,11 @@ import assert from 'node:assert/strict';
 import {mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {tmpdir} from 'node:os';
-import {makeClip,moduleCatalog,validateRecipe} from '../skills/motion-story/scripts/timeline-core.mjs';
-import {compose} from '../skills/motion-story/scripts/compose.mjs';
-import {assembleMedia} from '../skills/motion-story/scripts/assemble-media.mjs';
+import {makeClip,moduleCatalog,validateRecipe} from '../skills/eric-intro-motion-skill/scripts/timeline-core.mjs';
+import {compose} from '../skills/eric-intro-motion-skill/scripts/compose.mjs';
+import {assembleMedia} from '../skills/eric-intro-motion-skill/scripts/assemble-media.mjs';
 import {frameVideo,makeFrame} from '../skills/social-motion/scripts/frame.mjs';
-import {png} from '../skills/motion-story/scripts/render.mjs';
+import {png} from '../skills/eric-intro-motion-skill/scripts/render.mjs';
 
 test('all reusable modules render in both languages and all social layouts; long copy fails',()=>{
   for(const item of moduleCatalog) for(const language of ['zh','en']) for(const [width,height] of [[1920,1080],[1080,1080],[1080,1350],[1080,1440],[1080,1920]]) {

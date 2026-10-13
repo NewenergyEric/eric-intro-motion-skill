@@ -2,9 +2,9 @@ import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {parseArgs} from '../../motion-story/scripts/cli.mjs';
-import {textBox} from '../../motion-story/scripts/text.mjs';
-import {probe,run,png,inspectVideo} from '../../motion-story/scripts/render.mjs';
+import {parseArgs} from '../../eric-intro-motion-skill/scripts/cli.mjs';
+import {textBox} from '../../eric-intro-motion-skill/scripts/text.mjs';
+import {probe,run,png,inspectVideo} from '../../eric-intro-motion-skill/scripts/render.mjs';
 const presets=JSON.parse(await readFile(new URL('../assets/presets.json',import.meta.url),'utf8')).presets;
 const hash=data=>createHash('sha256').update(data).digest('hex');
 const exists=file=>access(file).then(()=>true,()=>false);
@@ -42,7 +42,7 @@ export async function frameVideo({input,out,copy,preset='moments',force=false,pr
   if(sourceFile.toLowerCase()===file.toLowerCase()) throw new Error('The source will not be overwritten.');
   if(!file.endsWith('.mp4')) throw new Error('out must end in .mp4.');
   const sourceSha256=hash(await readFile(sourceFile));
-  const signature=hash(Buffer.concat(await Promise.all([import.meta.url,new URL('../../motion-story/scripts/text.mjs',import.meta.url),new URL('../../motion-story/scripts/render.mjs',import.meta.url),new URL('../assets/presets.json',import.meta.url),new URL('../../motion-story/assets/fonts/NotoSansSC.ttf',import.meta.url)].map(url=>readFile(new URL(url))))));
+  const signature=hash(Buffer.concat(await Promise.all([import.meta.url,new URL('../../eric-intro-motion-skill/scripts/text.mjs',import.meta.url),new URL('../../eric-intro-motion-skill/scripts/render.mjs',import.meta.url),new URL('../assets/presets.json',import.meta.url),new URL('../../eric-intro-motion-skill/assets/fonts/NotoSansSC.ttf',import.meta.url)].map(url=>readFile(new URL(url))))));
   const key=hash(JSON.stringify({sourceSha256,copy,preset,signature,preview,ffmpeg:(await run('ffmpeg',['-version'])).split('\n')[0]}));
   const reportFile=file+'.report.json';
   if(await exists(reportFile)&&await exists(file)) {

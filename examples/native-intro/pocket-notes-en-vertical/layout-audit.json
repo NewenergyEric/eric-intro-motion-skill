@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 2,
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "width": 1080,
+  "height": 1920,
+  "errors": [],
+  "samples": [
+    {
+      "scene": 0,
+      "frame": 102,
+      "width": 1080,
+      "height": 1920,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 142,
+            "y": 496,
+            "w": 796,
+            "h": 616
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 1302,
+            "w": 952,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "POCKET NOTES / WORKFLOW STUDY",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 66.325,
+            "y": 64.9,
+            "w": 438.68281440734864,
+            "h": 24.625
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "Keep the thought.",
+          "bounds": {
+            "x": 64,
+            "y": 192,
+            "w": 952,
+            "h": 252
+          },
+          "textBounds": {
+            "x": 70.324,
+            "y": 205.736,
+            "w": 586.5832153320314,
+            "h": 70.856
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "One sentence is enough to start.",
+          "bounds": {
+            "x": 64,
+            "y": 1764,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 65.824,
+            "y": 1770.528,
+            "w": 477.62438476562505,
+            "h": 33.4079999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "ONE SMALL THOUGHT",
+          "bounds": {
+            "x": 174,
+            "y": 526,
+            "w": 732,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 175.155,
+            "y": 531.187,
+            "w": 224.9782189178467,
+            "h": 16.10699999999997
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "Ask Mei about Friday's draft.",
+          "bounds": {
+            "x": 174,
+            "y": 600,
+            "w": 732,
+            "h": 414
+          },
+          "textBounds": {
+            "x": 173.958,
+            "y": 607.938,
+            "w": 567.8908798828126,
+            "h": 43.67999999999995
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "TODAY / 09:41",
+          "bounds": {
+            "x": 174,
+            "y": 1040,
+            "w": 732,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 174.713,
+            "y": 1044.669,
+            "w": 147.6796575317383,
+            "h": 22.448000000000093
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "01 / 04",
+          "bounds": {
+            "x": 92,
+            "y": 1332,
+            "w": 896,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 92.99,
+            "y": 1336.312,
+            "w": 68.34257736206054,
+            "h": 21.670000000000073
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "Write it down",
+          "bounds": {
+            "x": 92,
+            "y": 1400,
+            "w": 896,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 92.76,
+            "y": 1407.372,
+            "w": 244.00634033203124,
+            "h": 31.160000000000082
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 1,
+      "frame": 222,
+      "width": 1080,
+      "height": 1920,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 142,
+            "y": 496,
+            "w": 796,
+            "h": 616
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 1302,
+            "w": 952,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "POCKET NOTES / WORKFLOW STUDY",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 66.325,
+            "y": 64.9,
+            "w": 438.68281440734864,
+            "h": 24.625
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "Give it a place.",
+          "bounds": {
+            "x": 64,
+            "y": 192,
+            "w": 952,
+            "h": 252
+          },
+          "textBounds": {
+            "x": 67.74,
+            "y": 205.192,
+            "w": 470.83844659423823,
+            "h": 69.56400000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "Choose a label you will remember.",
+          "bounds": {
+            "x": 64,
+            "y": 1764,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 65.824,
+            "y": 1770.528,
+            "w": 511.9692099609376,
+            "h": 32.89599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "ONE SMALL THOUGHT",
+          "bounds": {
+            "x": 174,
+            "y": 526,
+            "w": 732,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 175.155,
+            "y": 531.187,
+            "w": 224.9782189178467,
+            "h": 16.10699999999997
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "Ask Mei about Friday's draft.",
+          "bounds": {
+            "x": 174,
+            "y": 600,
+            "w": 732,
+            "h": 414
+          },
+          "textBounds": {
+            "x": 173.958,
+            "y": 607.938,
+            "w": 567.8908798828126,
+            "h": 43.67999999999995
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "TAG / WORK",
+          "bounds": {
+            "x": 174,
+            "y": 1040,
+            "w": 732,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 174.713,
+            "y": 1044.669,
+            "w": 128.40734561157225,
+            "h": 22.448000000000093
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "02 / 04",
+          "bounds": {
+            "x": 92,
+            "y": 1332,
+            "w": 896,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 92.99,
+            "y": 1336.312,
+            "w": 68.34257736206054,
+            "h": 21.670000000000073
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "Add to Work",
+          "bounds": {
+            "x": 92,
+            "y": 1400,
+            "w": 896,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 91.886,
+            "y": 1407.676,
+            "w": 225.68917196655272,
+            "h": 30.855999999999995
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 2,
+      "frame": 342,
+      "width": 1080,
+      "height": 1920,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 142,
+            "y": 496,
+            "w": 796,
+            "h": 616
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 1302,
+            "w": 952,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "POCKET NOTES / WORKFLOW STUDY",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 66.325,
+            "y": 64.9,
+            "w": 438.68281440734864,
+            "h": 24.625
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "Save it for later.",
+          "bounds": {
+            "x": 64,
+            "y": 192,
+            "w": 952,
+            "h": 252
+          },
+          "textBounds": {
+            "x": 66.924,
+            "y": 204.852,
+            "w": 511.3158097534181,
+            "h": 56.099999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "Then get back to what you were doing.",
+          "bounds": {
+            "x": 64,
+            "y": 1764,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 64.992,
+            "y": 1770.528,
+            "w": 575.6892783203126,
+            "h": 33.4079999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "ONE SMALL THOUGHT",
+          "bounds": {
+            "x": 174,
+            "y": 526,
+            "w": 732,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 175.155,
+            "y": 531.187,
+            "w": 224.9782189178467,
+            "h": 16.10699999999997
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "Ask Mei about Friday's draft.",
+          "bounds": {
+            "x": 174,
+            "y": 600,
+            "w": 732,
+            "h": 414
+          },
+          "textBounds": {
+            "x": 173.958,
+            "y": 607.938,
+            "w": 567.8908798828126,
+            "h": 43.67999999999995
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "WORK / 1 NOTE",
+          "bounds": {
+            "x": 174,
+            "y": 1040,
+            "w": 732,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 174.552,
+            "y": 1044.669,
+            "w": 163.71294573974612,
+            "h": 22.448000000000093
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "03 / 04",
+          "bounds": {
+            "x": 92,
+            "y": 1332,
+            "w": 896,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 92.99,
+            "y": 1336.312,
+            "w": 68.34257736206054,
+            "h": 21.670000000000073
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "Note saved",
+          "bounds": {
+            "x": 92,
+            "y": 1400,
+            "w": 896,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 95.534,
+            "y": 1407.676,
+            "w": 197.90163137817382,
+            "h": 30.855999999999995
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    },
+    {
+      "scene": 3,
+      "frame": 462,
+      "width": 1080,
+      "height": 1920,
+      "rows": [
+        {
+          "id": "note-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 142,
+            "y": 496,
+            "w": 796,
+            "h": 616
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action-card",
+          "kind": "layer",
+          "bounds": {
+            "x": 64,
+            "y": 1302,
+            "w": 952,
+            "h": 330
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "POCKET NOTES / WORKFLOW STUDY",
+          "bounds": {
+            "x": 64,
+            "y": 60,
+            "w": 760,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 66.325,
+            "y": 64.9,
+            "w": 438.68281440734864,
+            "h": 24.625
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "Pick up where you left off.",
+          "bounds": {
+            "x": 64,
+            "y": 192,
+            "w": 952,
+            "h": 252
+          },
+          "textBounds": {
+            "x": 70.324,
+            "y": 204.852,
+            "w": 844.4963568725586,
+            "h": 70.51599999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "caption",
+          "kind": "text",
+          "text": "A fictional demo. Replace it with your real workflow.",
+          "bounds": {
+            "x": 64,
+            "y": 1764,
+            "w": 900,
+            "h": 94
+          },
+          "textBounds": {
+            "x": 64.064,
+            "y": 1770.08,
+            "w": 777.0239384765626,
+            "h": 33.34400000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note-label",
+          "kind": "text",
+          "text": "ONE SMALL THOUGHT",
+          "bounds": {
+            "x": 174,
+            "y": 526,
+            "w": 732,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 175.155,
+            "y": 531.187,
+            "w": 224.9782189178467,
+            "h": 16.10699999999997
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text": "Ask Mei about Friday's draft.",
+          "bounds": {
+            "x": 174,
+            "y": 600,
+            "w": 732,
+            "h": 414
+          },
+          "textBounds": {
+            "x": 173.958,
+            "y": 607.938,
+            "w": 567.8908798828126,
+            "h": 43.67999999999995
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "detail",
+          "kind": "text",
+          "text": "RIGHT WHERE YOU LEFT IT",
+          "bounds": {
+            "x": 174,
+            "y": 1040,
+            "w": 732,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 176.277,
+            "y": 1045.796,
+            "w": 285.53371618652346,
+            "h": 17.50299999999993
+          },
+          "containerId": "note-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "step",
+          "kind": "text",
+          "text": "04 / 04",
+          "bounds": {
+            "x": 92,
+            "y": 1332,
+            "w": 896,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 92.99,
+            "y": 1336.312,
+            "w": 68.34257736206054,
+            "h": 21.670000000000073
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "action",
+          "kind": "text",
+          "text": "Open and continue",
+          "bounds": {
+            "x": 92,
+            "y": 1400,
+            "w": 896,
+            "h": 206
+          },
+          "textBounds": {
+            "x": 94.09,
+            "y": 1407.372,
+            "w": 347.762565826416,
+            "h": 38.874000000000024
+          },
+          "containerId": "action-card",
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": [],
+      "embeddedMasterVideo": false
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { parseArgs } from '../../motion-story/scripts/cli.mjs';
-import { renderStory } from '../../motion-story/scripts/render.mjs';
+import { parseArgs } from '../../eric-intro-motion-skill/scripts/cli.mjs';
+import { renderStory } from '../../eric-intro-motion-skill/scripts/render.mjs';
 
 const presetsFile = fileURLToPath(new URL('../assets/presets.json', import.meta.url));
 const catalog = JSON.parse(await readFile(presetsFile, 'utf8'));
@@ -10,7 +10,7 @@ const catalog = JSON.parse(await readFile(presetsFile, 'utf8'));
 async function main() {
   if (process.argv.includes('--help')) {
     console.log('node scripts/pack.mjs --input story.json --out social-pack [--presets linkedin,x,moments,vertical,square --formats mp4,gif,png --gif-width 720 --force]');
-    console.log('Re-renders the source story. Requires the sibling motion-story skill and its npm dependencies.');
+    console.log('Re-renders the source story. Requires the sibling eric-intro-motion-skill skill and its npm dependencies.');
     return;
   }
   const args = parseArgs(process.argv.slice(2), ['input', 'out', 'presets', 'formats', 'gif-width']);

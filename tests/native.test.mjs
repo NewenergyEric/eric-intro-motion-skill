@@ -32,3 +32,25 @@ test('independent re-layout passes while a uniformly scaled master fails',()=>{
  const scaled=report(1080,1920,wide.samples[0].rows.map(r=>({...r,bounds:{x:r.bounds.x*.5+60,y:r.bounds.y*.5+500,w:r.bounds.w*.5,h:r.bounds.h*.5}})));
  assert.throws(()=>assertRecomposed([wide,scaled]),/uniformly scaled/);
 });
+
+test('every scene must reflow, preserve its layers, and use the same revision and sample frames',()=>{
+ const a=report(1080,1080,[row('title',50,50,700,120,'text'),row('note',60,300,450,400),row('action',600,300,400,400)]);
+ const b=report(1080,1920,[row('title',50,70,900,120,'text'),row('note',60,400,900,500),row('action',60,1200,700,400)]);
+ const early=structuredClone(a.samples[0]);early.frame=180;a.samples.push(early);
+ const unchanged=structuredClone(early);unchanged.width=b.width;unchanged.height=b.height;b.samples.push(unchanged);
+ assert.throws(()=>assertRecomposed([a,b]),/frame 180/);
+ b.samples[1]=structuredClone(b.samples[0]);b.samples[1].frame=180;
+ assert.equal(assertRecomposed([a,b]).passed,true);
+ assert.throws(()=>assertRecomposed([a,{...b,sourceHash:'other'}]),/source revisions/);
+ assert.throws(()=>assertRecomposed([a,{...b,samples:[b.samples[0]]}]),/same scene frames/);
+ const lost=structuredClone(b);lost.samples[1].rows=lost.samples[1].rows.filter(r=>r.id!=='action');
+ assert.throws(()=>assertRecomposed([a,lost]),/Visual layers were lost/);
+});
+
+test('glyphs must remain inside declared UI containers, including vertical overflow',()=>{
+ const r=report(1080,1080,[row('label',70,70,400,80,'text'),row('card',60,60,440,160)]);
+ r.samples[0].rows[0].containerId='card';r.samples[0].rows[0].textBounds={x:70,y:70,w:400,h:55};
+ assert.equal(assertNativeAudit(r).passed,true);
+ r.samples[0].rows[0].textBounds.y=190;
+ assert.throws(()=>assertNativeAudit(r),/Text exceeds its container/);
+});

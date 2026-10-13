@@ -1,0 +1,24 @@
+{
+  "license": "MIT except font",
+  "assets": [
+    {
+      "path": "recipe.json",
+      "source": "Original fictional workflow written for this repository",
+      "license": "MIT",
+      "sha256": "691ac242e6b60fa95a899bbedaab8cc59fdec6012e254d60086012ac0a71ac64"
+    },
+    {
+      "path": "../../skills/eric-intro-motion-skill/scripts/native-intro.mjs",
+      "source": "Original native vector layouts, cards and motion",
+      "license": "MIT",
+      "sha256": "e3bc3b909544bda23660d8ec2ce4df92066c677218c74ae7fd85c159a09db544"
+    },
+    {
+      "path": "../../skills/eric-intro-motion-skill/assets/fonts/NotoSansSC.ttf",
+      "source": "https://github.com/google/fonts/tree/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/notosanssc",
+      "license": "SIL OFL 1.1; license file beside font",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    }
+  ],
+  "privateProjectAssetsIncluded": false
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "audioMode": "silent",
+  "renderApiCalls": 0,
+  "outputs": [
+    {
+      "id": "pocket-notes-zh-square",
+      "ratio": "square",
+      "language": "zh",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    },
+    {
+      "id": "pocket-notes-zh-portrait",
+      "ratio": "portrait",
+      "language": "zh",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    },
+    {
+      "id": "pocket-notes-zh-vertical",
+      "ratio": "vertical",
+      "language": "zh",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    },
+    {
+      "id": "pocket-notes-en-square",
+      "ratio": "square",
+      "language": "en",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    },
+    {
+      "id": "pocket-notes-en-portrait",
+      "ratio": "portrait",
+      "language": "en",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    },
+    {
+      "id": "pocket-notes-en-vertical",
+      "ratio": "vertical",
+      "language": "en",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "cache": {
+        "outputHit": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "outputs": [
+    {
+      "id": "pocket-notes-zh-square",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    },
+    {
+      "id": "pocket-notes-zh-portrait",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    },
+    {
+      "id": "pocket-notes-zh-vertical",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    },
+    {
+      "id": "pocket-notes-en-square",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    },
+    {
+      "id": "pocket-notes-en-portrait",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    },
+    {
+      "id": "pocket-notes-en-vertical",
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      }
+    }
+  ],
+  "renderApiCalls": 0
+}

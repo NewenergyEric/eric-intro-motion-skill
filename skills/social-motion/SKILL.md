@@ -5,7 +5,7 @@ description: Recompose motion graphics and source animations for LinkedIn, X, We
 
 # Social Motion
 
-Make the whole video work in the requested ratio. Use the sibling `motion-story` runtime for bundled recipes; custom films may use their own source renderer.
+Make the whole video work in the requested ratio. Use the sibling `eric-intro-motion-skill` runtime for bundled recipes; custom films may use their own source renderer.
 
 ## Choose a method that matches the request
 
@@ -19,7 +19,7 @@ For a bundled v1 story:
 node scripts/pack.mjs --input /path/to/story.json --out /path/to/social-pack --presets moments,xiaohongshu,vertical
 ```
 
-For a v2 component recipe, use sibling `motion-story/scripts/compose.mjs --preset xiaohongshu`. These renderers cover their documented motifs, not arbitrary finished films. Preserve caches and start with `--formats png` to review every scene before encoding.
+For a v2 component recipe, use sibling `eric-intro-motion-skill/scripts/compose.mjs --preset xiaohongshu`. These renderers cover their documented motifs, not arbitrary finished films. Preserve caches and start with `--formats png` to review every scene before encoding.
 
 Presets include square 1080×1080, 3:4 1080×1440 and 9:16 1080×1920. Read [platform guidance](references/platforms.md) for destination-specific scope and dates. These are authoring choices, not guarantees about platform feed thumbnails.
 

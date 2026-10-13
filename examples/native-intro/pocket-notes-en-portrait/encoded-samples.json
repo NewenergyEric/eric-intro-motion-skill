@@ -1,0 +1,62 @@
+{
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "sha256": "75a7ec9fa9a21b3241fd9763acd490d7b85dbc3f5f24a708b08dbaa796b8f6c8",
+  "samples": [
+    {
+      "label": "scene-1-enter",
+      "frame": 11
+    },
+    {
+      "label": "scene-1-hold",
+      "frame": 102
+    },
+    {
+      "label": "scene-2-enter",
+      "frame": 131
+    },
+    {
+      "label": "scene-2-hold",
+      "frame": 222
+    },
+    {
+      "label": "cut-1-before",
+      "frame": 119
+    },
+    {
+      "label": "cut-1-after",
+      "frame": 121
+    },
+    {
+      "label": "scene-3-enter",
+      "frame": 251
+    },
+    {
+      "label": "scene-3-hold",
+      "frame": 342
+    },
+    {
+      "label": "cut-2-before",
+      "frame": 239
+    },
+    {
+      "label": "cut-2-after",
+      "frame": 241
+    },
+    {
+      "label": "scene-4-enter",
+      "frame": 371
+    },
+    {
+      "label": "scene-4-hold",
+      "frame": 462
+    },
+    {
+      "label": "cut-3-before",
+      "frame": 359
+    },
+    {
+      "label": "cut-3-after",
+      "frame": 361
+    }
+  ]
+}

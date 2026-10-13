@@ -1,0 +1,30 @@
+{
+  "key": "525adc879e3d682f3e96b4b762e952a00fbcfb569f1819851467ec013333f20a",
+  "visual": "4e75d0c0165ff6a8df5ce53687c66e178f1997a2470dae0dafc637de885b78c3",
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "audioHash": "silent-aac",
+  "id": "pocket-notes-en-square",
+  "ratio": "square",
+  "language": "en",
+  "width": 1080,
+  "height": 1080,
+  "duration": 16,
+  "cache": {
+    "outputHit": false,
+    "framesRendered": 480,
+    "framesReused": 0
+  },
+  "media": {
+    "width": 1080,
+    "height": 1080,
+    "seconds": 16,
+    "frames": 480,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoBitrate": 253128,
+    "bytes": 529816,
+    "sha256": "2ab008183dcc98c2e114d79af93f759bbfff3f2088b8187d269cb3808c3e5d03",
+    "fullDecodePassed": true,
+    "faststart": true
+  }
+}

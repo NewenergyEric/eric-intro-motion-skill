@@ -1,0 +1,30 @@
+{
+  "key": "e6954515a889365f8a78bda9a712d5416f3d33f0ea33f948afbe244bb2478881",
+  "visual": "559b46e542933e1653bd8808b62102fd666e513908bf053eb8fd0065c9202a0f",
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "audioHash": "silent-aac",
+  "id": "pocket-notes-en-portrait",
+  "ratio": "portrait",
+  "language": "en",
+  "width": 1080,
+  "height": 1440,
+  "duration": 16,
+  "cache": {
+    "outputHit": false,
+    "framesRendered": 480,
+    "framesReused": 0
+  },
+  "media": {
+    "width": 1080,
+    "height": 1440,
+    "seconds": 16,
+    "frames": 480,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoBitrate": 277020,
+    "bytes": 577616,
+    "sha256": "75a7ec9fa9a21b3241fd9763acd490d7b85dbc3f5f24a708b08dbaa796b8f6c8",
+    "fullDecodePassed": true,
+    "faststart": true
+  }
+}

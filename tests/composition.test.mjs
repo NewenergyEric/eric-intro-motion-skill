@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { makeComposition } from '../skills/motion-story/scripts/core.mjs';
+import { makeComposition } from '../skills/eric-intro-motion-skill/scripts/core.mjs';
 
-const example = name => readFile(new URL(`../skills/motion-story/assets/examples/${name}.json`, import.meta.url), 'utf8').then(JSON.parse);
+const example = name => readFile(new URL(`../skills/eric-intro-motion-skill/assets/examples/${name}.json`, import.meta.url), 'utf8').then(JSON.parse);
 const { presets } = JSON.parse(await readFile(new URL('../skills/social-motion/assets/presets.json', import.meta.url), 'utf8'));
 const stories = await Promise.all(['idea-to-post', 'agents-at-work', 'keep-the-feeling'].map(example));
 const normalize = value => value.replace(/\s/g, '');

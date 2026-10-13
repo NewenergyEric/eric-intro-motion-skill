@@ -1,0 +1,30 @@
+{
+  "key": "e9fa59db68aeefa590c1c7008692c00905da7d8e6e25eb1d6b210f1c744512a5",
+  "visual": "425960c609d6b9516e6433627f953b50d6a135f8e2bbb735db5adca0365c8ccc",
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "audioHash": "silent-aac",
+  "id": "pocket-notes-zh-square",
+  "ratio": "square",
+  "language": "zh",
+  "width": 1080,
+  "height": 1080,
+  "duration": 16,
+  "cache": {
+    "outputHit": false,
+    "framesRendered": 480,
+    "framesReused": 0
+  },
+  "media": {
+    "width": 1080,
+    "height": 1080,
+    "seconds": 16,
+    "frames": 480,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoBitrate": 283369,
+    "bytes": 590234,
+    "sha256": "0c6ea15367ad956b6fdcca4adb8629afc14fb8f9eed56faab7b4ea278ebbd1c8",
+    "fullDecodePassed": true,
+    "faststart": true
+  }
+}

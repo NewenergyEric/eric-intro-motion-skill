@@ -16,12 +16,12 @@ jobs:
         with:
           node-version: '24'
           cache: npm
-          cache-dependency-path: skills/motion-story/package-lock.json
+          cache-dependency-path: skills/eric-intro-motion-skill/package-lock.json
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm run setup
       - run: npm test
       - name: Validate portable skill package
         run: |
           node scripts/install.mjs --dest .work/installed
-          npm ci --prefix .work/installed/motion-story
-          node .work/installed/social-motion/scripts/pack.mjs --input skills/motion-story/assets/examples/keep-the-feeling.json --out .work/portable-check --presets linkedin,x,moments,vertical --formats png
+          npm ci --prefix .work/installed/eric-intro-motion-skill
+          node .work/installed/social-motion/scripts/pack.mjs --input skills/eric-intro-motion-skill/assets/examples/keep-the-feeling.json --out .work/portable-check --presets linkedin,x,moments,vertical --formats png

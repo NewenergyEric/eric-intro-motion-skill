@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import { mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { renderStory } from '../skills/motion-story/scripts/render.mjs';
+import { renderStory } from '../skills/eric-intro-motion-skill/scripts/render.mjs';
 import { reframe } from '../skills/social-motion/scripts/reframe.mjs';
 
 test('real MP4 and GIF encode with the expected geometry, duration and frame count', { timeout: 120000 }, async () => {
-  const out = await mkdtemp(path.join(tmpdir(), 'motion-story-test-'));
+  const out = await mkdtemp(path.join(tmpdir(), 'eric-intro-motion-skill-test-'));
   try {
-    const story = JSON.parse(await readFile(new URL('../skills/motion-story/assets/examples/idea-to-post.json', import.meta.url), 'utf8'));
+    const story = JSON.parse(await readFile(new URL('../skills/eric-intro-motion-skill/assets/examples/idea-to-post.json', import.meta.url), 'utf8'));
     story.duration = 2;
     const result = await renderStory(story, { out, width: 960, height: 540, fps: 20, gifWidth: 480 });
     assert.equal(result.outputs.mp4.width, 960);

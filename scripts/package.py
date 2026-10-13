@@ -9,21 +9,24 @@ DIST.mkdir(exist_ok=True)
 
 def add_tree(archive, folder, prefix):
     for file in sorted(folder.rglob("*")):
-        if file.is_file() and file.suffix != '.log' and not any(part in {"node_modules", "__pycache__", "output", ".bundle"} for part in file.relative_to(folder).parts):
+        if file.is_file() and file.suffix != '.log' and '.partial.' not in file.name and not any(part in {"node_modules", "__pycache__", "output", ".bundle", ".cache", ".work"} for part in file.relative_to(folder).parts):
             archive.write(file, str(Path(prefix) / file.relative_to(folder)).replace("\\", "/"))
 
 VERSION = json.loads((ROOT / 'package.json').read_text(encoding='utf-8'))['version']
-skills = DIST / f"motion-story-skills-v{VERSION}.zip"
+skills = DIST / f"eric-intro-motion-skill-v{VERSION}.zip"
 with ZipFile(skills, "w", ZIP_DEFLATED) as archive:
-    for name in ("motion-story", "social-motion"):
+    for name in ("eric-intro-motion-skill", "social-motion", "motion-story"):
         add_tree(archive, ROOT / "skills" / name, name)
         archive.write(ROOT / "LICENSE", f"{name}/LICENSE")
         archive.write(ROOT / "THIRD_PARTY_NOTICES.md", f"{name}/THIRD_PARTY_NOTICES.md")
 
-examples = DIST / f"motion-story-examples-v{VERSION}.zip"
+examples = DIST / f"eric-intro-motion-skill-examples-v{VERSION}.zip"
 with ZipFile(examples, "w", ZIP_DEFLATED) as archive:
     add_tree(archive, ROOT / "examples", "examples")
-    for name in ("LICENSE", "THIRD_PARTY_NOTICES.md", "README.md", "README.zh-CN.md"):
+    add_tree(archive, ROOT / "skills", "skills")
+    add_tree(archive, ROOT / "scripts", "scripts")
+    add_tree(archive, ROOT / "tests", "tests")
+    for name in ("LICENSE", "THIRD_PARTY_NOTICES.md", "README.md", "README.zh-CN.md", "package.json"):
         archive.write(ROOT / name, name)
 
 checksums = []

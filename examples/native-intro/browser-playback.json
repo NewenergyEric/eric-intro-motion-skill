@@ -1,0 +1,79 @@
+{
+  "checkedOn": "2026-10-13",
+  "browser": "Codex in-app browser",
+  "source": "Local example gallery served with HTTP Range support",
+  "languageSwitchPassed": true,
+  "fullPlayThrough": [
+    {
+      "language": "en",
+      "ratio": "square",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "language": "en",
+      "ratio": "portrait",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "language": "en",
+      "ratio": "vertical",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "language": "zh",
+      "ratio": "square",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "language": "zh",
+      "ratio": "portrait",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "language": "zh",
+      "ratio": "vertical",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "currentTime": 16,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "download": {
+    "ratio": "zh-square",
+    "sha256": "0c6ea15367ad956b6fdcca4adb8629afc14fb8f9eed56faab7b4ea278ebbd1c8",
+    "matchesEncodedFile": true
+  }
+}

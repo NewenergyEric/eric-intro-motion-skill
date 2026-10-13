@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "eef48a14d54cd82dcbe8ab88f8b69771da429322c1767df7f25544d4b6db9ebe",
+  "audioMode": "silent",
+  "renderApiCalls": 0,
+  "outputs": [
+    {
+      "id": "pocket-notes-zh-square",
+      "ratio": "square",
+      "language": "zh",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1080,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 283369,
+        "bytes": 590234,
+        "sha256": "0c6ea15367ad956b6fdcca4adb8629afc14fb8f9eed56faab7b4ea278ebbd1c8",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    },
+    {
+      "id": "pocket-notes-zh-portrait",
+      "ratio": "portrait",
+      "language": "zh",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1440,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 300523,
+        "bytes": 624605,
+        "sha256": "60410a17476a4772d8399b1e5fb9f47eaab353a3696ef6eeafe098bfc73fcb22",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    },
+    {
+      "id": "pocket-notes-zh-vertical",
+      "ratio": "vertical",
+      "language": "zh",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1920,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 316790,
+        "bytes": 657132,
+        "sha256": "50bb782fc2d2c0659f1a82d1b2bf5fc54ff635fef6506766b08a3afd5b440ec9",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    },
+    {
+      "id": "pocket-notes-en-square",
+      "ratio": "square",
+      "language": "en",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1080,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 253128,
+        "bytes": 529816,
+        "sha256": "2ab008183dcc98c2e114d79af93f759bbfff3f2088b8187d269cb3808c3e5d03",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    },
+    {
+      "id": "pocket-notes-en-portrait",
+      "ratio": "portrait",
+      "language": "en",
+      "width": 1080,
+      "height": 1440,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1440,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 277020,
+        "bytes": 577616,
+        "sha256": "75a7ec9fa9a21b3241fd9763acd490d7b85dbc3f5f24a708b08dbaa796b8f6c8",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    },
+    {
+      "id": "pocket-notes-en-vertical",
+      "ratio": "vertical",
+      "language": "en",
+      "width": 1080,
+      "height": 1920,
+      "duration": 16,
+      "cache": {
+        "outputHit": true,
+        "framesRendered": 0
+      },
+      "media": {
+        "width": 1080,
+        "height": 1920,
+        "seconds": 16,
+        "frames": 480,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "videoBitrate": 287590,
+        "bytes": 598723,
+        "sha256": "76fd16182c7d22d6deec9b4962d21725e6a9e7c8d989d916d08baa76f9b7abcb",
+        "fullDecodePassed": true,
+        "faststart": true
+      }
+    }
+  ]
+}

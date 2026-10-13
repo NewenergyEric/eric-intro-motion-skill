@@ -1,14 +1,20 @@
 {
-  "name": "motion-story-skills",
-  "version": "0.3.0",
+  "name": "eric-intro-motion-skill",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "setup": "npm ci --prefix skills/motion-story",
+    "setup": "npm ci --prefix skills/eric-intro-motion-skill",
     "test": "node --test tests/*.test.mjs",
     "examples": "node scripts/build-examples.mjs",
     "examples:remix": "node scripts/build-remixes.mjs",
-    "install:skills": "node scripts/install.mjs"
+    "install:skills": "node scripts/install.mjs",
+    "examples:intro": "node scripts/build-intro.mjs",
+    "package": "python scripts/package.py",
+    "preview": "node scripts/preview.mjs",
+    "verify:intro": "node scripts/verify-intro.mjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }

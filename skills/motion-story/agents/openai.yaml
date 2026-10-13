@@ -1,4 +1,4 @@
 interface:
-  display_name: "Motion Story"
-  short_description: "Reuse and remix motion as GIF, MP4, and posters"
-  default_prompt: "Use $motion-story to reuse my existing media or animation components, make a short editable recipe, and export GIF, MP4, and a poster with minimal new generation."
+  display_name: "motion-story (compatibility)"
+  short_description: "Legacy entry for Eric's intro motion workflow"
+  default_prompt: "Use $motion-story to continue with the renamed $eric-intro-motion-skill workflow."

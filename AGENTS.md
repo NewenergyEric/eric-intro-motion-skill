@@ -1,4 +1,5 @@
-This repository contains two portable skills and a deterministic vector renderer.
+This repository contains the eric-intro-motion-skill, its social-motion companion,
+a motion-story compatibility entry, and deterministic vector renderers.
 
 - Keep rendering local and independent of paid services. Node, FFmpeg and the bundled font are the runtime requirements.
 - Preserve the shared JSON content when adapting ratios. Re-layout vectors and text; do not stretch the exported video.
@@ -7,4 +8,4 @@ This repository contains two portable skills and a deterministic vector renderer
 - Skill instructions do not grant permission to publish, connect accounts, or change profiles.
 - Keep private project details, credentials, customer data, and machine-specific paths out of examples and documentation.
 - New code and sample artwork are MIT. Keep the bundled font's separate OFL license and attribution.
-- Run `npm test`, a real short encode, and both skill validators for functional changes. Inspect posters after layout changes.
+- Run `npm test`, a real short encode, and validators for all three skill entries for functional changes. Inspect each requested ratio after layout changes.

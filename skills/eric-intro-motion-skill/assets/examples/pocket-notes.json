@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "id": "pocket-notes",
+  "brand": {"zh": "随手记 · 工作流示例", "en": "POCKET NOTES / WORKFLOW STUDY"},
+  "scenes": [
+    {"template": "capture", "seconds": 4,
+      "zh": {"title": "留住刚才的想法。", "note": "周五前，问问小梅对初稿的想法。", "action": "先记下来", "detail": "今天 09:41", "caption": "不急着整理，先写一句。"},
+      "en": {"title": "Keep the thought.", "note": "Ask Mei about Friday's draft.", "action": "Write it down", "detail": "TODAY / 09:41", "caption": "One sentence is enough to start."}},
+    {"template": "tag", "seconds": 4,
+      "zh": {"title": "给想法找个位置。", "note": "周五前，问问小梅对初稿的想法。", "action": "放进「工作」", "detail": "分类：工作", "caption": "选一个能让你再次找到它的标签。"},
+      "en": {"title": "Give it a place.", "note": "Ask Mei about Friday's draft.", "action": "Add to Work", "detail": "TAG / WORK", "caption": "Choose a label you will remember."}},
+    {"template": "save", "seconds": 4,
+      "zh": {"title": "先存好，等会儿再看。", "note": "周五前，问问小梅对初稿的想法。", "action": "已存入笔记", "detail": "工作 · 1 条笔记", "caption": "这一步完成，就回到手头的事。"},
+      "en": {"title": "Save it for later.", "note": "Ask Mei about Friday's draft.", "action": "Note saved", "detail": "WORK / 1 NOTE", "caption": "Then get back to what you were doing."}},
+    {"template": "return", "seconds": 4,
+      "zh": {"title": "回来时，接着往下做。", "note": "周五前，问问小梅对初稿的想法。", "action": "打开笔记，继续", "detail": "上次的想法还在这里", "caption": "随手记是虚构演示，可替换为你的真实操作。"},
+      "en": {"title": "Pick up where you left off.", "note": "Ask Mei about Friday's draft.", "action": "Open and continue", "detail": "RIGHT WHERE YOU LEFT IT", "caption": "A fictional demo. Replace it with your real workflow."}}
+  ]
+}

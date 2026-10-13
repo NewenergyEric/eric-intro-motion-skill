@@ -1,16 +1,16 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { renderStory, png } from '../skills/motion-story/scripts/render.mjs';
-import { makeComposition } from '../skills/motion-story/scripts/core.mjs';
-import { textBox } from '../skills/motion-story/scripts/text.mjs';
+import { renderStory, png } from '../skills/eric-intro-motion-skill/scripts/render.mjs';
+import { makeComposition } from '../skills/eric-intro-motion-skill/scripts/core.mjs';
+import { textBox } from '../skills/eric-intro-motion-skill/scripts/text.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const catalog = JSON.parse(await readFile(path.join(root, 'skills/social-motion/assets/presets.json'), 'utf8'));
 const jobs = [['idea-to-post', 'x'], ['idea-to-post', 'linkedin'], ['idea-to-post', 'moments'], ['idea-to-post', 'vertical'], ['agents-at-work', 'x'], ['keep-the-feeling', 'moments']];
 const results = [];
 for (const [name, target] of jobs) {
-  const story = JSON.parse(await readFile(path.join(root, `skills/motion-story/assets/examples/${name}.json`), 'utf8'));
+  const story = JSON.parse(await readFile(path.join(root, `skills/eric-intro-motion-skill/assets/examples/${name}.json`), 'utf8'));
   const out = path.join(root, 'examples', name, target);
   const report = await renderStory(story, { ...catalog.presets[target], out, force: process.argv.includes('--force'), onProgress: message => console.log(`${name}/${target}: ${message}`) });
   results.push({ name, target, ...report.outputs });
@@ -18,7 +18,7 @@ for (const [name, target] of jobs) {
 await writeFile(path.join(root, 'examples/catalog.json'), JSON.stringify({ generatedBy: 'npm run examples', rulesCheckedOn: catalog.verifiedOn, examples: results }, null, 2) + '\n');
 
 // Compare the native compositions at the same display height, without altering their aspect ratios.
-const source = JSON.parse(await readFile(path.join(root, 'skills/motion-story/assets/examples/idea-to-post.json'), 'utf8'));
+const source = JSON.parse(await readFile(path.join(root, 'skills/eric-intro-motion-skill/assets/examples/idea-to-post.json'), 'utf8'));
 const panels = [], names = ['x', 'moments', 'linkedin', 'vertical'];
 let x = 40;
 for (const name of names) {

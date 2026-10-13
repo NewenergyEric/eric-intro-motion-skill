@@ -1,8 +1,8 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import path from 'node:path';
-import { parseArgs } from '../../motion-story/scripts/cli.mjs';
-import { probe, run, inspectVideo } from '../../motion-story/scripts/render.mjs';
+import { parseArgs } from '../../eric-intro-motion-skill/scripts/cli.mjs';
+import { probe, run, inspectVideo } from '../../eric-intro-motion-skill/scripts/render.mjs';
 
 const catalog = JSON.parse(await readFile(new URL('../assets/presets.json', import.meta.url), 'utf8'));
 

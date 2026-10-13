@@ -1,0 +1,4 @@
+interface:
+  display_name: "eric-intro-motion-skill"
+  short_description: "Reuse and remix motion as GIF, MP4, and posters"
+  default_prompt: "Use $eric-intro-motion-skill to reuse my existing media or animation components, make a short editable recipe, and export GIF, MP4, and a poster with minimal new generation."

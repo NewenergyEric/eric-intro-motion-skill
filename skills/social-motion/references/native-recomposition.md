@@ -28,6 +28,8 @@ Then render the complete timeline at the target dimensions. Verify codec, dimens
 
 Optional source-renderer audit: emit `{mode:'native', embeddedMasterVideo:false, sourceHash, width, height, samples, errors:[]}`. Each sample contains `frame,width,height,rows,overlaps`. A measured row has `id,kind:'text'|'layer',text?,bounds:{x,y,w,h},out,overflow`. Use stable independent layer IDs across ratios; exclude deliberately offstage entrances from readable-hold bounds checks, but inspect those transitions separately.
 
+Use the same source hash and sample frames for all compared ratios. Include a readable-hold sample for **every** scene. Rows can add `textBounds` for measured glyphs and `containerId` to require those glyphs to fit a particular card/control. Missing containers, duplicate IDs, missing scene frames and missing layers fail validation. Every scene must show independent re-layout evidence. The bundled [v3 intro template](../../eric-intro-motion-skill/references/native-intro.md) produces this report directly.
+
 ```sh
 node scripts/native-audit.mjs square/layout-audit.json portrait/layout-audit.json vertical/layout-audit.json
 ```

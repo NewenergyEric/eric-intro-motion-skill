@@ -1,0 +1,11 @@
+{
+  "version": "0.4.0",
+  "date": "2026-10-13",
+  "baseCommit": "1c002f5f00c56a05ef03c788bddad673254d101a",
+  "tests": {"command":"npm test","passed":14,"failed":0},
+  "skillValidators": {"eric-intro-motion-skill":"passed","social-motion":"passed","motion-story":"passed"},
+  "newExample": {"completeVideos":6,"secondsEach":16,"fps":30,"sceneLayouts":24,"encodedSamples":84,"verifiedOutputCacheHits":6},
+  "retainedPublicArtDirectorNativeAudit": "passed for all three ratios with the stricter auditor",
+  "latestLocalCase": {"name":"Anxiety Fixer introduction","verifiedMediaFiles":6,"recordedSecondsEach":68,"allSixMediaHashesMatchOriginalDeliveryReport":true,"privateAssetsPublished":false},
+  "installation": {"canonicalSkillInstalled":true,"previousInstallationsBackedUp":true,"installedValidator":"passed"}
+}
